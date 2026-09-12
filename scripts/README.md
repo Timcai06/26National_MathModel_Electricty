@@ -52,8 +52,10 @@
 | `build_research_figures.py` / `verify_research_figures.py` | V2五组科研组图及其数据绑定复核 |
 | `build_3d_surface.py` / `build_soc_3d.py` | 参数—费用响应面与日内—月份储电量曲面 |
 | `build_q4_tables.py` | 由已复核的第四问结果生成论文表格；缺少有效复核时直接失败 |
-| `build_pdf.py --version v1..v5` | 编译对应版本论文，中间产物进 `tmp/paper_<版本>_build/` |
+| `build_pdf.py` | 编译 `paper/latex/main.tex`，中间产物进 `tmp/paper_build/`；论文只有一份，无版本参数 |
 | `package_delivery.py` / `verify_delivery.py` | 审阅包打包与交付清单校验 |
+
+`scripts/deliver_strict_excel.py`（在 `scripts/` 根下）由已复核的轨迹写出五份官方结果表，逐格回读；缺少有效复核时直接失败。
 
 ## 常用序列
 
@@ -61,5 +63,6 @@
 .venv/bin/python -m unittest discover -s tests    # 129项回归
 .venv/bin/python scripts/verify_time_semantics.py # 时间契约34项断言
 .venv/bin/python scripts/verify_strict_q4.py         # 第四问2672天复核
-.venv/bin/python scripts/paper/build_pdf.py --version v5
+.venv/bin/python scripts/deliver_strict_excel.py     # 五份结果表
+.venv/bin/python scripts/paper/build_pdf.py         # 论文
 ```

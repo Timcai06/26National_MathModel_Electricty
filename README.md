@@ -2,7 +2,7 @@
 
 ## 入口
 
-- **论文** — [V5 PDF](deliverables/draft_v5/pdf/C_microgrid_draft_v5.pdf) · [LaTeX源码](deliverables/draft_v5/latex/main.tex)
+- **论文** — [PDF](paper/pdf/C_microgrid.pdf) · [LaTeX源码](paper/latex/main.tex)
 - **图表** — [V2科研图册](deliverables/candidate_figures/v2/research_figures_v2.pdf) · [3D图册](deliverables/candidate_figures/v3_3d/3D_candidate_atlas.pdf)
 - **目录总览** — [项目地图](PROJECT_MAP.md)：每个目录装什么、能不能动
 - **进度** — [当前任务板](docs/current_tasks.md) · [分阶段计划](docs/plan.md)
@@ -32,3 +32,7 @@
 ```
 
 130项测试通过。依赖见 `requirements-core.txt`、`requirements-excel.txt`、`requirements-figures.txt`；论文编译依赖 XeLaTeX 与 latexmk。
+
+## 版本管理
+
+论文只有一份，在 `paper/`；历史版本由 git 记录，不再保留 `draft_v1`…`draft_v5` 这类并行目录。逐日轨迹 `*.jsonl` 与单元格转储 `*.ndjson` 共约600MB不进版本库，可由 `scripts/` 下的运行脚本完整重建，其 SHA-256 记录在各自的 `result.json` 与 `readback.json` 中。

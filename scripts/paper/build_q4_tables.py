@@ -8,7 +8,7 @@ sys.path.insert(0, str(ROOT))
 import hashlib
 
 Q4 = ROOT / 'analysis/strict_q4_transfer_v1'
-TEX = ROOT / 'deliverables/draft_v5/latex/generated'
+TEX = ROOT / 'paper/latex/generated'
 
 
 def sha(path):
