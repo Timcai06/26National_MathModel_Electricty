@@ -1,10 +1,25 @@
 更新日期：2026-09-12。负责人 tim。依据[协作约定](collaboration.md)与[阶段计划](plan.md)。
 
-## 当前主线
+## 当前状态（唯一口径）
+
+| 层级 | 当前状态 | 证据/说明 |
+| --- | --- | --- |
+| 真实候选 | 4/4 题已有真实候选基础闭环 | 候选结果不等于最终竞赛验收 |
+| 官方结果表 | 五份按当前策略重导，352,466 格逐格回读通过 | 当前入口为 `deliverables/final_submission/excel/` |
+| 时间口径 | 技术契约为 `interval-end-v1` | 官方表头、观测和计费语义仍待最终接收 |
+| 论文 | 当前工作区只保留一份 `paper/` 主线 | 历史版本由 Git 记录 |
+| 验收 | 0/4 题完成最终语义验收 | 文献与竞赛格式验收仍待完成；动态电价门控为可选增强 |
+| 本地 Git | 基线为 `main@cf21f9d`；本轮文档改动未提交 | 目标远端为 [`Timcai06/26National_MathModel_Electricty`](https://github.com/Timcai06/26National_MathModel_Electricty)，当前待配置本地 `origin` |
+
+当前主候选：Q1 代表日优化；Q2 B2 安全裕量；Q3 裕量零点固定；Q4 动态电价下的严格迁移。旧 `outputs/` 与 `deliverables/legacy_excel/` 产物不得与当前论文、结果表混用。
+
+## 历史记录（按时间倒序，保留原始证据）
+
+以下内容保留各轮工作的原始状态和决策过程；其中出现的早期测试数、候选题数和“下一步”不覆盖上方当前状态。
 
 **五份官方结果表已按当前策略重导（本轮重点）：** 见 [final_submission/excel/](../deliverables/final_submission/excel/)。result2采用B2、result3采用裕量零点固定、result4-2与result4-3采用动态电价下的对应方案，四份年度表的334天总费与论文正文逐项一致；result1沿用已审计的单日管线。纯Python写入，每格写完立即从保存的工作簿读回比对，共352,466格通过，官方模板只读未改。此前 `outputs/` 与 `legacy_excel/` 里09-11的四份年度表是旧策略产物，已明确标注不得混用。
 
-**版本管理改为 git：** 仓库已初始化，远端 `Timcai06/26National-MathModel-Electricty`。论文合并为单一 `paper/` 目录，`draft_v1` 至 `draft_v5` 已在首个提交中保留后删除，历史由 git 承担。逐日轨迹 `*.jsonl` 与单元格转储 `*.ndjson` 共约600MB不进版本库，可由运行脚本重建，哈希记录在各自的 `result.json` 与 `readback.json` 中。**注意远端仓库当前为 public。**
+**版本管理改为 git：** 仓库已初始化，目标远端为 [`Timcai06/26National_MathModel_Electricty`](https://github.com/Timcai06/26National_MathModel_Electricty)。论文合并为单一 `paper/` 目录，`draft_v1` 至 `draft_v5` 已在首个提交中保留后删除，历史由 git 承担。逐日轨迹 `*.jsonl` 与单元格转储 `*.ndjson` 共约600MB不进版本库，可由运行脚本重建，哈希记录在各自的 `result.json` 与 `readback.json` 中。
 
 **队友提出的两个坑，本项目的处置：**
 

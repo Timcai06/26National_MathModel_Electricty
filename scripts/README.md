@@ -60,7 +60,7 @@
 ## 常用序列
 
 ```sh
-.venv/bin/python -m unittest discover -s tests    # 129项回归
+.venv/bin/python -m unittest discover -s tests    # 130项回归
 .venv/bin/python scripts/verify_time_semantics.py # 时间契约34项断言
 .venv/bin/python scripts/verify_strict_q4.py         # 第四问2672天复核
 .venv/bin/python scripts/deliver_strict_excel.py     # 五份结果表
