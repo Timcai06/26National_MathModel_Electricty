@@ -1,0 +1,90 @@
+{
+  "figure": "fig01_prediction_consistency",
+  "seed": 20260912,
+  "sankey": {
+    "status": "not_implemented",
+    "reason": "当前真实记录没有可回溯的状态转移/流量标签；改用真实误差分布。"
+  },
+  "error_definition": "forecast minus actual",
+  "tolerance_rule": "每类信号使用正值实际样本中位数的 2%，最小 1 个单位；仅用于误差状态分箱。",
+  "tolerance": {
+    "load_kwh_per_slot": 14.235612,
+    "pv_kw": 97.29075
+  },
+  "sample_counts": {
+    "load_yesterday": 51552,
+    "load_last_week": 51552,
+    "pv_00:00": 8395,
+    "pv_06:00": 8389,
+    "pv_12:00": 8383,
+    "pv_18:00": 8377
+  },
+  "load_baselines": {
+    "yesterday": {
+      "mae_kwh_per_slot": 108.38849825225016,
+      "rmse_kwh_per_slot": 188.19012862905373
+    },
+    "last_week": {
+      "mae_kwh_per_slot": 29.09165329440824,
+      "rmse_kwh_per_slot": 40.0764608108011
+    }
+  },
+  "pv_baselines": {
+    "yesterday": {
+      "mae_kwh_per_slot": 30.08051239040193,
+      "rmse_kwh_per_slot": 61.34953029012793
+    },
+    "last_week": {
+      "mae_kwh_per_slot": 34.81850143835351,
+      "rmse_kwh_per_slot": 68.5756890533778
+    }
+  },
+  "published_pv_by_issue": {
+    "00:00": {
+      "n": 8395,
+      "mae_kw": 189.19648378796902,
+      "rmse_kw": 378.54286613517746,
+      "state_share": {
+        "low": 0.1967837998808815,
+        "near": 0.6270399047051817,
+        "high": 0.17617629541393687
+      }
+    },
+    "06:00": {
+      "n": 8389,
+      "mae_kw": 101.7252861604482,
+      "rmse_kw": 211.18792695090866,
+      "state_share": {
+        "low": 0.14971987125998332,
+        "near": 0.7146262963404458,
+        "high": 0.13565383239957088
+      }
+    },
+    "12:00": {
+      "n": 8383,
+      "mae_kw": 216.91607691757125,
+      "rmse_kw": 573.0818420318288,
+      "state_share": {
+        "low": 0.14147679828223786,
+        "near": 0.7044017654777526,
+        "high": 0.15412143624000954
+      }
+    },
+    "18:00": {
+      "n": 8377,
+      "mae_kw": 271.2168119135729,
+      "rmse_kw": 535.4942130829028,
+      "state_share": {
+        "low": 0.21511280888146114,
+        "near": 0.5888742986749433,
+        "high": 0.19601289244359557
+      }
+    }
+  },
+  "current_dispatch_evidence": {
+    "q2_B2_total_yuan": 15137987.058472289,
+    "q2_B2_emergency_yuan": 1431977.6145343652,
+    "evaluation_days": 334
+  },
+  "visual_boundary": "D 卡片只引用 current candidate evidence；Q4 price-known assumption is not promoted to a verified fact."
+}

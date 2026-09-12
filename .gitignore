@@ -1,5 +1,6 @@
 # 运行环境与缓存
 .venv/
+.pytest_cache/
 __pycache__/
 *.py[cod]
 .DS_Store

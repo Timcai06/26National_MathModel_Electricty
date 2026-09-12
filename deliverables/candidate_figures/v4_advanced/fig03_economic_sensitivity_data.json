@@ -1,0 +1,753 @@
+{
+  "figure": "fig03_economic_sensitivity",
+  "seed": 20260912,
+  "grid_nodes": 81,
+  "day_replays": 1377,
+  "scoring_window_days": 17,
+  "interpolation": "none; surface connects measured 9x9 nodes only",
+  "view": {
+    "elev": 26,
+    "azim": 50,
+    "projection": "orthographic-like Matplotlib 3D"
+  },
+  "global_min": {
+    "tau": 0.9,
+    "scale": 0.75,
+    "planned_yuan": 881549.8695660561,
+    "emergency_yuan": 47649.341434506576,
+    "total_yuan": 929199.2110005622
+  },
+  "original_frozen_candidate": {
+    "tau": 0.8,
+    "scale": 1.0,
+    "planned_yuan": 869624.0443555492,
+    "emergency_yuan": 61048.10683930279,
+    "total_yuan": 930672.1511948517
+  },
+  "profiles": {
+    "fixed_scale_1.0": [
+      {
+        "tau": 0.5,
+        "scale": 1.0,
+        "planned_yuan": 817041.4736195819,
+        "emergency_yuan": 153827.52853685778,
+        "total_yuan": 970869.0021564398
+      },
+      {
+        "tau": 0.55,
+        "scale": 1.0,
+        "planned_yuan": 820377.5063042385,
+        "emergency_yuan": 146393.27431946402,
+        "total_yuan": 966770.7806237023
+      },
+      {
+        "tau": 0.6,
+        "scale": 1.0,
+        "planned_yuan": 826639.9115897579,
+        "emergency_yuan": 132753.31997729794,
+        "total_yuan": 959393.2315670558
+      },
+      {
+        "tau": 0.65,
+        "scale": 1.0,
+        "planned_yuan": 835244.9189516358,
+        "emergency_yuan": 115622.88667653999,
+        "total_yuan": 950867.8056281758
+      },
+      {
+        "tau": 0.7,
+        "scale": 1.0,
+        "planned_yuan": 845898.8154687057,
+        "emergency_yuan": 95297.51277581339,
+        "total_yuan": 941196.328244519
+      },
+      {
+        "tau": 0.75,
+        "scale": 1.0,
+        "planned_yuan": 856795.2591752001,
+        "emergency_yuan": 77785.31352116751,
+        "total_yuan": 934580.5726963676
+      },
+      {
+        "tau": 0.8,
+        "scale": 1.0,
+        "planned_yuan": 869624.0443555492,
+        "emergency_yuan": 61048.10683930279,
+        "total_yuan": 930672.1511948517
+      },
+      {
+        "tau": 0.85,
+        "scale": 1.0,
+        "planned_yuan": 884788.9470473957,
+        "emergency_yuan": 45007.8667728502,
+        "total_yuan": 929796.813820246
+      },
+      {
+        "tau": 0.9,
+        "scale": 1.0,
+        "planned_yuan": 903448.5848951013,
+        "emergency_yuan": 30185.369487419637,
+        "total_yuan": 933633.9543825208
+      }
+    ],
+    "fixed_tau_0.8": [
+      {
+        "tau": 0.8,
+        "scale": 0.25,
+        "planned_yuan": 829959.6468113823,
+        "emergency_yuan": 124408.42513226878,
+        "total_yuan": 954368.0719436512
+      },
+      {
+        "tau": 0.8,
+        "scale": 0.375,
+        "planned_yuan": 836522.1927956564,
+        "emergency_yuan": 111080.93894611234,
+        "total_yuan": 947603.1317417689
+      },
+      {
+        "tau": 0.8,
+        "scale": 0.5,
+        "planned_yuan": 843103.5849238496,
+        "emergency_yuan": 98887.26150365746,
+        "total_yuan": 941990.8464275071
+      },
+      {
+        "tau": 0.8,
+        "scale": 0.625,
+        "planned_yuan": 849698.0432484727,
+        "emergency_yuan": 87888.20700557872,
+        "total_yuan": 937586.2502540514
+      },
+      {
+        "tau": 0.8,
+        "scale": 0.75,
+        "planned_yuan": 856325.2038546859,
+        "emergency_yuan": 78099.52082136707,
+        "total_yuan": 934424.7246760529
+      },
+      {
+        "tau": 0.8,
+        "scale": 0.875,
+        "planned_yuan": 862970.3094585852,
+        "emergency_yuan": 69173.80053541547,
+        "total_yuan": 932144.1099940009
+      },
+      {
+        "tau": 0.8,
+        "scale": 1.0,
+        "planned_yuan": 869624.0443555492,
+        "emergency_yuan": 61048.10683930279,
+        "total_yuan": 930672.1511948517
+      },
+      {
+        "tau": 0.8,
+        "scale": 1.125,
+        "planned_yuan": 876283.9971909217,
+        "emergency_yuan": 53796.56851508311,
+        "total_yuan": 930080.5657060047
+      },
+      {
+        "tau": 0.8,
+        "scale": 1.25,
+        "planned_yuan": 882968.1571493773,
+        "emergency_yuan": 47414.30288136309,
+        "total_yuan": 930382.4600307404
+      }
+    ],
+    "tau_span_yuan": 41072.188336193794,
+    "scale_span_yuan": 24287.50623764645,
+    "tau_profile_min": {
+      "tau": 0.85,
+      "scale": 1.0,
+      "planned_yuan": 884788.9470473957,
+      "emergency_yuan": 45007.8667728502,
+      "total_yuan": 929796.813820246
+    },
+    "scale_profile_min": {
+      "tau": 0.8,
+      "scale": 1.125,
+      "planned_yuan": 876283.9971909217,
+      "emergency_yuan": 53796.56851508311,
+      "total_yuan": 930080.5657060047
+    }
+  },
+  "grid": [
+    {
+      "tau": 0.5,
+      "scale": 0.25,
+      "planned_yuan": 816910.1338817854,
+      "emergency_yuan": 154081.98589084423,
+      "total_yuan": 970992.1197726296
+    },
+    {
+      "tau": 0.55,
+      "scale": 0.25,
+      "planned_yuan": 817742.3529782844,
+      "emergency_yuan": 152144.3023060371,
+      "total_yuan": 969886.6552843218
+    },
+    {
+      "tau": 0.6,
+      "scale": 0.25,
+      "planned_yuan": 819304.3148695698,
+      "emergency_yuan": 148455.930554595,
+      "total_yuan": 967760.2454241649
+    },
+    {
+      "tau": 0.65,
+      "scale": 0.25,
+      "planned_yuan": 821450.7584297913,
+      "emergency_yuan": 143629.61447130694,
+      "total_yuan": 965080.3729010981
+    },
+    {
+      "tau": 0.7,
+      "scale": 0.25,
+      "planned_yuan": 824102.2232579737,
+      "emergency_yuan": 137491.069473654,
+      "total_yuan": 961593.2927316277
+    },
+    {
+      "tau": 0.75,
+      "scale": 0.25,
+      "planned_yuan": 826797.1187933465,
+      "emergency_yuan": 131312.06465975096,
+      "total_yuan": 958109.1834530976
+    },
+    {
+      "tau": 0.8,
+      "scale": 0.25,
+      "planned_yuan": 829959.6468113823,
+      "emergency_yuan": 124408.42513226878,
+      "total_yuan": 954368.0719436512
+    },
+    {
+      "tau": 0.85,
+      "scale": 0.25,
+      "planned_yuan": 833692.4901068591,
+      "emergency_yuan": 116547.38706432511,
+      "total_yuan": 950239.8771711843
+    },
+    {
+      "tau": 0.9,
+      "scale": 0.25,
+      "planned_yuan": 838259.0323393543,
+      "emergency_yuan": 107382.73711306379,
+      "total_yuan": 945641.769452418
+    },
+    {
+      "tau": 0.5,
+      "scale": 0.375,
+      "planned_yuan": 816932.0238380849,
+      "emergency_yuan": 154039.20659434787,
+      "total_yuan": 970971.2304324326
+    },
+    {
+      "tau": 0.55,
+      "scale": 0.375,
+      "planned_yuan": 818180.3524828332,
+      "emergency_yuan": 151149.86485949185,
+      "total_yuan": 969330.2173423251
+    },
+    {
+      "tau": 0.6,
+      "scale": 0.375,
+      "planned_yuan": 820526.0205866487,
+      "emergency_yuan": 145691.85250084836,
+      "total_yuan": 966217.873087497
+    },
+    {
+      "tau": 0.65,
+      "scale": 0.375,
+      "planned_yuan": 823746.5164985843,
+      "emergency_yuan": 138597.48432982643,
+      "total_yuan": 962344.0008284108
+    },
+    {
+      "tau": 0.7,
+      "scale": 0.375,
+      "planned_yuan": 827726.9880350274,
+      "emergency_yuan": 129659.64010004375,
+      "total_yuan": 957386.6281350714
+    },
+    {
+      "tau": 0.75,
+      "scale": 0.375,
+      "planned_yuan": 831771.4010600701,
+      "emergency_yuan": 120742.59650310127,
+      "total_yuan": 952513.9975631713
+    },
+    {
+      "tau": 0.8,
+      "scale": 0.375,
+      "planned_yuan": 836522.1927956564,
+      "emergency_yuan": 111080.93894611234,
+      "total_yuan": 947603.1317417689
+    },
+    {
+      "tau": 0.85,
+      "scale": 0.375,
+      "planned_yuan": 842137.7807251931,
+      "emergency_yuan": 100339.1654655051,
+      "total_yuan": 942476.9461906983
+    },
+    {
+      "tau": 0.9,
+      "scale": 0.375,
+      "planned_yuan": 849005.6741989867,
+      "emergency_yuan": 88388.64780297903,
+      "total_yuan": 937394.3220019657
+    },
+    {
+      "tau": 0.5,
+      "scale": 0.5,
+      "planned_yuan": 816953.9137943842,
+      "emergency_yuan": 153996.813377339,
+      "total_yuan": 970950.7271717233
+    },
+    {
+      "tau": 0.55,
+      "scale": 0.5,
+      "planned_yuan": 818619.4092202155,
+      "emergency_yuan": 150166.9966587951,
+      "total_yuan": 968786.4058790107
+    },
+    {
+      "tau": 0.6,
+      "scale": 0.5,
+      "planned_yuan": 821748.2571881987,
+      "emergency_yuan": 142991.66019207696,
+      "total_yuan": 964739.9173802756
+    },
+    {
+      "tau": 0.65,
+      "scale": 0.5,
+      "planned_yuan": 826043.8398160728,
+      "emergency_yuan": 133717.44700545527,
+      "total_yuan": 959761.2868215281
+    },
+    {
+      "tau": 0.7,
+      "scale": 0.5,
+      "planned_yuan": 831352.8225672323,
+      "emergency_yuan": 122094.70802738167,
+      "total_yuan": 953447.5305946139
+    },
+    {
+      "tau": 0.75,
+      "scale": 0.5,
+      "planned_yuan": 836753.4666476368,
+      "emergency_yuan": 110818.67514839335,
+      "total_yuan": 947572.1417960303
+    },
+    {
+      "tau": 0.8,
+      "scale": 0.5,
+      "planned_yuan": 843103.5849238496,
+      "emergency_yuan": 98887.26150365746,
+      "total_yuan": 941990.8464275071
+    },
+    {
+      "tau": 0.85,
+      "scale": 0.5,
+      "planned_yuan": 850603.6986169069,
+      "emergency_yuan": 86087.04260529755,
+      "total_yuan": 936690.7412222042
+    },
+    {
+      "tau": 0.9,
+      "scale": 0.5,
+      "planned_yuan": 859823.04870061,
+      "emergency_yuan": 72489.33543120838,
+      "total_yuan": 932312.3841318184
+    },
+    {
+      "tau": 0.5,
+      "scale": 0.625,
+      "planned_yuan": 816975.8037506836,
+      "emergency_yuan": 153954.49216721868,
+      "total_yuan": 970930.2959179024
+    },
+    {
+      "tau": 0.55,
+      "scale": 0.625,
+      "planned_yuan": 819058.6729078161,
+      "emergency_yuan": 149195.81288680405,
+      "total_yuan": 968254.4857946202
+    },
+    {
+      "tau": 0.6,
+      "scale": 0.625,
+      "planned_yuan": 822970.8636379605,
+      "emergency_yuan": 140351.39869164085,
+      "total_yuan": 963322.2623296016
+    },
+    {
+      "tau": 0.65,
+      "scale": 0.625,
+      "planned_yuan": 828341.7780394271,
+      "emergency_yuan": 128979.09282459393,
+      "total_yuan": 957320.870864021
+    },
+    {
+      "tau": 0.7,
+      "scale": 0.625,
+      "planned_yuan": 834981.7704011553,
+      "emergency_yuan": 114872.14799691315,
+      "total_yuan": 949853.9183980684
+    },
+    {
+      "tau": 0.75,
+      "scale": 0.625,
+      "planned_yuan": 841744.9170952116,
+      "emergency_yuan": 101503.56832975746,
+      "total_yuan": 943248.4854249689
+    },
+    {
+      "tau": 0.8,
+      "scale": 0.625,
+      "planned_yuan": 849698.0432484727,
+      "emergency_yuan": 87888.20700557872,
+      "total_yuan": 937586.2502540514
+    },
+    {
+      "tau": 0.85,
+      "scale": 0.625,
+      "planned_yuan": 859118.0924745845,
+      "emergency_yuan": 73711.39931556433,
+      "total_yuan": 932829.4917901487
+    },
+    {
+      "tau": 0.9,
+      "scale": 0.625,
+      "planned_yuan": 870679.1686950307,
+      "emergency_yuan": 58921.02865123302,
+      "total_yuan": 929600.1973462636
+    },
+    {
+      "tau": 0.5,
+      "scale": 0.75,
+      "planned_yuan": 816997.6937069831,
+      "emergency_yuan": 153912.1709570984,
+      "total_yuan": 970909.8646640815
+    },
+    {
+      "tau": 0.55,
+      "scale": 0.75,
+      "planned_yuan": 819498.2447702078,
+      "emergency_yuan": 148250.91959131652,
+      "total_yuan": 967749.1643615242
+    },
+    {
+      "tau": 0.6,
+      "scale": 0.75,
+      "planned_yuan": 824193.6811608052,
+      "emergency_yuan": 137770.66857507842,
+      "total_yuan": 961964.3497358834
+    },
+    {
+      "tau": 0.65,
+      "scale": 0.75,
+      "planned_yuan": 830640.770576721,
+      "emergency_yuan": 124365.89133137182,
+      "total_yuan": 955006.6619080929
+    },
+    {
+      "tau": 0.7,
+      "scale": 0.75,
+      "planned_yuan": 838616.5700756641,
+      "emergency_yuan": 108002.57074381744,
+      "total_yuan": 946619.1408194816
+    },
+    {
+      "tau": 0.75,
+      "scale": 0.75,
+      "planned_yuan": 846743.1775042886,
+      "emergency_yuan": 92897.43601653766,
+      "total_yuan": 939640.6135208262
+    },
+    {
+      "tau": 0.8,
+      "scale": 0.75,
+      "planned_yuan": 856325.2038546859,
+      "emergency_yuan": 78099.52082136707,
+      "total_yuan": 934424.7246760529
+    },
+    {
+      "tau": 0.85,
+      "scale": 0.75,
+      "planned_yuan": 867661.0865768646,
+      "emergency_yuan": 62756.1098461728,
+      "total_yuan": 930417.1964230372
+    },
+    {
+      "tau": 0.9,
+      "scale": 0.75,
+      "planned_yuan": 881549.8695660561,
+      "emergency_yuan": 47649.341434506576,
+      "total_yuan": 929199.2110005622
+    },
+    {
+      "tau": 0.5,
+      "scale": 0.875,
+      "planned_yuan": 817019.5836632826,
+      "emergency_yuan": 153869.84974697809,
+      "total_yuan": 970889.4334102607
+    },
+    {
+      "tau": 0.55,
+      "scale": 0.875,
+      "planned_yuan": 819937.8755372231,
+      "emergency_yuan": 147317.22981257213,
+      "total_yuan": 967255.1053497952
+    },
+    {
+      "tau": 0.6,
+      "scale": 0.875,
+      "planned_yuan": 825416.6562316035,
+      "emergency_yuan": 135241.0834097877,
+      "total_yuan": 960657.7396413911
+    },
+    {
+      "tau": 0.65,
+      "scale": 0.875,
+      "planned_yuan": 832941.8030374148,
+      "emergency_yuan": 119923.54479408312,
+      "total_yuan": 952865.347831498
+    },
+    {
+      "tau": 0.7,
+      "scale": 0.875,
+      "planned_yuan": 842256.884932011,
+      "emergency_yuan": 101457.67052312665,
+      "total_yuan": 943714.5554551376
+    },
+    {
+      "tau": 0.75,
+      "scale": 0.875,
+      "planned_yuan": 851764.3059348123,
+      "emergency_yuan": 85010.13898941055,
+      "total_yuan": 936774.4449242227
+    },
+    {
+      "tau": 0.8,
+      "scale": 0.875,
+      "planned_yuan": 862970.3094585852,
+      "emergency_yuan": 69173.80053541547,
+      "total_yuan": 932144.1099940009
+    },
+    {
+      "tau": 0.85,
+      "scale": 0.875,
+      "planned_yuan": 876210.2857913462,
+      "emergency_yuan": 53336.77863979016,
+      "total_yuan": 929547.0644311366
+    },
+    {
+      "tau": 0.9,
+      "scale": 0.875,
+      "planned_yuan": 892483.5729835724,
+      "emergency_yuan": 38012.54515818261,
+      "total_yuan": 930496.1181417552
+    },
+    {
+      "tau": 0.5,
+      "scale": 1.0,
+      "planned_yuan": 817041.4736195819,
+      "emergency_yuan": 153827.52853685778,
+      "total_yuan": 970869.0021564398
+    },
+    {
+      "tau": 0.55,
+      "scale": 1.0,
+      "planned_yuan": 820377.5063042385,
+      "emergency_yuan": 146393.27431946402,
+      "total_yuan": 966770.7806237023
+    },
+    {
+      "tau": 0.6,
+      "scale": 1.0,
+      "planned_yuan": 826639.9115897579,
+      "emergency_yuan": 132753.31997729794,
+      "total_yuan": 959393.2315670558
+    },
+    {
+      "tau": 0.65,
+      "scale": 1.0,
+      "planned_yuan": 835244.9189516358,
+      "emergency_yuan": 115622.88667653999,
+      "total_yuan": 950867.8056281758
+    },
+    {
+      "tau": 0.7,
+      "scale": 1.0,
+      "planned_yuan": 845898.8154687057,
+      "emergency_yuan": 95297.51277581339,
+      "total_yuan": 941196.328244519
+    },
+    {
+      "tau": 0.75,
+      "scale": 1.0,
+      "planned_yuan": 856795.2591752001,
+      "emergency_yuan": 77785.31352116751,
+      "total_yuan": 934580.5726963676
+    },
+    {
+      "tau": 0.8,
+      "scale": 1.0,
+      "planned_yuan": 869624.0443555492,
+      "emergency_yuan": 61048.10683930279,
+      "total_yuan": 930672.1511948517
+    },
+    {
+      "tau": 0.85,
+      "scale": 1.0,
+      "planned_yuan": 884788.9470473957,
+      "emergency_yuan": 45007.8667728502,
+      "total_yuan": 929796.813820246
+    },
+    {
+      "tau": 0.9,
+      "scale": 1.0,
+      "planned_yuan": 903448.5848951013,
+      "emergency_yuan": 30185.369487419637,
+      "total_yuan": 933633.9543825208
+    },
+    {
+      "tau": 0.5,
+      "scale": 1.125,
+      "planned_yuan": 817063.3635758815,
+      "emergency_yuan": 153785.20732673744,
+      "total_yuan": 970848.5709026189
+    },
+    {
+      "tau": 0.55,
+      "scale": 1.125,
+      "planned_yuan": 820817.1370712535,
+      "emergency_yuan": 145477.70774537083,
+      "total_yuan": 966294.8448166244
+    },
+    {
+      "tau": 0.6,
+      "scale": 1.125,
+      "planned_yuan": 827863.9807715775,
+      "emergency_yuan": 130343.6373945658,
+      "total_yuan": 958207.6181661432
+    },
+    {
+      "tau": 0.65,
+      "scale": 1.125,
+      "planned_yuan": 837550.2863318527,
+      "emergency_yuan": 111469.14782652109,
+      "total_yuan": 949019.4341583734
+    },
+    {
+      "tau": 0.7,
+      "scale": 1.125,
+      "planned_yuan": 849551.309771081,
+      "emergency_yuan": 89492.49817518305,
+      "total_yuan": 939043.8079462639
+    },
+    {
+      "tau": 0.75,
+      "scale": 1.125,
+      "planned_yuan": 861838.6617493527,
+      "emergency_yuan": 70946.23912378814,
+      "total_yuan": 932784.900873141
+    },
+    {
+      "tau": 0.8,
+      "scale": 1.125,
+      "planned_yuan": 876283.9971909217,
+      "emergency_yuan": 53796.56851508311,
+      "total_yuan": 930080.5657060047
+    },
+    {
+      "tau": 0.85,
+      "scale": 1.125,
+      "planned_yuan": 893406.385270332,
+      "emergency_yuan": 37716.287125709125,
+      "total_yuan": 931122.6723960411
+    },
+    {
+      "tau": 0.9,
+      "scale": 1.125,
+      "planned_yuan": 914436.098686578,
+      "emergency_yuan": 23869.35966978877,
+      "total_yuan": 938305.4583563668
+    },
+    {
+      "tau": 0.5,
+      "scale": 1.25,
+      "planned_yuan": 817085.2535321808,
+      "emergency_yuan": 153742.88611661716,
+      "total_yuan": 970828.139648798
+    },
+    {
+      "tau": 0.55,
+      "scale": 1.25,
+      "planned_yuan": 821256.7848264223,
+      "emergency_yuan": 144569.50445063104,
+      "total_yuan": 965826.2892770532
+    },
+    {
+      "tau": 0.6,
+      "scale": 1.25,
+      "planned_yuan": 829089.1665892559,
+      "emergency_yuan": 128005.07109687444,
+      "total_yuan": 957094.2376861303
+    },
+    {
+      "tau": 0.65,
+      "scale": 1.25,
+      "planned_yuan": 839857.4141100271,
+      "emergency_yuan": 107459.85377826799,
+      "total_yuan": 947317.2678882952
+    },
+    {
+      "tau": 0.7,
+      "scale": 1.25,
+      "planned_yuan": 853212.3064428726,
+      "emergency_yuan": 84076.7842611925,
+      "total_yuan": 937289.0907040652
+    },
+    {
+      "tau": 0.75,
+      "scale": 1.25,
+      "planned_yuan": 866887.5004358757,
+      "emergency_yuan": 64525.15850824033,
+      "total_yuan": 931412.658944116
+    },
+    {
+      "tau": 0.8,
+      "scale": 1.25,
+      "planned_yuan": 882968.1571493773,
+      "emergency_yuan": 47414.30288136309,
+      "total_yuan": 930382.4600307404
+    },
+    {
+      "tau": 0.85,
+      "scale": 1.25,
+      "planned_yuan": 902037.2369056476,
+      "emergency_yuan": 31551.629364649776,
+      "total_yuan": 933588.8662702974
+    },
+    {
+      "tau": 0.9,
+      "scale": 1.25,
+      "planned_yuan": 925457.0579014438,
+      "emergency_yuan": 18634.287536747317,
+      "total_yuan": 944091.3454381911
+    }
+  ],
+  "missing_panel": {
+    "status": "data_insufficient",
+    "requested": "time x parameter heatmap",
+    "reason": "没有同一参数网格在逐月/全年重算结果；现有网格只有 2025-01-15—01-31 总费用。"
+  },
+  "current_mainline_reference": {
+    "q2_B2_total_yuan": 15137987.058472289,
+    "q2_B2_days": 334
+  }
+}

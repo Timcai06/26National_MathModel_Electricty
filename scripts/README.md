@@ -51,11 +51,27 @@
 | `build_assets.py` | 生成论文数值表与V1数据图；不运行优化，不改已有数值 |
 | `build_research_figures.py` / `verify_research_figures.py` | V2五组科研组图及其数据绑定复核 |
 | `build_3d_surface.py` / `build_soc_3d.py` | 参数—费用响应面与日内—月份储电量曲面 |
+| `build_advanced_figures.py` / `verify_advanced_figures.py` | V4高级复合候选图的生成与数据边界复核；只写入 `deliverables/candidate_figures/v4_advanced/` |
 | `build_q4_tables.py` | 由已复核的第四问结果生成论文表格；缺少有效复核时直接失败 |
 | `build_pdf.py` | 编译 `paper/latex/main.tex`，中间产物进 `tmp/paper_build/`；论文只有一份，无版本参数 |
 | `package_delivery.py` / `verify_delivery.py` | 审阅包打包与交付清单校验 |
 
 `scripts/deliver_strict_excel.py`（在 `scripts/` 根下）由已复核的轨迹写出五份官方结果表，逐格回读；缺少有效复核时直接失败。
+
+当前论文只使用 `paper/latex/main.tex` 和 `paper/pdf/C_microgrid.pdf`，图表原位更新，历史由 Git 保存。
+
+- `reproduce_paper_q1.py`：读取已核验输入，直接复现代表日费用与物理约束。
+- `paper/build_review_figures.py`：生成当前正文引用的五张图。
+- `paper/verify_review_paper.py`：复核当前论文数据与排版日志，覆盖更新 `deliverables/review/paper_validation.json`。
+- `paper/package_classmate.py`：将当前论文源码、引用图、建模代码和输入数据导出到固定临时路径 `tmp/export/C_microgrid_source_code.zip`；不复制 PDF，不生成版本编号文件，不将导出包纳入 Git。
+
+## 六、仓库目录治理
+
+| 脚本 | 作用 |
+| --- | --- |
+| `verify_repository_layout.py` | 只读检查根目录允许项、保护区路径、候选图状态、历史审阅包归档、论文隔离和 tracked 缓存；不导入模型、不运行优化、不写文件 |
+
+该检查器用于确认目录治理没有改变模型、论文、数据和实验证据的物理路径。
 
 ## 常用序列
 

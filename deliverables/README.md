@@ -31,25 +31,37 @@
 
 - [V2科研图册（5组、20个子图）](candidate_figures/v2/research_figures_v2.pdf) · [说明](candidate_figures/v2/README.md)
 - [两页3D图册](candidate_figures/v3_3d/3D_candidate_atlas.pdf) · [说明](candidate_figures/v3_3d/README.md)
+- [V4高级复合候选图](candidate_figures/v4_advanced/README.md) · [montage预览](candidate_figures/v4_advanced/advanced_figures_montage.png)
 - [V1数据图](candidate_figures/v1/) · [来源哈希](candidate_figures/v1/manifest.json)
 
 ## 历史与证据
 
 - [旧五份候选Excel](legacy_excel/)：09-11旧策略产物，**与当前论文不同版本，不得混作提交**。
 - [审阅证据摘录](review/)：各轮结果、独立验收、比较表与整理日志。
-- [V1审阅包](C_microgrid_review_v1.zip) · [V2审阅包](C_microgrid_review_v2.zip)：历史打包，非提交包。
+- [历史审阅包归档](review/packages/README.md)：V1、V2打包文件和历史目录快照，非提交包。
 
 ## 目录职责
 
 | 目录 | 内容 | 当前状态 |
 | --- | --- | --- |
+| `candidate_figures/` | V1、V2、V3_3D、V4高级图件与论文图源 | 按版本保留来源和manifest；V4为 `candidate-only` |
 | `candidate_figures/v3_3d/` | 三维图、网格CSV与哈希清单 | 已并入V3正文 |
 | `candidate_figures/v1/` | 图表源数据索引、矢量图、预览图 | 候选，未作为最终批准图 |
+| `candidate_figures/v4_advanced/` | 高级复合图、数据摘要与哈希清单 | `candidate-only`、`not-for-submission`，未进入论文 |
 | `legacy_excel/` | result1、2、3、4-2、4-3旧候选副本 | 未重算，未修正模板映射 |
 | `review/` | 验收证据与版本整理记录 | 供内部复核 |
+| `review/packages/` | 历史审阅压缩包与历史快照 manifest | `historical`、`not-for-submission` |
 | `final_submission/excel/` | 五份官方结果表 | 按当前策略重导，逐格回读通过 |
 
-`analysis/` 是可追溯的实验档案，`outputs/` 是旧模板写入与回读证据；二者保留原路径，避免移动后破坏源文件哈希、脚本及文档链接。无需再从这些目录寻找当前论文入口。数据、源码、测试和运行环境均保留。
+`analysis/` 是可追溯的实验档案，`outputs/` 是旧模板写入与回读证据；二者保留原路径，避免移动后破坏源文件哈希、脚本及文档链接。历史压缩包只位于 `review/packages/`，无需再从这些目录寻找当前论文入口。数据、源码、测试和运行环境均保留。
+
+## 目录校验
+
+从项目根目录运行以下只读检查器，不导入模型、不运行优化、不修改文件：
+
+```sh
+.venv/bin/python scripts/verify_repository_layout.py
+```
 
 ## 本稿选用结果
 

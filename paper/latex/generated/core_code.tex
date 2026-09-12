@@ -1,0 +1,29 @@
+\section{核心建模程序}
+以下摘录对应正文的约束构造、预测修正与合同决策，使用 Python、NumPy 和 SciPy 实现。$G,C,D,U,W,E$分别对应购电、充电、放电、应急、富余和储电量；所有电量单位均为 kWh。完整函数及运行入口见随附源码。
+
+\subsection{稀疏物理约束与充放电互斥}
+将各时段变量依次拼接为向量，前两组等式分别表示能量平衡和储电量递推。二元变量仅在启用互斥约束时加入；若线性松弛存在同时充放电，则重新求解混合整数模型。
+\lstinputlisting[firstline=99,lastline=139,caption={储能约束矩阵与变量边界}]{../../src/core/model.py}
+\lstinputlisting[firstline=77,lastline=86,caption={物理校验与整数模型回退}]{../../src/core/solver.py}
+
+\clearpage
+\subsection{历史残差安全裕量与槽末结算}
+残差库只接收目标日前已发布的整日数据；每个四小时桶内对原始净负荷残差求分位数。正文采用 $\tau=0.8$、$\kappa=1$，历史不足七日时保持零裕量。结算函数读取已经锁定的充放电动作，实际负荷与光伏仅用于计算应急和富余电量。
+\lstinputlisting[firstline=36,lastline=64,caption={因果残差库与分时分位数裕量}]{../../src/q2/residual_margin.py}
+\lstinputlisting[firstline=107,lastline=123,caption={锁定动作后的实际电量结算}]{../../src/q2/strict_execution.py}
+
+\clearpage
+\subsection{分段合同调整费与余日重规划}
+主模型采用减购退款解释。相对当前合同，增购的增量费用为 $1.5p$，减购为 $-0.5p$；辅助变量满足 $a\ge G-G^{\mathrm{old}}$、$a\ge0$，将分段费用写成线性目标。函数仅接收尚未执行时段的向量，日终储电量保持6000 kWh。
+\lstinputlisting[firstline=10,lastline=14,caption={合同增减量的实际计费}]{../../src/q3/planning.py}
+\lstinputlisting[firstline=17,lastline=42,caption={含调整费用的线性规划及混合整数求解}]{../../src/q3/planning.py}
+\lstinputlisting[firstline=45,lastline=58,caption={物理可行性与费用常数项核验}]{../../src/q3/planning.py}
+
+\clearpage
+\subsection{联合残差情景与更新收益门控}
+对保持合同与更新合同使用同一组历史日残差路径，保留负荷和光伏误差的日内联合结构。两个候选均延续至当日结束，不预先假定之后门控的决定。收益为保持方案应急费减去更新方案应急费及调整费；仅当情景平均收益超过一月选定的500元阈值时接受更新。
+\lstinputlisting[firstline=39,lastline=55,caption={最近28日内最多20条联合残差路径}]{../../src/q3/voi.py}
+\lstinputlisting[firstline=66,lastline=79,caption={候选动作延续与情景应急费用}]{../../src/q3/voi.py}
+\lstinputlisting[firstline=93,lastline=106,caption={新合同提案与预期净收益判定}]{../../src/q3/voi.py}
+
+第四问沿用上述约束和执行过程，将价格向量替换为目标日动态电价。本文未将第三问的门控阈值直接用于第四问。

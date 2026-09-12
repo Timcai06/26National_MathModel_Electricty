@@ -10,7 +10,7 @@
 | **加工输入** | `data/` | 只增不改。队友交付的标准化CSV，改动会使全部接收审计失效 |
 | **代码** | `src/`、`scripts/`、`tests/` | 可改。改后必须重跑130项回归 |
 | **实验证据** | `analysis/`、`outputs/` | **保持原路径**。论文、脚本与哈希清单直接引用；修订另建版本目录 |
-| **交付与文档** | `paper/`、`deliverables/`、`docs/` | 可增可改。版本由 git 承担，工作区只留一份论文 |
+| **交付与文档** | `paper/`、`deliverables/`、`docs/` | 论文保持唯一；候选图、正式交付、审阅归档和治理文档分责管理 |
 
 ## 逐目录
 
@@ -33,13 +33,18 @@
 ### 交付
 
 - `paper/` — 唯一的论文源文件与PDF。历史版本由 git 记录，不再有并行草稿目录。
-- `deliverables/` — 五份官方结果表、候选图、旧Excel与审阅摘录。入口见 [交付总览](deliverables/README.md)。
+- `deliverables/` — 五份官方结果表、候选图、旧Excel与审阅摘录；历史打包文件归档于 `review/packages/`。入口见 [交付总览](deliverables/README.md)。
 - `docs/` — 52篇文档，按 `data/`（数据与时间语义）、`model/`（符号与模型设计）、`experiments/`（实验报告）、`delivery/`（交付说明与论文提纲）、`validation/`（闸门与验收）、`references/`（文献）、`archive/`（历史计划）分类。导航见 [文档索引](docs/README.md)。
 
 ### 临时
 
 - `tmp/` — 编译中间产物与字体缓存，全部可由构建脚本重新生成；不进版本库。论文页面复核渲染件归档在 `deliverables/review/page_renders/`。
-- `.venv/` — 运行环境。
+- `.venv/`、`.pytest_cache/`、`__pycache__/` — 运行环境与可重建缓存，不进版本库。
+- `.workbuddy-ai/` — 已跟踪的工具元数据；不作为项目状态来源，本轮不移动、不删除、不重写。
+
+## 路径稳定例外
+
+本轮仅将三份没有执行依赖的历史审阅文件归档到 `deliverables/review/packages/`；`analysis/`、`outputs/`、`paper/`、`data/`、`src/` 和 `scripts/` 的物理路径均保持不变。具体旧路径到新路径的映射、哈希和回滚方式见[仓库治理规则](docs/REPOSITORY_GOVERNANCE.md)。
 
 ## 当前状态
 

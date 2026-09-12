@@ -1,0 +1,51 @@
+{
+  "package": "v4_advanced",
+  "status": "candidate_only",
+  "seed": 20260912,
+  "time_contract": "interval-end-v1",
+  "paper_inclusion": false,
+  "source_sha256": {
+    "data/processed/team_delivery/annual_actual.csv": "ea043aca838c5a31b3e86674aa1b8ed077a428599d0ff663c57f12e93824250d",
+    "data/processed/team_delivery/pv_forecast.csv": "4524b620dce32a9342e39bf9699785a7530f577bfe42c18446430c520aff14d6",
+    "analysis/team_delivery/pv_forecast_error.csv": "839cba02e709382e46f6819ce7de44ff21485d48c64588f7c98573ee2fb8a558",
+    "analysis/team_delivery/intake_audit.json": "e2cfe223145b934878c89c65dc1f6b410285b03187cc4e97bdefc7211e7d21fd",
+    "analysis/real_q2_forecast_candidate/result.json": "46fb5444bdd79c5ffdadf46960bd0b886c17f5c8ae62b81ba8a0d1a0b59af321",
+    "analysis/q2_margin_oracle_v1/result.json": "c24192158ee2226964f138c0a018584a8a755a72a3f6c1cc61762b53fe3b6de4",
+    "analysis/strict_q3_transfer_v1/result.json": "7d0ed2f90df4bd27875ce2b0ecc5574694e5233ec8d21d923efb5511fab71b9b",
+    "analysis/strict_q3_transfer_v1/selected_days.json": "21c31ff15125ad232d4e9f2090bcd4987b2e74483184c49972fa826267b18143",
+    "analysis/q2_january_surface_v1/result.json": "03a9a9fdc819a39e9b1c7471a8d563550039c371038982037928baf3116f9156",
+    "analysis/q2_january_surface_v1/protocol.json": "839a24de98425ecf5cb85c862975d250b2a49bcc7f9e091640b700d7506a0ca1",
+    "analysis/q2_january_surface_v1/validation.json": "e98d0c3d2b63174154d1cb4e5847f1aef0870e3efa4b6c6c32f4595c4a645222",
+    "analysis/q2_margin_oracle_v1/frozen_selection.json": "5e55aa833dc339c79313fa9bd6f94d311c9535fa0abbb519c286d599652ae673",
+    "scripts/run_real_q2_forecast.py": "7b1663d1a042b8202386479c148aaf7b356a8f64b8b436e79473bba03a3c1ada",
+    "scripts/run_strict_q3.py": "c4b81c5860d0385da92211c8f065d474c1889f7325916f9cea65dfdebfad8f1a",
+    "src/q3/pv.py": "0e9c5f534286473172f1fb3534b2e47ce18756104debd9d93ef42173ad4a18c7"
+  },
+  "outputs_sha256": {
+    "fig01_prediction_consistency.pdf": "f57f453841e0bf9df21dd30de1df0087bfc226bd12894f7d463c169efeec6d7e",
+    "fig01_prediction_consistency.svg": "389f5f7c06af69ad9d694f33f0498eb6f2a912726440162c4ece7dba87597043",
+    "fig01_prediction_consistency.png": "6774924226ae6830d6fdb3dafbba0669aab4344495c7aad9164bc42d076eaddd",
+    "fig02_rolling_mpc_feedback.pdf": "a4804d8db78d8fe216ffdb2b8c73425930b9bf1da7bff48acf78ba6e5e49dd62",
+    "fig02_rolling_mpc_feedback.svg": "7102831d8928367fc763eb754c87f81d4671c7e6fe013111086ac4c6d4d10520",
+    "fig02_rolling_mpc_feedback.png": "0805436ec7ee25f9797a6fc178b23a210481be44dbbba0a052ff3f3933ce020f",
+    "fig03_economic_sensitivity.pdf": "c0fd788b912331861d00128fdfb74dbbc36a29f358e3b0b8748ed988c17bea03",
+    "fig03_economic_sensitivity.svg": "d3253836da5d689af76440203afb709f0931191d4e1ea6a23488fd9e4687fbf1",
+    "fig03_economic_sensitivity.png": "da6e43645439439b08e654107715700950f8f886a9c53cab43bcddc9f9142f99",
+    "fig01_prediction_consistency_data.json": "1feea8c3fa2e58a6dbcdd451477c91bf610ffa167a17ed4332c6196b124fd081",
+    "fig02_rolling_mpc_feedback_data.json": "6d2b5f5643e839a41816c8c6623e456c188ec2fec4dd847c9e79de7d584be231",
+    "fig03_economic_sensitivity_data.json": "a1926a8a725b981f16fe9fcc02cfb6a950e57caf15aaf9a406e7278010342f52",
+    "advanced_figures_montage.png": "bd5b4ac3af22894e95e4b2ef5c1f471d818e4cc49cfb396250699c9379ea4f2e",
+    "README.md": "afdf2c63a0e385ccc2039e940495b2f40d1e7a26f3d1f3ebd90a55c40b17b8f1"
+  },
+  "figures": {
+    "fig01": "fig01_prediction_consistency",
+    "fig02": "fig02_rolling_mpc_feedback",
+    "fig03": "fig03_economic_sensitivity"
+  },
+  "reproducible_command": ".venv/bin/python scripts/paper/build_advanced_figures.py",
+  "boundaries": [
+    "当前 v4 只保留在 deliverables/candidate_figures/v4_advanced/，未写入 paper/。",
+    "没有把 legacy_excel/ 或旧 outputs/ 纳入当前主线。",
+    "Q4 价格提前可知仍为候选假设；Oracle 不作为可执行方案。"
+  ]
+}

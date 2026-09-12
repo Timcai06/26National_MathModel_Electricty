@@ -120,6 +120,7 @@ Q4 的新预报重规划相对裕量方案仍增加 530,789.48 元（3.3546%）�
 - [V2 科研图册（5 组、20 个子图）](deliverables/candidate_figures/v2/research_figures_v2.pdf)
 - [两页 3D 候选图册](deliverables/candidate_figures/v3_3d/3D_candidate_atlas.pdf)
 - [V2 图表说明与来源](deliverables/candidate_figures/v2/README.md)
+- [V4 高级复合候选图说明](deliverables/candidate_figures/v4_advanced/README.md) · [montage 预览](deliverables/candidate_figures/v4_advanced/advanced_figures_montage.png)（`candidate-only`，未进入 `paper/`）
 - [完整论文 PDF](paper/pdf/C_microgrid.pdf)
 
 ## 快速复现
@@ -144,17 +145,20 @@ Q4 的新预报重规划相对裕量方案仍增加 530,789.48 元（3.3546%）�
 | [`deliverables/final_submission/excel/`](deliverables/final_submission/excel) | 五份当前策略官方结果表、摘要和哈希清单 |
 | [`deliverables/`](deliverables) | 论文、图册、旧版本和审阅证据总览 |
 | [`analysis/`](analysis) | 22 个实验目录和可追溯结果档案 |
+| [`deliverables/review/packages/`](deliverables/review/packages) | 历史审阅包与历史目录快照，`historical`、`not-for-submission` |
 | [`docs/`](docs) | 数据、模型、实验、验证和交付文档 |
 | [`scripts/`](scripts) | 时间核验、四问运行、独立复核与构建入口 |
 
 ## 目录治理
 
-项目目录按五类管理，具体边界见 [PROJECT_MAP.md](PROJECT_MAP.md)：
+项目目录按五类管理，具体边界见 [PROJECT_MAP.md](PROJECT_MAP.md) 和[仓库治理规则](docs/REPOSITORY_GOVERNANCE.md)：
 
 - `CUMCM2026Problems/`：题面、附件和官方模板，只读；
 - `data/`：标准化输入，只增不改；
 - `src/`、`scripts/`、`tests/`：模型、运行入口和回归；
 - `analysis/`、`outputs/`：实验与回读证据，保持原路径；
 - `paper/`、`deliverables/`、`docs/`：论文、交付物和文档。
+
+历史审阅包只归档在 `deliverables/review/packages/`；`scripts/verify_repository_layout.py` 可只读检查关键路径、候选图隔离和历史包位置。`.workbuddy-ai/` 是工具元数据，不作为项目事实来源，本轮不处理。
 
 历史版本由 Git 记录，当前工作区只保留一份论文主线。文献与竞赛格式验收完成前，本仓库仍应标记为“候选交付”，不应称为最终封版包。

@@ -1,0 +1,1575 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1093.729574pt" height="725.09735pt" viewBox="0 0 1093.729574 725.09735" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-12T14:38:48.191460</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 725.09735 
+L 1093.729574 725.09735 
+L 1093.729574 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="patch_2">
+   <path d="M 194.738372 328.162909 
+L 452.053281 328.162909 
+L 452.053281 70.848 
+L 194.738372 70.848 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="pane3d_1">
+   <g id="patch_3">
+    <path d="M 343.985673 195.113794 
+L 444.742121 246.997317 
+L 449.03078 145.091071 
+L 344.562529 98.952202 
+" style="fill: #f2f2f2; opacity: 0.5; stroke: #f2f2f2; stroke-linejoin: miter"/>
+   </g>
+  </g>
+  <g id="pane3d_2">
+   <g id="patch_4">
+    <path d="M 343.985673 195.113794 
+L 209.319404 245.04558 
+L 205.054083 143.351112 
+L 344.562529 98.952202 
+" style="fill: #e6e6e6; opacity: 0.5; stroke: #e6e6e6; stroke-linejoin: miter"/>
+   </g>
+  </g>
+  <g id="pane3d_3">
+   <g id="patch_5">
+    <path d="M 343.985673 195.113794 
+L 209.319404 245.04558 
+L 306.979736 305.198471 
+L 444.742121 246.997317 
+" style="fill: #ececec; opacity: 0.5; stroke: #ececec; stroke-linejoin: miter"/>
+   </g>
+  </g>
+  <g id="grid3d_1">
+   <g id="Line3DCollection_1">
+    <path d="M 436.584932 250.443525 
+L 335.969241 198.08614 
+L 336.277259 101.58901 
+" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8"/>
+    <path d="M 408.022566 262.510408 
+L 307.942144 208.478074 
+L 307.290972 110.813968 
+" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8"/>
+    <path d="M 378.503786 274.981353 
+L 279.04569 219.19235 
+L 277.374153 120.33507 
+" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8"/>
+    <path d="M 347.979736 287.876999 
+L 249.238792 230.244202 
+L 246.481262 130.166809 
+" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8"/>
+    <path d="M 316.398174 301.219417 
+L 218.477736 241.649838 
+L 214.563739 140.324641 
+" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8"/>
+   </g>
+  </g>
+  <g id="grid3d_2">
+   <g id="Line3DCollection_2">
+    <path d="M 346.501105 99.808383 
+L 345.86012 196.079021 
+L 211.126186 246.158449 
+" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8"/>
+    <path d="M 363.66513 107.388951 
+L 362.448498 204.62104 
+L 227.132303 256.017254 
+" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8"/>
+    <path d="M 381.28205 115.169543 
+L 379.459925 213.380904 
+L 243.577577 266.146554 
+" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8"/>
+    <path d="M 399.370032 123.158181 
+L 396.910792 222.367053 
+L 260.480334 276.557636 
+" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8"/>
+    <path d="M 417.948224 131.363322 
+L 414.818349 231.58837 
+L 277.859931 287.262423 
+" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8"/>
+    <path d="M 437.036829 139.793889 
+L 433.200763 241.05421 
+L 295.736837 298.273522 
+" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8"/>
+   </g>
+  </g>
+  <g id="grid3d_3">
+   <g id="Line3DCollection_3">
+    <path d="M 208.953857 236.330141 
+L 344.035223 186.853771 
+L 445.109636 238.264505 
+" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8"/>
+    <path d="M 208.062359 215.074916 
+L 344.155978 166.723992 
+L 446.005957 216.966301 
+" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8"/>
+    <path d="M 207.157279 193.495853 
+L 344.278444 146.308935 
+L 446.915972 195.342718 
+" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8"/>
+    <path d="M 206.238304 171.585495 
+L 344.402659 125.602493 
+L 447.839996 173.386242 
+" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8"/>
+    <path d="M 205.30511 149.336154 
+L 344.528659 104.598381 
+L 448.778356 151.089126 
+" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8"/>
+   </g>
+  </g>
+  <g id="axis3d_1">
+   <g id="line2d_1">
+    <path d="M 444.742121 246.997317 
+L 306.979736 305.198471 
+" style="fill: none; stroke: #d9e3e8; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="xtick_1">
+    <g id="line2d_2">
+     <path d="M 435.718604 249.992713 
+L 438.320792 251.346814 
+" style="fill: none; stroke: #667780; stroke-width: 0.7; stroke-linecap: square"/>
+    </g>
+    <g id="text_1">
+     <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #667780" x="445.583126" y="272.39666" transform="rotate(-0 445.583126 272.39666)">0.5</text>
+    </g>
+   </g>
+   <g id="xtick_2">
+    <g id="line2d_3">
+     <path d="M 407.159841 262.044633 
+L 409.751258 263.44371 
+" style="fill: none; stroke: #667780; stroke-width: 0.7; stroke-linecap: square"/>
+    </g>
+    <g id="text_2">
+     <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #667780" x="417.065276" y="284.72825" transform="rotate(-0 417.065276 284.72825)">0.6</text>
+    </g>
+   </g>
+   <g id="xtick_3">
+    <g id="line2d_4">
+     <path d="M 377.645394 274.499855 
+L 380.223851 275.946188 
+" style="fill: none; stroke: #667780; stroke-width: 0.7; stroke-linecap: square"/>
+    </g>
+    <g id="text_3">
+     <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #667780" x="387.58896" y="297.474297" transform="rotate(-0 387.58896 297.474297)">0.7</text>
+    </g>
+   </g>
+   <g id="xtick_4">
+    <g id="line2d_5">
+     <path d="M 347.126474 287.378969 
+L 349.689578 288.874993 
+" style="fill: none; stroke: #667780; stroke-width: 0.7; stroke-linecap: square"/>
+    </g>
+    <g id="text_4">
+     <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #667780" x="357.105033" y="310.656052" transform="rotate(-0 357.105033 310.656052)">0.8</text>
+    </g>
+   </g>
+   <g id="xtick_5">
+    <g id="line2d_6">
+     <path d="M 315.550915 300.703989 
+L 318.096044 302.25231 
+" style="fill: none; stroke: #667780; stroke-width: 0.7; stroke-linecap: square"/>
+    </g>
+    <g id="text_5">
+     <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #667780" x="325.56093" y="324.296244" transform="rotate(-0 325.56093 324.296244)">0.9</text>
+    </g>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #263238" x="399.941373" y="311.363467" transform="rotate(-0 399.941373 311.363467)">τ</text>
+   </g>
+  </g>
+  <g id="axis3d_2">
+   <g id="line2d_7">
+    <path d="M 209.319404 245.04558 
+L 306.979736 305.198471 
+" style="fill: none; stroke: #d9e3e8; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="xtick_6">
+    <g id="line2d_8">
+     <path d="M 212.282939 245.728494 
+L 208.808577 247.019884 
+" style="fill: none; stroke: #667780; stroke-width: 0.7; stroke-linecap: square"/>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #667780" x="199.019385" y="267.846776" transform="rotate(-0 199.019385 267.846776)">0.2</text>
+    </g>
+   </g>
+   <g id="xtick_7">
+    <g id="line2d_9">
+     <path d="M 228.295126 255.575587 
+L 224.802476 256.902177 
+" style="fill: none; stroke: #667780; stroke-width: 0.7; stroke-linecap: square"/>
+    </g>
+    <g id="text_8">
+     <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #667780" x="214.915232" y="277.916638" transform="rotate(-0 214.915232 277.916638)">0.4</text>
+    </g>
+   </g>
+   <g id="xtick_8">
+    <g id="line2d_10">
+     <path d="M 244.746371 265.69269 
+L 241.235729 267.055937 
+" style="fill: none; stroke: #667780; stroke-width: 0.7; stroke-linecap: square"/>
+    </g>
+    <g id="text_9">
+     <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #667780" x="231.248707" y="288.263733" transform="rotate(-0 231.248707 288.263733)">0.6</text>
+    </g>
+   </g>
+   <g id="xtick_9">
+    <g id="line2d_11">
+     <path d="M 261.654983 276.091061 
+L 258.126694 277.492508 
+" style="fill: none; stroke: #667780; stroke-width: 0.7; stroke-linecap: square"/>
+    </g>
+    <g id="text_10">
+     <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #667780" x="248.038133" y="298.899668" transform="rotate(-0 248.038133 298.899668)">0.8</text>
+    </g>
+   </g>
+   <g id="xtick_10">
+    <g id="line2d_12">
+     <path d="M 279.040304 286.782597 
+L 275.494763 288.223871 
+" style="fill: none; stroke: #667780; stroke-width: 0.7; stroke-linecap: square"/>
+    </g>
+    <g id="text_11">
+     <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #667780" x="265.302873" y="309.83671" transform="rotate(-0 265.302873 309.83671)">1.0</text>
+    </g>
+   </g>
+   <g id="xtick_11">
+    <g id="line2d_13">
+     <path d="M 296.922782 297.779872 
+L 293.36044 299.262696 
+" style="fill: none; stroke: #667780; stroke-width: 0.7; stroke-linecap: square"/>
+    </g>
+    <g id="text_12">
+     <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #667780" x="283.063401" y="321.087829" transform="rotate(-0 283.063401 321.087829)">1.2</text>
+    </g>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #263238" x="225.040761" y="309.274048" transform="rotate(-328.369429 225.040761 309.274048)">scale</text>
+   </g>
+  </g>
+  <g id="axis3d_3">
+   <g id="line2d_14">
+    <path d="M 209.319404 245.04558 
+L 205.054083 143.351112 
+" style="fill: none; stroke: #d9e3e8; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="xtick_12">
+    <g id="line2d_15">
+     <path d="M 210.113717 235.905318 
+L 206.630015 237.181296 
+" style="fill: none; stroke: #667780; stroke-width: 0.7; stroke-linecap: square"/>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #667780" x="188.748556" y="244.764638" transform="rotate(-0 188.748556 244.764638)">930000</text>
+    </g>
+   </g>
+   <g id="xtick_13">
+    <g id="line2d_16">
+     <path d="M 209.231514 214.659542 
+L 205.719864 215.90715 
+" style="fill: none; stroke: #667780; stroke-width: 0.7; stroke-linecap: square"/>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #667780" x="187.704544" y="223.513094" transform="rotate(-0 187.704544 223.513094)">940000</text>
+    </g>
+   </g>
+   <g id="xtick_14">
+    <g id="line2d_17">
+     <path d="M 208.335878 193.090267 
+L 204.795829 194.308489 
+" style="fill: none; stroke: #667780; stroke-width: 0.7; stroke-linecap: square"/>
+    </g>
+    <g id="text_16">
+     <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #667780" x="186.644629" y="201.937844" transform="rotate(-0 186.644629 201.937844)">950000</text>
+    </g>
+   </g>
+   <g id="xtick_15">
+    <g id="line2d_18">
+     <path d="M 207.4265 171.190047 
+L 203.857591 172.377829 
+" style="fill: none; stroke: #667780; stroke-width: 0.7; stroke-linecap: square"/>
+    </g>
+    <g id="text_17">
+     <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #667780" x="185.568445" y="180.031435" transform="rotate(-0 185.568445 180.031435)">960000</text>
+    </g>
+   </g>
+   <g id="xtick_16">
+    <g id="line2d_19">
+     <path d="M 206.503062 148.951207 
+L 202.90482 150.107458 
+" style="fill: none; stroke: #667780; stroke-width: 0.7; stroke-linecap: square"/>
+    </g>
+    <g id="text_18">
+     <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #667780" x="184.475616" y="157.786184" transform="rotate(-0 184.475616 157.786184)">970000</text>
+    </g>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #263238" x="153.728893" y="194.869954" transform="rotate(-272.401721 153.728893 194.869954)">总费用 / 元</text>
+   </g>
+  </g>
+  <g id="axes_1">
+   <g id="Path3DCollection_1">
+    <defs>
+     <path id="m469fc89082" d="M 0 -4.873397 
+L -1.094146 -1.505963 
+L -4.634876 -1.505963 
+L -1.770365 0.575226 
+L -2.864511 3.942661 
+L -0 1.861472 
+L 2.864511 3.942661 
+L 1.770365 0.575226 
+L 4.634876 -1.505963 
+L 1.094146 -1.505963 
+z
+" style="stroke: #ffffff; stroke-width: 0.7"/>
+    </defs>
+    <g clip-path="url(#pfdafbc60e9)">
+     <use xlink:href="#m469fc89082" x="265.344154" y="263.051812" style="fill: #4e8b73; stroke: #ffffff; stroke-width: 0.7"/>
+    </g>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'PingFang SC'; text-anchor: start; fill: #d96c5f" x="174.153179" y="58.735404" transform="rotate(-0 174.153179 58.735404)">A</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 8px; font-family: 'PingFang SC'; text-anchor: start; fill: #d96c5f" x="318.530533" y="256.688802" transform="rotate(-0 318.530533 256.688802)">冻结候选</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 8px; font-family: 'PingFang SC'; text-anchor: start; fill: #4e8b73" x="265.50337" y="270.257729" transform="rotate(-0 265.50337 270.257729)">网格最低</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 7.7px; font-family: 'PingFang SC'; text-anchor: start; fill: #667780" x="202.457819" y="353.8944" transform="rotate(-0 202.457819 353.8944)">视角固定为凹面朝向读者；底部为等高线投影</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 10.5px; font-family: 'PingFang SC'; text-anchor: start; fill: #143b5d" x="194.738372" y="66.848" transform="rotate(-0 194.738372 66.848)">81 个真实节点；无平滑插值</text>
+   </g>
+   <g id="Path3DCollection_2">
+    <defs>
+     <path id="m883ce5d057" d="M 0 -5.91608 
+L -1.328243 -1.828169 
+L -5.626526 -1.828169 
+L -2.149142 0.698298 
+L -3.477384 4.786209 
+L -0 2.259741 
+L 3.477384 4.786209 
+L 2.149142 0.698298 
+L 5.626526 -1.828169 
+L 1.328243 -1.828169 
+z
+" style="stroke: #ffffff; stroke-width: 0.7"/>
+    </defs>
+    <g clip-path="url(#pfdafbc60e9)">
+     <use xlink:href="#m883ce5d057" x="318.541374" y="260.315704" style="fill: #d96c5f; stroke: #ffffff; stroke-width: 0.7"/>
+    </g>
+   </g>
+   <g id="QuadContourSet3D_1">
+    <path clip-path="url(#pfdafbc60e9)" style="fill: none; stroke: #143b5d; stroke-opacity: 0.8; stroke-width: 0.65"/>
+    <path d="M 253.385482 262.885852 
+L 256.883683 263.06366 
+L 275.869519 266.163681 
+L 286.382679 267.120756 
+L 294.7531 269.394094 
+L 306.65501 275.557128 
+L 304.723701 278.047538 
+L 302.191514 277.371553 
+L 284.537381 273.486923 
+L 272.124171 274.285472 
+" clip-path="url(#pfdafbc60e9)" style="fill: none; stroke: #4ea3c7; stroke-opacity: 0.8; stroke-width: 0.65"/>
+    <path d="M 239.107198 254.199704 
+L 254.157043 253.805433 
+L 264.712623 254.21068 
+L 277.672147 254.968478 
+L 294.736332 256.800059 
+L 298.380576 257.273074 
+L 316.975839 260.490769 
+L 331.734167 263.276259 
+L 334.827009 264.105116 
+L 350.496225 268.726965 
+L 365.848502 273.620886 
+M 323.470012 291.367291 
+L 305.680731 287.215171 
+L 290.446255 285.431652 
+" clip-path="url(#pfdafbc60e9)" style="fill: none; stroke: #e9a34e; stroke-opacity: 0.8; stroke-width: 0.65"/>
+    <path d="M 231.119988 249.340711 
+L 242.332066 248.246037 
+L 254.267951 247.988198 
+L 269.79155 247.801409 
+L 280.256585 248.348567 
+L 292.523357 249.185307 
+L 310.829692 251.317285 
+L 312.681025 251.625198 
+L 329.796887 255.35414 
+L 346.207017 259.479105 
+L 355.165973 261.89048 
+L 361.642082 264.128847 
+L 375.748199 269.475293 
+M 315.916339 294.530464 
+L 301.649832 292.247311 
+" clip-path="url(#pfdafbc60e9)" style="fill: none; stroke: #143b5d; stroke-opacity: 0.8; stroke-width: 0.65"/>
+    <path d="M 225.039331 245.641563 
+L 246.592633 243.415578 
+L 257.469832 242.512045 
+L 269.986978 242.354436 
+L 283.726176 242.45018 
+L 296.911748 243.355146 
+L 305.180496 244.256523 
+L 323.421535 247.383298 
+L 332.940673 249.423648 
+L 339.886821 251.311706 
+L 354.757949 256.003123 
+L 369.094795 261.054301 
+L 383.156689 266.372916 
+" clip-path="url(#pfdafbc60e9)" style="fill: none; stroke: #4ea3c7; stroke-opacity: 0.8; stroke-width: 0.65"/>
+    <path d="M 238.990436 239.666068 
+L 240.104104 239.549995 
+L 261.611069 237.465612 
+L 272.618755 236.773827 
+L 285.559997 236.861068 
+L 296.851357 237.409797 
+L 315.695587 239.750367 
+L 316.418312 239.880435 
+L 332.838787 243.664011 
+L 347.965435 248.075088 
+L 362.38965 252.900811 
+L 369.005064 255.279682 
+L 376.610082 257.953941 
+L 390.60516 263.253796 
+" clip-path="url(#pfdafbc60e9)" style="fill: none; stroke: #e9a34e; stroke-opacity: 0.8; stroke-width: 0.65"/>
+    <path d="M 257.638027 232.697623 
+L 275.765915 231.258097 
+L 287.919394 230.978141 
+L 301.442896 231.755609 
+L 309.186004 232.672998 
+L 326.280364 236.040079 
+L 341.591182 240.207305 
+L 341.636605 240.221328 
+L 356.566235 244.629261 
+L 370.794338 249.484277 
+L 384.56568 254.671935 
+L 398.078229 260.124376 
+" clip-path="url(#pfdafbc60e9)" style="fill: none; stroke: #143b5d; stroke-opacity: 0.8; stroke-width: 0.65"/>
+    <path d="M 278.191889 225.016822 
+L 288.790701 224.658617 
+L 302.900106 225.303639 
+L 319.246349 227.902022 
+L 320.914801 228.168859 
+L 337.307264 231.746122 
+L 352.029709 236.084671 
+L 365.874395 240.900037 
+L 372.88192 243.538355 
+L 379.455046 245.963671 
+L 392.834085 251.260883 
+L 406.001885 256.806268 
+" clip-path="url(#pfdafbc60e9)" style="fill: none; stroke: #4ea3c7; stroke-opacity: 0.8; stroke-width: 0.65"/>
+    <path d="M 299.184571 217.172036 
+L 299.817323 217.212009 
+L 319.67712 218.948721 
+L 332.792187 221.894343 
+L 335.566301 222.542333 
+L 350.153514 226.743697 
+L 363.614683 231.509256 
+L 376.5283 236.631653 
+L 389.177509 242.011457 
+L 401.705075 247.60124 
+L 414.221338 253.364292 
+" clip-path="url(#pfdafbc60e9)" style="fill: none; stroke: #e9a34e; stroke-opacity: 0.8; stroke-width: 0.65"/>
+    <path d="M 329.453443 205.860819 
+L 344.073568 209.707659 
+L 356.721884 214.418084 
+L 368.691349 219.524927 
+L 380.392463 224.882972 
+L 392.040057 230.417018 
+L 403.724716 236.097969 
+L 415.498888 241.910733 
+L 427.395931 247.847304 
+" clip-path="url(#pfdafbc60e9)" style="fill: none; stroke: #143b5d; stroke-opacity: 0.8; stroke-width: 0.65"/>
+    <path clip-path="url(#pfdafbc60e9)" style="fill: none; stroke: #4ea3c7; stroke-opacity: 0.8; stroke-width: 0.65"/>
+   </g>
+   <g id="Poly3DCollection_1">
+    <path d="M 342.435502 107.919075 
+L 328.052643 114.933547 
+L 338.718825 121.037919 
+L 353.148083 112.776145 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #e9a34e; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 328.052643 114.933547 
+L 313.475614 124.245227 
+L 324.097634 132.592879 
+L 338.718825 121.037919 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #cb9450; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 353.148083 112.776145 
+L 338.718825 121.037919 
+L 349.552858 127.210848 
+L 364.036443 117.712073 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #e6a24e; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 313.475614 124.245227 
+L 298.723997 134.869491 
+L 309.320002 145.926046 
+L 324.097634 132.592879 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #9b7d53; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 338.718825 121.037919 
+L 324.097634 132.592879 
+L 334.87218 140.92036 
+L 349.552858 127.210848 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #b98c51; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 364.036443 117.712073 
+L 349.552858 127.210848 
+L 360.559023 133.455744 
+L 375.104943 122.729503 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #e19f4f; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 298.723997 134.869491 
+L 283.821004 147.364601 
+L 294.416591 161.737271 
+L 309.320002 145.926046 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #5f6058; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 324.097634 132.592879 
+L 309.320002 145.926046 
+L 320.048673 156.788937 
+L 334.87218 140.92036 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #7b6d56; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 349.552858 127.210848 
+L 334.87218 140.92036 
+L 345.804082 149.237407 
+L 360.559023 133.455744 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #aa8452; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 283.821004 147.364601 
+L 268.75595 159.989062 
+L 279.380477 177.503351 
+L 294.416591 161.737271 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #1e405c; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 309.320002 145.926046 
+L 294.416591 161.737271 
+L 305.118254 175.681973 
+L 320.048673 156.788937 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #2b465b; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 375.104943 122.729503 
+L 360.559023 133.455744 
+L 371.742246 139.742235 
+L 386.358087 127.830635 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #dc9d4f; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 334.87218 140.92036 
+L 320.048673 156.788937 
+L 330.916276 167.482877 
+L 345.804082 149.237407 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #5a5d58; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 294.416591 161.737271 
+L 279.380477 177.503351 
+L 290.075738 193.757448 
+L 305.118254 175.681973 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #265b7d; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 268.75595 159.989062 
+L 253.540417 173.307221 
+L 264.212824 193.491604 
+L 279.380477 177.503351 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #24577a; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 360.559023 133.455744 
+L 345.804082 149.237407 
+L 356.8983 157.546153 
+L 371.742246 139.742235 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #9b7d53; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 320.048673 156.788937 
+L 305.118254 175.681973 
+L 315.93358 189.031726 
+L 330.916276 167.482877 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #1c486b; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 279.380477 177.503351 
+L 264.212824 193.491604 
+L 274.910571 211.334439 
+L 290.075738 193.757448 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #3d84a8; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 253.540417 173.307221 
+L 238.189603 187.603591 
+L 248.923669 210.084441 
+L 264.212824 193.491604 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #377b9e; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 386.358087 127.830635 
+L 371.742246 139.742235 
+L 383.106847 146.105558 
+L 397.800536 133.01758 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #da9c4f; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 305.118254 175.681973 
+L 290.075738 193.757448 
+L 300.85933 208.833418 
+L 315.93358 189.031726 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #377b9e; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 345.804082 149.237407 
+L 330.916276 167.482877 
+L 341.928904 178.043056 
+L 356.8983 157.546153 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #3c4f5a; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 264.212824 193.491604 
+L 248.923669 210.084441 
+L 259.611787 228.446546 
+L 274.910571 211.334439 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #5baacb; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 330.916276 167.482877 
+L 315.93358 189.031726 
+L 326.873055 201.757902 
+L 341.928904 178.043056 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #285e81; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 290.075738 193.757448 
+L 274.910571 211.334439 
+L 285.660423 226.734909 
+L 300.85933 208.833418 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #56a7ca; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 238.189603 187.603591 
+L 222.721556 203.059264 
+L 233.500572 226.725758 
+L 248.923669 210.084441 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #4c9fc3; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 371.742246 139.742235 
+L 356.8983 157.546153 
+L 368.15972 165.866106 
+L 383.106847 146.105558 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #8c7655; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 315.93358 189.031726 
+L 300.85933 208.833418 
+L 311.746764 222.523855 
+L 326.873055 201.757902 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #4898bc; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 248.923669 210.084441 
+L 233.500572 226.725758 
+L 244.127348 243.726343 
+L 259.611787 228.446546 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #8fc4db; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 356.8983 157.546153 
+L 341.928904 178.043056 
+L 353.093617 188.367736 
+L 368.15972 165.866106 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #21415c; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 274.910571 211.334439 
+L 259.611787 228.446546 
+L 270.304132 242.833726 
+L 285.660423 226.734909 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #8fc4db; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 397.800536 133.01758 
+L 383.106847 146.105558 
+L 394.657482 152.551152 
+L 409.437107 138.292522 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #d5994f; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 300.85933 208.833418 
+L 285.660423 226.734909 
+L 296.492208 239.621824 
+L 311.746764 222.523855 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #80bcd6; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 341.928904 178.043056 
+L 326.873055 201.757902 
+L 337.947706 213.921818 
+L 353.093617 188.367736 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #337396; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 326.873055 201.757902 
+L 311.746764 222.523855 
+L 322.757711 234.77131 
+L 337.947706 213.921818 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #60accd; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 383.106847 146.105558 
+L 368.15972 165.866106 
+L 379.593093 174.218831 
+L 394.657482 152.551152 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #807055; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 259.611787 228.446546 
+L 244.127348 243.726343 
+L 254.721674 255.802844 
+L 270.304132 242.833726 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #bedbe9; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 285.660423 226.734909 
+L 270.304132 242.833726 
+L 281.065153 254.267735 
+L 296.492208 239.621824 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #b4d6e6; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 368.15972 165.866106 
+L 353.093617 188.367736 
+L 364.417195 198.520051 
+L 379.593093 174.218831 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #174163; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 311.746764 222.523855 
+L 296.492208 239.621824 
+L 307.444043 250.767591 
+L 322.757711 234.77131 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #a0cce0; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 353.093617 188.367736 
+L 337.947706 213.921818 
+L 349.169527 225.399882 
+L 364.417195 198.520051 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #3e86a9; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 409.437107 138.292522 
+L 394.657482 152.551152 
+L 406.398927 159.084201 
+L 421.272782 143.657719 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #d09750; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 337.947706 213.921818 
+L 322.757711 234.77131 
+L 333.91311 245.719546 
+L 349.169527 225.399882 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #7bbad5; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 270.304132 242.833726 
+L 254.721674 255.802844 
+L 265.344154 263.051812 
+L 281.065153 254.267735 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #d7e7f0; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 394.657482 152.551152 
+L 379.593093 174.218831 
+L 391.205317 182.524227 
+L 406.398927 159.084201 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #716856; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 296.492208 239.621824 
+L 281.065153 254.267735 
+L 291.930035 262.525586 
+L 307.444043 250.767591 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #cbe2ed; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 379.593093 174.218831 
+L 364.417195 198.520051 
+L 375.907011 208.487841 
+L 391.205317 182.524227 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #1e4d70; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 322.757711 234.77131 
+L 307.444043 250.767591 
+L 318.541374 260.315704 
+L 333.91311 245.719546 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #b6d7e6; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 364.417195 198.520051 
+L 349.169527 225.399882 
+L 360.551028 236.233716 
+L 375.907011 208.487841 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #4797bb; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 421.272782 143.657719 
+L 406.398927 159.084201 
+L 418.336099 165.70928 
+L 433.312716 149.115508 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #cd9650; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 349.169527 225.399882 
+L 333.91311 245.719546 
+L 345.229588 255.954717 
+L 360.551028 236.233716 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #92c5dc; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 281.065153 254.267735 
+L 265.344154 263.051812 
+L 276.077657 266.727782 
+L 291.930035 262.525586 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #dceaf2; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 406.398927 159.084201 
+L 391.205317 182.524227 
+L 403.002313 190.797588 
+L 418.336099 165.70928 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #646257; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 307.444043 250.767591 
+L 291.930035 262.525586 
+L 302.948588 268.480203 
+L 318.541374 260.315704 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #d7e7f0; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 391.205317 182.524227 
+L 375.907011 208.487841 
+L 387.570562 218.277129 
+L 403.002313 190.797588 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #255a7c; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 333.91311 245.719546 
+L 318.541374 260.315704 
+L 329.808772 268.091773 
+L 345.229588 255.954717 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #c6dfeb; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 375.907011 208.487841 
+L 360.551028 236.233716 
+L 372.106472 246.348738 
+L 387.570562 218.277129 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #50a4c8; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 360.551028 236.233716 
+L 345.229588 255.954717 
+L 356.721887 265.415644 
+L 372.106472 246.348738 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #a5cee1; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 318.541374 260.315704 
+L 302.948588 268.480203 
+L 314.154691 272.181272 
+L 329.808772 268.091773 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #d7e7f0; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 291.930035 262.525586 
+L 276.077657 266.727782 
+L 286.964258 266.424776 
+L 302.948588 268.480203 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #d2e5ef; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 345.229588 255.954717 
+L 329.808772 268.091773 
+L 341.274177 274.038945 
+L 356.721887 265.415644 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #d0e4ee; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 329.808772 268.091773 
+L 314.154691 272.181272 
+L 325.582813 273.428479 
+L 341.274177 274.038945 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #cfe3ee; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 302.948588 268.480203 
+L 286.964258 266.424776 
+L 298.064583 262.691517 
+L 314.154691 272.181272 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #bbd9e8; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+    <path d="M 314.154691 272.181272 
+L 298.064583 262.691517 
+L 309.434392 256.334064 
+L 325.582813 273.428479 
+z
+" clip-path="url(#pfdafbc60e9)" style="fill: #94c6dc; fill-opacity: 0.93; stroke: #ffffff; stroke-width: 0.42"/>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_6">
+    <path d="M 678.089739 175.447557 
+L 1053.648 175.447557 
+L 1053.648 70.848 
+L 678.089739 70.848 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_17">
+     <g id="line2d_20">
+      <defs>
+       <path id="m717887a7fa" d="M 0 0 
+L 0 3.5 
+" style="stroke: #667780; stroke-width: 0.7"/>
+      </defs>
+      <g>
+       <use xlink:href="#m717887a7fa" x="695.160569" y="175.447557" style="fill: #667780; stroke: #667780; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_25">
+      <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #667780" x="695.160569" y="191.047557" transform="rotate(-0 695.160569 191.047557)">0.50</text>
+     </g>
+    </g>
+    <g id="xtick_18">
+     <g id="line2d_21">
+      <g>
+       <use xlink:href="#m717887a7fa" x="737.837644" y="175.447557" style="fill: #667780; stroke: #667780; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_26">
+      <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #667780" x="737.837644" y="191.047557" transform="rotate(-0 737.837644 191.047557)">0.55</text>
+     </g>
+    </g>
+    <g id="xtick_19">
+     <g id="line2d_22">
+      <g>
+       <use xlink:href="#m717887a7fa" x="780.514719" y="175.447557" style="fill: #667780; stroke: #667780; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_27">
+      <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #667780" x="780.514719" y="191.047557" transform="rotate(-0 780.514719 191.047557)">0.60</text>
+     </g>
+    </g>
+    <g id="xtick_20">
+     <g id="line2d_23">
+      <g>
+       <use xlink:href="#m717887a7fa" x="823.191794" y="175.447557" style="fill: #667780; stroke: #667780; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_28">
+      <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #667780" x="823.191794" y="191.047557" transform="rotate(-0 823.191794 191.047557)">0.65</text>
+     </g>
+    </g>
+    <g id="xtick_21">
+     <g id="line2d_24">
+      <g>
+       <use xlink:href="#m717887a7fa" x="865.86887" y="175.447557" style="fill: #667780; stroke: #667780; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_29">
+      <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #667780" x="865.86887" y="191.047557" transform="rotate(-0 865.86887 191.047557)">0.70</text>
+     </g>
+    </g>
+    <g id="xtick_22">
+     <g id="line2d_25">
+      <g>
+       <use xlink:href="#m717887a7fa" x="908.545945" y="175.447557" style="fill: #667780; stroke: #667780; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_30">
+      <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #667780" x="908.545945" y="191.047557" transform="rotate(-0 908.545945 191.047557)">0.75</text>
+     </g>
+    </g>
+    <g id="xtick_23">
+     <g id="line2d_26">
+      <g>
+       <use xlink:href="#m717887a7fa" x="951.22302" y="175.447557" style="fill: #667780; stroke: #667780; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_31">
+      <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #667780" x="951.22302" y="191.047557" transform="rotate(-0 951.22302 191.047557)">0.80</text>
+     </g>
+    </g>
+    <g id="xtick_24">
+     <g id="line2d_27">
+      <g>
+       <use xlink:href="#m717887a7fa" x="993.900095" y="175.447557" style="fill: #667780; stroke: #667780; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_32">
+      <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #667780" x="993.900095" y="191.047557" transform="rotate(-0 993.900095 191.047557)">0.85</text>
+     </g>
+    </g>
+    <g id="xtick_25">
+     <g id="line2d_28">
+      <g>
+       <use xlink:href="#m717887a7fa" x="1036.57717" y="175.447557" style="fill: #667780; stroke: #667780; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_33">
+      <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #667780" x="1036.57717" y="191.047557" transform="rotate(-0 1036.57717 191.047557)">0.90</text>
+     </g>
+    </g>
+    <g id="text_34">
+     <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #263238" x="865.86887" y="205.047557" transform="rotate(-0 865.86887 205.047557)">τ</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_29">
+      <path d="M 678.089739 170.222614 
+L 1053.648 170.222614 
+" clip-path="url(#p14d159424a)" style="fill: none; stroke: #d9e3e8; stroke-opacity: 0.55; stroke-width: 0.55; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_30">
+      <defs>
+       <path id="ma80fb7e7cb" d="M 0 0 
+L -3.5 0 
+" style="stroke: #667780; stroke-width: 0.7"/>
+      </defs>
+      <g>
+       <use xlink:href="#ma80fb7e7cb" x="678.089739" y="170.222614" style="fill: #667780; stroke: #667780; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_35">
+      <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: end; fill: #667780" x="671.089739" y="174.522614" transform="rotate(-0 671.089739 174.522614)">930000</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_31">
+      <path d="M 678.089739 147.070571 
+L 1053.648 147.070571 
+" clip-path="url(#p14d159424a)" style="fill: none; stroke: #d9e3e8; stroke-opacity: 0.55; stroke-width: 0.55; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_32">
+      <g>
+       <use xlink:href="#ma80fb7e7cb" x="678.089739" y="147.070571" style="fill: #667780; stroke: #667780; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_36">
+      <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: end; fill: #667780" x="671.089739" y="151.370571" transform="rotate(-0 671.089739 151.370571)">940000</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_33">
+      <path d="M 678.089739 123.918528 
+L 1053.648 123.918528 
+" clip-path="url(#p14d159424a)" style="fill: none; stroke: #d9e3e8; stroke-opacity: 0.55; stroke-width: 0.55; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_34">
+      <g>
+       <use xlink:href="#ma80fb7e7cb" x="678.089739" y="123.918528" style="fill: #667780; stroke: #667780; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_37">
+      <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: end; fill: #667780" x="671.089739" y="128.218528" transform="rotate(-0 671.089739 128.218528)">950000</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_35">
+      <path d="M 678.089739 100.766486 
+L 1053.648 100.766486 
+" clip-path="url(#p14d159424a)" style="fill: none; stroke: #d9e3e8; stroke-opacity: 0.55; stroke-width: 0.55; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_36">
+      <g>
+       <use xlink:href="#ma80fb7e7cb" x="678.089739" y="100.766486" style="fill: #667780; stroke: #667780; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_38">
+      <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: end; fill: #667780" x="671.089739" y="105.066486" transform="rotate(-0 671.089739 105.066486)">960000</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_37">
+      <path d="M 678.089739 77.614443 
+L 1053.648 77.614443 
+" clip-path="url(#p14d159424a)" style="fill: none; stroke: #d9e3e8; stroke-opacity: 0.55; stroke-width: 0.55; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_38">
+      <g>
+       <use xlink:href="#ma80fb7e7cb" x="678.089739" y="77.614443" style="fill: #667780; stroke: #667780; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_39">
+      <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: end; fill: #667780" x="671.089739" y="81.914443" transform="rotate(-0 671.089739 81.914443)">970000</text>
+     </g>
+    </g>
+    <g id="text_40">
+     <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #263238" x="629.689739" y="123.147778" transform="rotate(-90 629.689739 123.147778)">总费用 / 元</text>
+    </g>
+   </g>
+   <g id="line2d_39">
+    <path d="M 695.160569 75.602525 
+L 737.837644 85.090745 
+L 780.514719 102.171278 
+L 823.191794 121.909381 
+L 865.86887 144.300827 
+L 908.545945 159.617652 
+L 951.22302 168.666446 
+L 993.900095 170.693031 
+L 1036.57717 161.809267 
+" clip-path="url(#p14d159424a)" style="fill: none; stroke: #143b5d; stroke-width: 1.8; stroke-linecap: square"/>
+    <defs>
+     <path id="m478c2e65ec" d="M 0 2.25 
+C 0.596707 2.25 1.169055 2.012926 1.59099 1.59099 
+C 2.012926 1.169055 2.25 0.596707 2.25 0 
+C 2.25 -0.596707 2.012926 -1.169055 1.59099 -1.59099 
+C 1.169055 -2.012926 0.596707 -2.25 0 -2.25 
+C -0.596707 -2.25 -1.169055 -2.012926 -1.59099 -1.59099 
+C -2.012926 -1.169055 -2.25 -0.596707 -2.25 0 
+C -2.25 0.596707 -2.012926 1.169055 -1.59099 1.59099 
+C -1.169055 2.012926 -0.596707 2.25 0 2.25 
+z
+" style="stroke: #143b5d"/>
+    </defs>
+    <g clip-path="url(#p14d159424a)">
+     <use xlink:href="#m478c2e65ec" x="695.160569" y="75.602525" style="fill: #143b5d; stroke: #143b5d"/>
+     <use xlink:href="#m478c2e65ec" x="737.837644" y="85.090745" style="fill: #143b5d; stroke: #143b5d"/>
+     <use xlink:href="#m478c2e65ec" x="780.514719" y="102.171278" style="fill: #143b5d; stroke: #143b5d"/>
+     <use xlink:href="#m478c2e65ec" x="823.191794" y="121.909381" style="fill: #143b5d; stroke: #143b5d"/>
+     <use xlink:href="#m478c2e65ec" x="865.86887" y="144.300827" style="fill: #143b5d; stroke: #143b5d"/>
+     <use xlink:href="#m478c2e65ec" x="908.545945" y="159.617652" style="fill: #143b5d; stroke: #143b5d"/>
+     <use xlink:href="#m478c2e65ec" x="951.22302" y="168.666446" style="fill: #143b5d; stroke: #143b5d"/>
+     <use xlink:href="#m478c2e65ec" x="993.900095" y="170.693031" style="fill: #143b5d; stroke: #143b5d"/>
+     <use xlink:href="#m478c2e65ec" x="1036.57717" y="161.809267" style="fill: #143b5d; stroke: #143b5d"/>
+    </g>
+   </g>
+   <g id="patch_7">
+    <path d="M 678.089739 175.447557 
+L 678.089739 70.848 
+" style="fill: none; stroke: #d9e3e8; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 678.089739 175.447557 
+L 1053.648 175.447557 
+" style="fill: none; stroke: #d9e3e8; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_41">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'PingFang SC'; text-anchor: start; fill: #d96c5f" x="648.045078" y="64.844018" transform="rotate(-0 648.045078 64.844018)">B</text>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="mca1e53998f" d="M 0 -5 
+L -1.12257 -1.545085 
+L -4.755283 -1.545085 
+L -1.816356 0.59017 
+L -2.938926 4.045085 
+L -0 1.90983 
+L 2.938926 4.045085 
+L 1.816356 0.59017 
+L 4.755283 -1.545085 
+L 1.12257 -1.545085 
+z
+" style="stroke: #ffffff"/>
+    </defs>
+    <g clip-path="url(#p14d159424a)">
+     <use xlink:href="#mca1e53998f" x="951.22302" y="168.666446" style="fill: #d96c5f; stroke: #ffffff"/>
+    </g>
+   </g>
+   <g id="PathCollection_2">
+    <defs>
+     <path id="mf118cada15" d="M 0 -4.41588 
+L -0.991427 -1.364582 
+L -4.199752 -1.364582 
+L -1.604162 0.521224 
+L -2.595589 3.572522 
+L -0 1.686716 
+L 2.595589 3.572522 
+L 1.604162 0.521224 
+L 4.199752 -1.364582 
+L 0.991427 -1.364582 
+z
+" style="stroke: #ffffff"/>
+    </defs>
+    <g clip-path="url(#p14d159424a)">
+     <use xlink:href="#mf118cada15" x="993.900095" y="170.693031" style="fill: #4e8b73; stroke: #ffffff"/>
+    </g>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 7.6px; font-family: 'PingFang SC'; text-anchor: end; fill: #667780" x="1046.136835" y="170.040449" transform="rotate(-0 1046.136835 170.040449)">跨度 ¥41,072</text>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 10.2px; font-family: 'PingFang SC'; text-anchor: start; fill: #143b5d" x="678.089739" y="62.848" transform="rotate(-0 678.089739 62.848)">局部剖面：固定 scale = 1.00</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_9">
+    <path d="M 678.089739 328.162909 
+L 1053.648 328.162909 
+L 1053.648 223.563353 
+L 678.089739 223.563353 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_26">
+     <g id="line2d_40">
+      <g>
+       <use xlink:href="#m717887a7fa" x="678.089739" y="328.162909" style="fill: #667780; stroke: #667780; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_44">
+      <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #667780" x="678.089739" y="343.762909" transform="rotate(-0 678.089739 343.762909)">0.2</text>
+     </g>
+    </g>
+    <g id="xtick_27">
+     <g id="line2d_41">
+      <g>
+       <use xlink:href="#m717887a7fa" x="746.373059" y="328.162909" style="fill: #667780; stroke: #667780; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_45">
+      <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #667780" x="746.373059" y="343.762909" transform="rotate(-0 746.373059 343.762909)">0.4</text>
+     </g>
+    </g>
+    <g id="xtick_28">
+     <g id="line2d_42">
+      <g>
+       <use xlink:href="#m717887a7fa" x="814.656379" y="328.162909" style="fill: #667780; stroke: #667780; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_46">
+      <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #667780" x="814.656379" y="343.762909" transform="rotate(-0 814.656379 343.762909)">0.6</text>
+     </g>
+    </g>
+    <g id="xtick_29">
+     <g id="line2d_43">
+      <g>
+       <use xlink:href="#m717887a7fa" x="882.9397" y="328.162909" style="fill: #667780; stroke: #667780; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_47">
+      <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #667780" x="882.9397" y="343.762909" transform="rotate(-0 882.9397 343.762909)">0.8</text>
+     </g>
+    </g>
+    <g id="xtick_30">
+     <g id="line2d_44">
+      <g>
+       <use xlink:href="#m717887a7fa" x="951.22302" y="328.162909" style="fill: #667780; stroke: #667780; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_48">
+      <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #667780" x="951.22302" y="343.762909" transform="rotate(-0 951.22302 343.762909)">1.0</text>
+     </g>
+    </g>
+    <g id="xtick_31">
+     <g id="line2d_45">
+      <g>
+       <use xlink:href="#m717887a7fa" x="1019.50634" y="328.162909" style="fill: #667780; stroke: #667780; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_49">
+      <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #667780" x="1019.50634" y="343.762909" transform="rotate(-0 1019.50634 343.762909)">1.2</text>
+     </g>
+    </g>
+    <g id="text_50">
+     <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #263238" x="865.86887" y="357.762909" transform="rotate(-0 865.86887 357.762909)">scale</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_6">
+     <g id="line2d_46">
+      <path d="M 678.089739 323.723815 
+L 1053.648 323.723815 
+" clip-path="url(#p2e1b6f968e)" style="fill: none; stroke: #d9e3e8; stroke-opacity: 0.55; stroke-width: 0.55; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_47">
+      <g>
+       <use xlink:href="#ma80fb7e7cb" x="678.089739" y="323.723815" style="fill: #667780; stroke: #667780; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_51">
+      <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: end; fill: #667780" x="671.089739" y="328.023815" transform="rotate(-0 671.089739 328.023815)">930000</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_48">
+      <path d="M 678.089739 284.57179 
+L 1053.648 284.57179 
+" clip-path="url(#p2e1b6f968e)" style="fill: none; stroke: #d9e3e8; stroke-opacity: 0.55; stroke-width: 0.55; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_49">
+      <g>
+       <use xlink:href="#ma80fb7e7cb" x="678.089739" y="284.57179" style="fill: #667780; stroke: #667780; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_52">
+      <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: end; fill: #667780" x="671.089739" y="288.87179" transform="rotate(-0 671.089739 288.87179)">940000</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_50">
+      <path d="M 678.089739 245.419764 
+L 1053.648 245.419764 
+" clip-path="url(#p2e1b6f968e)" style="fill: none; stroke: #d9e3e8; stroke-opacity: 0.55; stroke-width: 0.55; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_51">
+      <g>
+       <use xlink:href="#ma80fb7e7cb" x="678.089739" y="245.419764" style="fill: #667780; stroke: #667780; stroke-width: 0.7"/>
+      </g>
+     </g>
+     <g id="text_53">
+      <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: end; fill: #667780" x="671.089739" y="249.719764" transform="rotate(-0 671.089739 249.719764)">950000</text>
+     </g>
+    </g>
+    <g id="text_54">
+     <text style="font-size: 10px; font-family: 'PingFang SC'; text-anchor: middle; fill: #263238" x="629.689739" y="275.863131" transform="rotate(-90 629.689739 275.863131)">总费用 / 元</text>
+    </g>
+   </g>
+   <g id="line2d_52">
+    <path d="M 695.160569 228.317878 
+L 737.837644 254.803989 
+L 780.514719 276.777223 
+L 823.191794 294.022109 
+L 865.86887 306.400122 
+L 908.545945 315.32919 
+L 951.22302 321.092207 
+L 993.900095 323.408384 
+L 1036.57717 322.226406 
+" clip-path="url(#p2e1b6f968e)" style="fill: none; stroke: #e9a34e; stroke-width: 1.8; stroke-linecap: square"/>
+    <defs>
+     <path id="mb19321416a" d="M 0 2.25 
+C 0.596707 2.25 1.169055 2.012926 1.59099 1.59099 
+C 2.012926 1.169055 2.25 0.596707 2.25 0 
+C 2.25 -0.596707 2.012926 -1.169055 1.59099 -1.59099 
+C 1.169055 -2.012926 0.596707 -2.25 0 -2.25 
+C -0.596707 -2.25 -1.169055 -2.012926 -1.59099 -1.59099 
+C -2.012926 -1.169055 -2.25 -0.596707 -2.25 0 
+C -2.25 0.596707 -2.012926 1.169055 -1.59099 1.59099 
+C -1.169055 2.012926 -0.596707 2.25 0 2.25 
+z
+" style="stroke: #e9a34e"/>
+    </defs>
+    <g clip-path="url(#p2e1b6f968e)">
+     <use xlink:href="#mb19321416a" x="695.160569" y="228.317878" style="fill: #e9a34e; stroke: #e9a34e"/>
+     <use xlink:href="#mb19321416a" x="737.837644" y="254.803989" style="fill: #e9a34e; stroke: #e9a34e"/>
+     <use xlink:href="#mb19321416a" x="780.514719" y="276.777223" style="fill: #e9a34e; stroke: #e9a34e"/>
+     <use xlink:href="#mb19321416a" x="823.191794" y="294.022109" style="fill: #e9a34e; stroke: #e9a34e"/>
+     <use xlink:href="#mb19321416a" x="865.86887" y="306.400122" style="fill: #e9a34e; stroke: #e9a34e"/>
+     <use xlink:href="#mb19321416a" x="908.545945" y="315.32919" style="fill: #e9a34e; stroke: #e9a34e"/>
+     <use xlink:href="#mb19321416a" x="951.22302" y="321.092207" style="fill: #e9a34e; stroke: #e9a34e"/>
+     <use xlink:href="#mb19321416a" x="993.900095" y="323.408384" style="fill: #e9a34e; stroke: #e9a34e"/>
+     <use xlink:href="#mb19321416a" x="1036.57717" y="322.226406" style="fill: #e9a34e; stroke: #e9a34e"/>
+    </g>
+   </g>
+   <g id="patch_10">
+    <path d="M 678.089739 328.162909 
+L 678.089739 223.563353 
+" style="fill: none; stroke: #d9e3e8; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 678.089739 328.162909 
+L 1053.648 328.162909 
+" style="fill: none; stroke: #d9e3e8; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="PathCollection_3">
+    <g clip-path="url(#p2e1b6f968e)">
+     <use xlink:href="#mca1e53998f" x="951.22302" y="321.092207" style="fill: #d96c5f; stroke: #ffffff"/>
+    </g>
+   </g>
+   <g id="PathCollection_4">
+    <g clip-path="url(#p2e1b6f968e)">
+     <use xlink:href="#mf118cada15" x="993.900095" y="323.408384" style="fill: #4e8b73; stroke: #ffffff"/>
+    </g>
+   </g>
+   <g id="text_55">
+    <text style="font-size: 7.6px; font-family: 'PingFang SC'; text-anchor: end; fill: #667780" x="1046.136835" y="322.755802" transform="rotate(-0 1046.136835 322.755802)">跨度 ¥24,288</text>
+   </g>
+   <g id="text_56">
+    <text style="font-size: 10.2px; font-family: 'PingFang SC'; text-anchor: start; fill: #143b5d" x="678.089739" y="215.563353" transform="rotate(-0 678.089739 215.563353)">局部剖面：固定 τ = 0.80</text>
+   </g>
+  </g>
+  <g id="axes_4">
+   <g id="patch_12">
+    <path d="M 99.855203 643.040116 
+L 546.936449 643.040116 
+Q 555.19873 643.040116 555.19873 639.094621 
+L 555.19873 449.710848 
+Q 555.19873 445.765353 546.936449 445.765353 
+L 99.855203 445.765353 
+Q 91.592922 445.765353 91.592922 449.710848 
+L 91.592922 639.094621 
+Q 91.592922 643.040116 99.855203 643.040116 
+z
+" clip-path="url(#pa991e96ef3)" style="fill: #f7fafc; stroke: #d96c5f; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_57">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'PingFang SC'; text-anchor: start; fill: #d96c5f" x="57.166748" y="417.642051" transform="rotate(-0 57.166748 417.642051)">C</text>
+   </g>
+   <g id="text_58">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'PingFang SC'; text-anchor: start; fill: #d96c5f" x="121.428939" y="486.772538" transform="rotate(-0 121.428939 486.772538)">时间 × 参数热力图：数据不足 / 未实现</text>
+   </g>
+   <g id="text_59">
+    <text style="font-size: 9.1px; font-family: 'PingFang SC'; fill: #263238" transform="translate(121.428939 524.248799)">当前真实实验只有同一段时间窗口的参数网格：</text>
+    <text style="font-size: 9.1px; font-family: 'PingFang SC'; fill: #263238" transform="translate(121.428939 538.826573)">81 节点 × 2025-01-15—01-31 总费用。</text>
+    <text style="font-size: 9.1px; font-family: 'PingFang SC'; fill: #263238" transform="translate(121.428939 550.115549)"/>
+    <text style="font-size: 9.1px; font-family: 'PingFang SC'; fill: #263238" transform="translate(121.428939 567.706276)">缺少：同一 (τ, scale) 网格在全年或逐月的真实重算。</text>
+    <text style="font-size: 9.1px; font-family: 'PingFang SC'; fill: #263238" transform="translate(121.428939 582.261299)">因此不画伪造的时间×参数热力图，也不对 81 个节点做高密度插值。</text>
+   </g>
+   <g id="text_60">
+    <text style="font-size: 8.2px; font-family: 'PingFang SC'; text-anchor: start; fill: #667780" x="121.428939" y="625.504582" transform="rotate(-0 121.428939 625.504582)">这是数据边界，不是模型结论。</text>
+   </g>
+  </g>
+  <g id="axes_5">
+   <g id="patch_13">
+    <path d="M 688.60537 533.881414 
+L 855.353238 533.881414 
+Q 862.864403 533.881414 862.864403 529.49753 
+L 862.864403 458.478615 
+Q 862.864403 454.094732 855.353238 454.094732 
+L 688.60537 454.094732 
+Q 681.094205 454.094732 681.094205 458.478615 
+L 681.094205 529.49753 
+Q 681.094205 533.881414 688.60537 533.881414 
+z
+" clip-path="url(#p9f4938f011)" style="fill: #f7fafc; stroke: #143b5d; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 693.11207 459.355392 
+L 850.846539 459.355392 
+Q 858.357704 459.355392 858.357704 454.971508 
+L 858.357704 461.108945 
+Q 858.357704 456.725062 850.846539 456.725062 
+L 693.11207 456.725062 
+Q 685.600904 456.725062 685.600904 461.108945 
+L 685.600904 454.971508 
+Q 685.600904 459.355392 693.11207 459.355392 
+z
+" clip-path="url(#p9f4938f011)" style="fill: #143b5d"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 876.384501 533.881414 
+L 1043.132369 533.881414 
+Q 1050.643534 533.881414 1050.643534 529.49753 
+L 1050.643534 458.478615 
+Q 1050.643534 454.094732 1043.132369 454.094732 
+L 876.384501 454.094732 
+Q 868.873336 454.094732 868.873336 458.478615 
+L 868.873336 529.49753 
+Q 868.873336 533.881414 876.384501 533.881414 
+z
+" clip-path="url(#p9f4938f011)" style="fill: #f7fafc; stroke: #4e8b73; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 880.8912 459.355392 
+L 1038.62567 459.355392 
+Q 1046.136835 459.355392 1046.136835 454.971508 
+L 1046.136835 461.108945 
+Q 1046.136835 456.725062 1038.62567 456.725062 
+L 880.8912 456.725062 
+Q 873.380035 456.725062 873.380035 461.108945 
+L 873.380035 454.971508 
+Q 873.380035 459.355392 880.8912 459.355392 
+z
+" clip-path="url(#p9f4938f011)" style="fill: #4e8b73"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 688.60537 628.134912 
+L 855.353238 628.134912 
+Q 862.864403 628.134912 862.864403 623.751028 
+L 862.864403 552.732113 
+Q 862.864403 548.34823 855.353238 548.34823 
+L 688.60537 548.34823 
+Q 681.094205 548.34823 681.094205 552.732113 
+L 681.094205 623.751028 
+Q 681.094205 628.134912 688.60537 628.134912 
+z
+" clip-path="url(#p9f4938f011)" style="fill: #f7fafc; stroke: #e9a34e; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 693.11207 553.60889 
+L 850.846539 553.60889 
+Q 858.357704 553.60889 858.357704 549.225007 
+L 858.357704 555.362444 
+Q 858.357704 550.97856 850.846539 550.97856 
+L 693.11207 550.97856 
+Q 685.600904 550.97856 685.600904 555.362444 
+L 685.600904 549.225007 
+Q 685.600904 553.60889 693.11207 553.60889 
+z
+" clip-path="url(#p9f4938f011)" style="fill: #e9a34e"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 876.384501 628.134912 
+L 1043.132369 628.134912 
+Q 1050.643534 628.134912 1050.643534 623.751028 
+L 1050.643534 552.732113 
+Q 1050.643534 548.34823 1043.132369 548.34823 
+L 876.384501 548.34823 
+Q 868.873336 548.34823 868.873336 552.732113 
+L 868.873336 623.751028 
+Q 868.873336 628.134912 876.384501 628.134912 
+z
+" clip-path="url(#p9f4938f011)" style="fill: #f7fafc; stroke: #d96c5f; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 880.8912 553.60889 
+L 1038.62567 553.60889 
+Q 1046.136835 553.60889 1046.136835 549.225007 
+L 1046.136835 555.362444 
+Q 1046.136835 550.97856 1038.62567 550.97856 
+L 880.8912 550.97856 
+Q 873.380035 550.97856 873.380035 555.362444 
+L 873.380035 549.225007 
+Q 873.380035 553.60889 880.8912 553.60889 
+z
+" clip-path="url(#p9f4938f011)" style="fill: #d96c5f"/>
+   </g>
+   <g id="text_61">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'PingFang SC'; text-anchor: start; fill: #d96c5f" x="648.045078" y="417.642051" transform="rotate(-0 648.045078 417.642051)">D</text>
+   </g>
+   <g id="text_62">
+    <text style="font-weight: 700; font-size: 9.6px; font-family: 'PingFang SC'; text-anchor: start; fill: #143b5d" x="698.745443" y="477.036742" transform="rotate(-0 698.745443 477.036742)">最敏感参数（局部）</text>
+   </g>
+   <g id="text_63">
+    <text style="font-size: 8.5px; font-family: 'PingFang SC'; fill: #263238" transform="translate(698.745443 491.162861)">固定 scale=1.00 时 τ 剖面跨度</text>
+    <text style="font-size: 8.5px; font-family: 'PingFang SC'; fill: #263238" transform="translate(698.745443 503.246143)">¥41,072.19；固定 τ=0.80 时</text>
+    <text style="font-size: 8.5px; font-family: 'PingFang SC'; fill: #263238" transform="translate(698.745443 515.558526)">scale 跨度 ¥24,287.51。局部网格内</text>
+    <text style="font-size: 8.5px; font-family: 'PingFang SC'; fill: #263238" transform="translate(698.745443 528.129893)">τ 变化更大。</text>
+   </g>
+   <g id="text_64">
+    <text style="font-weight: 700; font-size: 9.6px; font-family: 'PingFang SC'; text-anchor: start; fill: #143b5d" x="886.524574" y="477.036742" transform="rotate(-0 886.524574 477.036742)">网格最低点</text>
+   </g>
+   <g id="text_65">
+    <text style="font-size: 8.5px; font-family: 'PingFang SC'; fill: #263238" transform="translate(886.524574 490.925791)">(τ, scale)=(0.90, 0.75)；17</text>
+    <text style="font-size: 8.5px; font-family: 'PingFang SC'; fill: #263238" transform="translate(886.524574 503.49251)">天总费</text>
+    <text style="font-size: 8.5px; font-family: 'PingFang SC'; fill: #263238" transform="translate(886.524574 515.563174)">¥929,199.21。这是观测网格最低，不是连续域证明。</text>
+   </g>
+   <g id="text_66">
+    <text style="font-weight: 700; font-size: 9.6px; font-family: 'PingFang SC'; text-anchor: start; fill: #143b5d" x="698.745443" y="571.29024" transform="rotate(-0 698.745443 571.29024)">冻结候选与局部拐点</text>
+   </g>
+   <g id="text_67">
+    <text style="font-size: 8.5px; font-family: 'PingFang SC'; fill: #263238" transform="translate(698.745443 585.179289)">冻结候选 (0.80, 1.00) 为</text>
+    <text style="font-size: 8.5px; font-family: 'PingFang SC'; fill: #263238" transform="translate(698.745443 597.495657)">¥930,672.15；网格最低差值</text>
+    <text style="font-size: 8.5px; font-family: 'PingFang SC'; fill: #263238" transform="translate(698.745443 609.837922)">¥-1,472.94。单变量剖面最低点约</text>
+    <text style="font-size: 8.5px; font-family: 'PingFang SC'; fill: #263238" transform="translate(698.745443 621.953742)">τ=0.85、scale=1.12。</text>
+   </g>
+   <g id="text_68">
+    <text style="font-weight: 700; font-size: 9.6px; font-family: 'PingFang SC'; text-anchor: start; fill: #143b5d" x="886.524574" y="571.29024" transform="rotate(-0 886.524574 571.29024)">适用边界</text>
+   </g>
+   <g id="text_69">
+    <text style="font-size: 8.5px; font-family: 'PingFang SC'; fill: #263238" transform="translate(886.524574 585.379172)">参数网格仅用于 1 月开发窗口描述；Q2 B2 的</text>
+    <text style="font-size: 8.5px; font-family: 'PingFang SC'; fill: #263238" transform="translate(886.524574 597.746008)">2025-02—12 总费为</text>
+    <text style="font-size: 8.5px; font-family: 'PingFang SC'; fill: #263238" transform="translate(886.524574 609.824641)">¥15,137,987.06，没有用全年结果回调网格。</text>
+   </g>
+   <g id="text_70">
+    <text style="font-size: 10.5px; font-family: 'PingFang SC'; text-anchor: start; fill: #143b5d" x="678.089739" y="424.229818" transform="rotate(-0 678.089739 424.229818)">经济解释与适用边界</text>
+   </g>
+  </g>
+  <g id="text_71">
+   <text style="font-weight: 700; font-size: 18px; font-family: 'PingFang SC'; text-anchor: start; fill: #143b5d" x="7.2" y="22.68" transform="rotate(-0 7.2 22.68)">图 3｜经济调度敏感性与关键结论</text>
+  </g>
+  <g id="text_72">
+   <text style="font-size: 9.4px; font-family: 'PingFang SC'; text-anchor: start; fill: #667780" x="7.2" y="31.9104" transform="rotate(-0 7.2 31.9104)">曲面只连接真实测量节点；等高线用于阅读，C 面明确保留当前实验的时间维度缺口。</text>
+  </g>
+  <g id="text_73">
+   <text style="font-size: 8px; font-family: 'PingFang SC'; text-anchor: start; fill: #667780" x="7.2" y="716.3136" transform="rotate(-0 7.2 716.3136)">数据口径：q2_january_surface_v1 · 9×9 = 81 节点 · 17 天 × 1377 次回放；无随机补点。</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pfdafbc60e9">
+   <rect x="194.738372" y="70.848" width="257.314909" height="257.314909"/>
+  </clipPath>
+  <clipPath id="p14d159424a">
+   <rect x="678.089739" y="70.848" width="375.558261" height="104.599557"/>
+  </clipPath>
+  <clipPath id="p2e1b6f968e">
+   <rect x="678.089739" y="223.563353" width="375.558261" height="104.599557"/>
+  </clipPath>
+  <clipPath id="pa991e96ef3">
+   <rect x="93.888" y="428.229818" width="459.015652" height="219.194182"/>
+  </clipPath>
+  <clipPath id="p9f4938f011">
+   <rect x="678.089739" y="428.229818" width="375.558261" height="219.194182"/>
+  </clipPath>
+ </defs>
+</svg>

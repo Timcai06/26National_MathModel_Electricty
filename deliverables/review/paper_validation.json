@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "All five new figures retain matching source and output hashes.",
+    "January, Q2, Q3 and Q4 results match their independent validations.",
+    "81 surface nodes independently totalled from 1377 daily cost traces.",
+    "All eight specified-day summaries, table inputs and emergency entries preserved.",
+    "Current TeX log has no overflow, missing glyphs or unresolved references."
+  ],
+  "pdf_sha256": "ffd7e22a3ab24bf019a47805b7eaaf722fb981675f86a2a77760bd1a962b0ea9",
+  "scope": "Data and typesetting checks; page images inspected separately."
+}

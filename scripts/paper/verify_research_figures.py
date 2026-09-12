@@ -32,6 +32,6 @@ assert np.array(g['acceptance_by_issue'])[:,0].tolist()==[83,97,3]
 checks.append('1002 VOI decisions, 500-yuan boundary, 83/97/3 acceptance counts and actual monthly ledger matched')
 z=read(O/'dispatch_mechanism.data.json');e=np.array(z['schedule']['E'])/1000;assert np.all(e>=np.array(z['reachable_min_mwh'])-1e-8) and np.all(e<=np.array(z['reachable_max_mwh'])+1e-8)
 checks.append('Selected day storage trajectory remains inside analytic terminal-reachability envelope')
-log=(R/'tmp/paper_v2_build/main.log').read_text();assert not any(x in log for x in ['Overfull','Missing character','undefined references','undefined citations'])
-report={'passed':True,'checks':checks,'no_optimizer_changes':True,'source_manifest_sha256':sha(O/'manifest.json'),'pdf_sha256':sha(R/'deliverables/draft_v2/pdf/C_microgrid_draft_v2.pdf'),'scope':'Chart data, frozen source bindings and TeX log; not final semantics or human visual acceptance.'}
-(R/'deliverables/review/research_figures_v2_validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2));print(json.dumps(report,ensure_ascii=False,indent=2))
+log=(R/'tmp/paper_build/main.log').read_text();assert not any(x in log for x in ['Overfull','Missing character','undefined references','undefined citations'])
+report={'passed':True,'checks':checks,'no_optimizer_changes':True,'source_manifest_sha256':sha(O/'manifest.json'),'pdf_sha256':sha(R/'paper/pdf/C_microgrid.pdf'),'scope':'V2 chart data reused in the current paper, frozen source bindings and current TeX log; not final semantics or human visual acceptance.'}
+(R/'deliverables/review/research_figures_current_validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2));print(json.dumps(report,ensure_ascii=False,indent=2))

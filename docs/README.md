@@ -4,6 +4,8 @@
 
 全项目目录分类见[项目地图](../PROJECT_MAP.md)，实验档案见[实验索引](../analysis/README.md)，运行入口见[脚本索引](../scripts/README.md)。
 
+仓库分类、状态标签、路径锁定区和历史包归档规则见[仓库治理规则](REPOSITORY_GOVERNANCE.md)。
+
 ## 导航
 
 - [当前任务板](current_tasks.md)：tim、A、B 第一轮任务、依赖和真实状态。

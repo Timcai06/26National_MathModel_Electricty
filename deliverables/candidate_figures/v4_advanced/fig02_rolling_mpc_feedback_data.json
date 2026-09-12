@@ -1,0 +1,86 @@
+{
+  "figure": "fig02_rolling_mpc_feedback",
+  "seed": 20260912,
+  "sample_day": "2025-06-21",
+  "strategy": "margin_fresh",
+  "is_contrast_not_mainline": true,
+  "current_q3_mainline": "margin_zero",
+  "time_contract": "interval-end-v1",
+  "updates": [
+    6,
+    12,
+    18
+  ],
+  "revision_count": 3,
+  "physical_diagnostics_passed": true,
+  "history_lock_passed": true,
+  "snapshots": [
+    {
+      "snapshot_hour": 0,
+      "update_slot": 0,
+      "history_slots_rendered": 0,
+      "rolling_window_slots": 144,
+      "forecast_issue_time": "2025-06-21T00:00:00+08:00",
+      "forecast_source": "published PV forecast via src.q3.pv.PublishedPV.energy(linear) + last-week load + frozen Q2 margin correction",
+      "future_actual_rendered": false,
+      "current_commitment_future_sum_kwh": 39989.70824444445
+    },
+    {
+      "snapshot_hour": 6,
+      "update_slot": 36,
+      "history_slots_rendered": 36,
+      "rolling_window_slots": 108,
+      "forecast_issue_time": "2025-06-21T06:00:00+08:00",
+      "forecast_source": "published PV forecast via src.q3.pv.PublishedPV.energy(linear) + last-week load + frozen Q2 margin correction",
+      "future_actual_rendered": false,
+      "current_commitment_future_sum_kwh": 23978.788911440333
+    },
+    {
+      "snapshot_hour": 12,
+      "update_slot": 72,
+      "history_slots_rendered": 72,
+      "rolling_window_slots": 72,
+      "forecast_issue_time": "2025-06-21T12:00:00+08:00",
+      "forecast_source": "published PV forecast via src.q3.pv.PublishedPV.energy(linear) + last-week load + frozen Q2 margin correction",
+      "future_actual_rendered": false,
+      "current_commitment_future_sum_kwh": 24184.726806833336
+    },
+    {
+      "snapshot_hour": 18,
+      "update_slot": 108,
+      "history_slots_rendered": 108,
+      "rolling_window_slots": 36,
+      "forecast_issue_time": "2025-06-21T18:00:00+08:00",
+      "forecast_source": "published PV forecast via src.q3.pv.PublishedPV.energy(linear) + last-week load + frozen Q2 margin correction",
+      "future_actual_rendered": false,
+      "current_commitment_future_sum_kwh": 20652.781683384008
+    }
+  ],
+  "revision_evidence": [
+    {
+      "issue_time": "2025-06-21T06:00:00+08:00",
+      "first_slot": 36,
+      "increase_kwh": 65.73358750000125,
+      "decrease_kwh": 380.30911939300375,
+      "incremental_cost_yuan": -43.8931818659876,
+      "diagnostics_passed": true
+    },
+    {
+      "issue_time": "2025-06-21T12:00:00+08:00",
+      "first_slot": 72,
+      "increase_kwh": 205.93789539300184,
+      "decrease_kwh": 0.0,
+      "incremental_cost_yuan": 255.23806730533425,
+      "diagnostics_passed": true
+    },
+    {
+      "issue_time": "2025-06-21T18:00:00+08:00",
+      "first_slot": 108,
+      "increase_kwh": 478.39557338400357,
+      "decrease_kwh": 0.0,
+      "incremental_cost_yuan": 898.8747406695952,
+      "diagnostics_passed": true
+    }
+  ],
+  "render_boundary": "每个快照只绘制历史实际观测和当时可用的预测；没有绘制该快照之后的实际值。"
+}
