@@ -1,0 +1,29 @@
+{
+  "numeric_readback_passed": true,
+  "cells_verified": 158,
+  "template_unchanged": true,
+  "unrelated_values_unchanged": true,
+  "style_changes": [],
+  "nonworksheet_package_preserved": true,
+  "semantic_acceptance": false,
+  "time_semantics": {
+    "version": "interval-end-v1",
+    "accepted": true,
+    "accepted_by": "tim",
+    "accepted_on": "2026-09-12",
+    "record": "docs/data/TIME_SEMANTICS.md",
+    "evidence": "analysis/time_semantics_v1/",
+    "still_open": [
+      "observation_policy",
+      "q3_refund_interpretation",
+      "q4_price_knowability"
+    ]
+  },
+  "candidate_sha256": "f3cce213c22ddf2e232c39ef3863dac56e6598fe8db01bba8e9c46e15f9327aa",
+  "source_sha256": "8b136de0a4ca535a3c955e70dee2be3d01958c7cea44fb6fe864cf510f0a4aad",
+  "code_sha256": {
+    "scripts/run_q1_excel.py": "cf11567da281fd5f78e9826ca920843d32b2f969cedcaed776bdefed38093aa6",
+    "src/q1/excel.py": "aa990b96ddb6387cb63fe54bc622f4cf2efb84f6e1458e33cdabc7e4790c500d",
+    "outputs/q1_candidate_20260911/build_candidate.mjs": "b25bef64e6960b40fd80a0b363bb2d7ef068ad9c48923a6608b190bbe7439b5d"
+  }
+}

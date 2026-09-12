@@ -1,0 +1,173 @@
+{
+  "status": "awaiting_independent_validation",
+  "strategies": {
+    "B2": {
+      "days": 334,
+      "costs": {
+        "planned_yuan": 13706009.443937935,
+        "adjustment_yuan": 0.0,
+        "emergency_yuan": 1431977.6145343652,
+        "total_yuan": 15137987.058472289
+      },
+      "emergency_kwh": 380769.3285498581,
+      "surplus_kwh": 3505784.1282551,
+      "charge_kwh": 7019044.204904106,
+      "discharge_kwh": 5685425.80597232,
+      "min_soc_kwh": 1200.00000001,
+      "max_soc_kwh": 10799.99999999,
+      "runtime_seconds": 2.1679032028187066,
+      "monthly_total_yuan": {
+        "2025-02": 1297966.5843253764,
+        "2025-03": 1265955.0645764805,
+        "2025-04": 1076856.9429053573,
+        "2025-05": 1136930.0967355042,
+        "2025-06": 1544660.4680391978,
+        "2025-07": 1745251.7851759135,
+        "2025-08": 1427635.4007892944,
+        "2025-09": 1281955.8464752226,
+        "2025-10": 1215377.6065335448,
+        "2025-11": 1346048.098234688,
+        "2025-12": 1799349.1646817096
+      },
+      "daily_file_sha256": "591f01a3a19ec267a6e6c7c924342b69511ad150e073113f9d91d41931fc37db"
+    },
+    "B3": {
+      "days": 334,
+      "costs": {
+        "planned_yuan": 13706009.443937935,
+        "adjustment_yuan": 0.0,
+        "emergency_yuan": 1434937.8804655133,
+        "total_yuan": 15140947.324403437
+      },
+      "emergency_kwh": 382266.97718598787,
+      "surplus_kwh": 3506632.2085501486,
+      "charge_kwh": 7022462.985646612,
+      "discharge_kwh": 5688195.018373759,
+      "min_soc_kwh": 1200.00000001,
+      "max_soc_kwh": 10799.99999999,
+      "runtime_seconds": 17.731077790434938,
+      "monthly_total_yuan": {
+        "2025-02": 1295291.6130472345,
+        "2025-03": 1255517.4773044044,
+        "2025-04": 1092053.9993828954,
+        "2025-05": 1144110.8377278673,
+        "2025-06": 1547938.2815646336,
+        "2025-07": 1743355.761136365,
+        "2025-08": 1425631.3575291254,
+        "2025-09": 1273097.7825253399,
+        "2025-10": 1217257.4272351242,
+        "2025-11": 1347343.6222688467,
+        "2025-12": 1799349.164681601
+      },
+      "daily_file_sha256": "fdd3d4be822ab0a6f7d38dc03b9ac502d8bb8532f177a5fe2c2792f3d5448936"
+    },
+    "fixedG_oracle": {
+      "days": 334,
+      "costs": {
+        "planned_yuan": 12258250.765720032,
+        "adjustment_yuan": 0.0,
+        "emergency_yuan": 1958975.0223622876,
+        "total_yuan": 14217225.78808232
+      },
+      "emergency_kwh": 588500.8659028518,
+      "surplus_kwh": 1582694.9491862557,
+      "charge_kwh": 6862490.445797457,
+      "discharge_kwh": 5558617.261095943,
+      "min_soc_kwh": 1200.0,
+      "max_soc_kwh": 10800.0,
+      "runtime_seconds": 1.1447901680949144,
+      "monthly_total_yuan": {
+        "2025-02": 1208047.6176633488,
+        "2025-03": 1160650.4302225464,
+        "2025-04": 969969.3608920687,
+        "2025-05": 1053269.701986076,
+        "2025-06": 1499306.1944137851,
+        "2025-07": 1664206.8954019526,
+        "2025-08": 1288270.7062759162,
+        "2025-09": 1169415.76231128,
+        "2025-10": 1154908.8145541262,
+        "2025-11": 1290038.1939247805,
+        "2025-12": 1759142.1104364397
+      },
+      "daily_file_sha256": "fd89ce6861098720fd974bd3be13c4414b020ae83afc764a967e9e8de6f8c9cd"
+    },
+    "full_oracle": {
+      "days": 334,
+      "costs": {
+        "planned_yuan": 12245046.915277638,
+        "adjustment_yuan": 0.0,
+        "emergency_yuan": 0.0,
+        "total_yuan": 12245046.915277638
+      },
+      "emergency_kwh": 0.0,
+      "surplus_kwh": 990168.0903121401,
+      "charge_kwh": 6786739.973548973,
+      "discharge_kwh": 5497259.378574668,
+      "min_soc_kwh": 1200.0,
+      "max_soc_kwh": 10800.0,
+      "runtime_seconds": 1.1614307498093694,
+      "monthly_total_yuan": {
+        "2025-02": 1115416.5203416292,
+        "2025-03": 1025372.481477911,
+        "2025-04": 851860.6694737063,
+        "2025-05": 859497.3082924502,
+        "2025-06": 1162419.6616746536,
+        "2025-07": 1324810.635161382,
+        "2025-08": 1163524.5664533963,
+        "2025-09": 992967.1909759416,
+        "2025-10": 1021585.731958791,
+        "2025-11": 1179724.67858847,
+        "2025-12": 1547867.4708792982
+      },
+      "daily_file_sha256": "df62d3d9f6e330917b0e842c62ffa26e05315ea4e612b142b491a06cf62e012b"
+    }
+  },
+  "input_sha256": {
+    "data/processed/team_delivery/annual_actual.csv": "ea043aca838c5a31b3e86674aa1b8ed077a428599d0ff663c57f12e93824250d",
+    "data/processed/team_delivery/day_base.csv": "1d941da536a1a3eeab07a5d2b75ef2f7279a13e2229cef33ed0f8547074c37cc"
+  },
+  "frozen_selection_sha256": "5e55aa833dc339c79313fa9bd6f94d311c9535fa0abbb519c286d599652ae673",
+  "baseline_result_sha256": "36a84da37f48f7507ebfe3078c9e088d9800459047dd74a41e15b2c610bad405",
+  "policy": "slot_start_command_slot_end_grid_settlement_v1",
+  "evaluation_start": "2025-02-01",
+  "evaluation_end": "2025-12-31",
+  "assumptions": {
+    "terminal": "daily6000",
+    "efficiency": ".9 each",
+    "power_side": "bus",
+    "forecast": "frozen midnight; no intraday residual correction",
+    "grid": "unlimited slot-end residual settlement at 5p",
+    "comparison": "identical daily G; only battery policy differs; no promise of MPC improvement"
+  },
+  "correction": "add nonnegative scaled raw net-load residual quantile to forecast load; unchanged PV",
+  "code_sha256": {
+    "scripts/run_q2_margin_oracle.py": "40140426e2301bd1edae5e5977064b63f6a201f13e9879a0ad086554d9891834",
+    "scripts/run_strict_q2.py": "d821d3fcf9c9abb58a12135f5591e0b6a489505770b5b60e5ed2276ed4bafa72",
+    "scripts/run_real_q23.py": "57e70e65b99a1650c962836fcadcb4edc6d4a939c752b7b24ddd8b56c3fd0e0f",
+    "scripts/run_real_q2_forecast.py": "7b1663d1a042b8202386479c148aaf7b356a8f64b8b436e79473bba03a3c1ada",
+    "src/core/__init__.py": "43ac8c13bc3e7a9cc176f1165b5c268a651a9839a2679c37cf6d35f6ea81767e",
+    "src/core/model.py": "dc56221133028d3b16dede9dae5a7bf5f1492967a79c87932d666cae72c3cebc",
+    "src/core/solver.py": "99345b85d1854516b191898bd3a590ac7c7c15df10f72ce36ad8b363e740c69b",
+    "src/core/validation.py": "989f15f2c958ae488e57dac8ece4c41eb31240ce5a2a7ca7691a15cfdd9d7e39",
+    "src/q1/__init__.py": "50258b1516e1ca1568a6e4922c26ec8de8e74ea8c9b4b820db56c84b61de4a0e",
+    "src/q1/baselines.py": "98e92954d3bb93361362717d5dd84d0f7fb516a59aa778b56c24ecb91ea9b1b0",
+    "src/q1/compare.py": "0a68a83e96513a97c06c3a44d8e4fd0cb5925ed289cf82e9e066f6442493b7ee",
+    "src/q1/excel.py": "9f78d9cb5a250beac85f2d16dba1b28591423cc1e882941132c2c61c18f23185",
+    "src/q1/solve.py": "d89cea1dc6634997222d7cd2e10d3873456536a3aa8bc451a9f007a4b746fe58",
+    "src/q1/tables.py": "e99e698dd433f19a2072017ac29524ed030081d6fddb9d64f25f6ec3a9343851",
+    "src/q2/__init__.py": "ad176de0fff8e3effa80499ca77671d147283b8321d5d0ff012b3fb57b357cef",
+    "src/q2/backtest.py": "9d43fa4ec91a2f691195967eb56d6a83dc785748353e660ebce4d294157e6810",
+    "src/q2/coordinator.py": "8484c1be89c0f51de5f84f2797705f7f469437b9644a913adcd53c2cb0f287ff",
+    "src/q2/dispatch.py": "f42947678335cacc68a737da03ccda168c4198855546f0aff0fbf85875fd4f36",
+    "src/q2/execution.py": "85503d8b0861b5c61da35d9140ffde8e22707e0d10277813a9396bc42aaba19c",
+    "src/q2/forecast.py": "e704dadd178db4472aa1e3731e8224793782ca6966b500fb643fcb7d935e99b9",
+    "src/q2/oracle.py": "8598be52e2630dcbb19f1e916cf965179bc2841c174d607f241f323d61dbaa70",
+    "src/q2/residual_margin.py": "c448891b89e1376a8ca699929851ff809fec4796681b6864803daf536ada63e7",
+    "src/q2/strict_execution.py": "38bfbf04fc06d9cde374561c411e2b46a42c93d1a44ff61da4aa6642db2cf446",
+    "src/q3/__init__.py": "91e2048844937b930df26a771176571afc9127d4f297d0d59bc5c6ff900b2674",
+    "src/q3/planning.py": "763cb0b4201312569fa8b3a8556d7d3d5172ef555ff1b71fdad0a414f14c851b",
+    "src/q3/pv.py": "0e9c5f534286473172f1fb3534b2e47ce18756104debd9d93ef42173ad4a18c7",
+    "src/q3/reporting.py": "b8d31e3477cd315a2960c299d7672b08005f1c62c0a804fbe81796e02b24b229",
+    "src/time_axis.py": "6fe1ce8b412fabcabd5f13dfe53732f4131abb565e8bfa480d2ecf23b7ec6a42"
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "scope": "Q4 candidate conditional on known day prices; not causal price forecasting",
+  "semantic_acceptance": false,
+  "input_sha256": {
+    "data/processed/team_delivery/annual_actual.csv": "ea043aca838c5a31b3e86674aa1b8ed077a428599d0ff663c57f12e93824250d",
+    "data/processed/team_delivery/dynamic_price.csv": "73c791194a74371d2f4fd846ea6eaff38389de96e381fe383abcc5741aedfc60",
+    "data/processed/team_delivery/pv_forecast.csv": "4524b620dce32a9342e39bf9699785a7530f577bfe42c18446430c520aff14d6"
+  },
+  "source_unchanged": true,
+  "evaluation_start": "2025-02-01",
+  "evaluation_end": "2025-12-31",
+  "evaluation_days": 334,
+  "price_policy": "full_target_day_price_curve_known_at_midnight_candidate",
+  "price_range_yuan_per_kwh": [
+    0.0076,
+    1.7936
+  ],
+  "january_selection": {
+    "training_start": "2025-01-08",
+    "training_end": "2025-01-31",
+    "selection_available_at": "2025-02-01T00:00:00+08:00",
+    "metric": "MAE kWh/slot; no February-December tuning",
+    "scores": {
+      "load": {
+        "yesterday": 109.10966455439814,
+        "last_week": 23.882641700424386
+      },
+      "pv": {
+        "yesterday": 18.800086419753086,
+        "last_week": 21.418554229359568
+      }
+    },
+    "chosen": {
+      "load": "last_week",
+      "pv": "yesterday"
+    }
+  },
+  "assumptions": {
+    "availability": "completed day available at next midnight",
+    "observation": "current_slot_energy_known_before_settlement",
+    "terminal": "daily6000 with actual state carry",
+    "efficiency": ".9 each direction",
+    "power_side": "bus",
+    "emergency_multiplier": 5,
+    "q3_refund": "refund original cancelled price plus 50% penalty; relative to current commitment",
+    "q3_horizon": "remaining current day only; future day contracts untouched",
+    "price_information": "full_target_day_price_curve_known_at_midnight_candidate",
+    "revision_price": "target-slot price, unchanged between contract updates; not decision-instant scalar price"
+  },
+  "warmup": {
+    "start": "2025-01-01",
+    "end": "2025-01-31",
+    "days": 31,
+    "initial_energy_kwh": 6000,
+    "final_energy_kwh": 6000.0,
+    "cost_yuan": 3354059.9057321385,
+    "max_physical_residual_kwh": 4.547473508864641e-13,
+    "policy": "same startup/yesterday policy as Q2/Q3, rerun with daily dynamic prices",
+    "daily_file_sha256": "bfa958faed103813d2a3980b40f16cd077feb153ad6adc1785dd77874c9ecfbf"
+  },
+  "strategies": {
+    "q4_2_main": {
+      "days": 334,
+      "costs": {
+        "planned_yuan": 12804733.565468652,
+        "adjustment_yuan": 0.0,
+        "emergency_yuan": 3429026.4442527327,
+        "total_yuan": 16233760.00972139
+      },
+      "emergency_kwh": 564857.8980680214,
+      "initial_energy_kwh": 6000.0,
+      "final_energy_kwh": 6000.0,
+      "max_physical_residual_kwh": 4.547473508864641e-13,
+      "update_hours": [],
+      "fresh_pv_updates": true,
+      "daily_file_sha256": "c4a71c9bfd314be2b3bc6977462dc8c0a9cc8935c709329f27c81b4d67b730d7"
+    },
+    "q4_3_zero_only": {
+      "days": 334,
+      "costs": {
+        "planned_yuan": 12879892.270983147,
+        "adjustment_yuan": 0.0,
+        "emergency_yuan": 3719621.943013601,
+        "total_yuan": 16599514.213996759
+      },
+      "emergency_kwh": 593540.5506406267,
+      "initial_energy_kwh": 6000.0,
+      "final_energy_kwh": 6000.0,
+      "max_physical_residual_kwh": 4.547473508864641e-13,
+      "update_hours": [],
+      "fresh_pv_updates": true,
+      "daily_file_sha256": "dc4d1cad637ce2bd35790dbc52ab0957aa066e3a2f3aa6c8843ec8c505be42e4"
+    },
+    "q4_3_stale_updates": {
+      "days": 334,
+      "costs": {
+        "planned_yuan": 12879892.270983147,
+        "adjustment_yuan": 792964.923070899,
+        "emergency_yuan": 969233.6945250911,
+        "total_yuan": 14642090.888579123
+      },
+      "emergency_kwh": 187434.89623260955,
+      "initial_energy_kwh": 6000.0,
+      "final_energy_kwh": 6000.0,
+      "max_physical_residual_kwh": 4.547473508864641e-13,
+      "update_hours": [
+        6,
+        12,
+        18
+      ],
+      "fresh_pv_updates": false,
+      "daily_file_sha256": "8915606f4211a561ac580cd7388faf86513da96da21b01e54e52e232012ef402"
+    },
+    "q4_3_main": {
+      "days": 334,
+      "costs": {
+        "planned_yuan": 12879892.270983147,
+        "adjustment_yuan": 935969.6373771036,
+        "emergency_yuan": 781251.4241303779,
+        "total_yuan": 14597113.332490604
+      },
+      "emergency_kwh": 159738.96245857805,
+      "initial_energy_kwh": 6000.0,
+      "final_energy_kwh": 6000.0,
+      "max_physical_residual_kwh": 4.547473508864641e-13,
+      "update_hours": [
+        6,
+        12,
+        18
+      ],
+      "fresh_pv_updates": true,
+      "daily_file_sha256": "d2e363a0116171ccc8de4ac1db8e2d50d36715e3394f1193ccb8ca23bb86abfd"
+    }
+  },
+  "repricing_controls": {
+    "2": {
+      "fixed_tariff_original_cost_yuan": 15438615.10099888,
+      "old_actions_at_dynamic_prices_yuan": 16276413.465799747,
+      "dynamic_reoptimized_cost_yuan": 16233760.00972139
+    },
+    "3": {
+      "fixed_tariff_original_cost_yuan": 13932761.588873617,
+      "old_actions_at_dynamic_prices_yuan": 14716168.483092483,
+      "dynamic_reoptimized_cost_yuan": 14597113.332490604
+    }
+  },
+  "q23_source_sha256": "8f8ecbbf00be102d30658197af958d9687025754adbc1d6ac8cf37408f1d9853",
+  "code_sha256": {
+    "scripts/run_real_q4.py": "bd72c32458e9d533af203d3a87958f97d9ba105bf9203dee382c19dea7568e84",
+    "scripts/run_real_q23.py": "57e70e65b99a1650c962836fcadcb4edc6d4a939c752b7b24ddd8b56c3fd0e0f",
+    "scripts/run_real_q2_forecast.py": "7b1663d1a042b8202386479c148aaf7b356a8f64b8b436e79473bba03a3c1ada",
+    "scripts/verify_real_q23.py": "b5c5abec855f3dd0f0c95fbaca31b677b24b7ad42d5e2d88641a9abde3d82fcf",
+    "src/core/__init__.py": "43ac8c13bc3e7a9cc176f1165b5c268a651a9839a2679c37cf6d35f6ea81767e",
+    "src/core/model.py": "dc56221133028d3b16dede9dae5a7bf5f1492967a79c87932d666cae72c3cebc",
+    "src/core/solver.py": "99345b85d1854516b191898bd3a590ac7c7c15df10f72ce36ad8b363e740c69b",
+    "src/core/validation.py": "989f15f2c958ae488e57dac8ece4c41eb31240ce5a2a7ca7691a15cfdd9d7e39",
+    "src/q1/__init__.py": "50258b1516e1ca1568a6e4922c26ec8de8e74ea8c9b4b820db56c84b61de4a0e",
+    "src/q1/baselines.py": "98e92954d3bb93361362717d5dd84d0f7fb516a59aa778b56c24ecb91ea9b1b0",
+    "src/q1/compare.py": "0a68a83e96513a97c06c3a44d8e4fd0cb5925ed289cf82e9e066f6442493b7ee",
+    "src/q1/excel.py": "9f78d9cb5a250beac85f2d16dba1b28591423cc1e882941132c2c61c18f23185",
+    "src/q1/solve.py": "d89cea1dc6634997222d7cd2e10d3873456536a3aa8bc451a9f007a4b746fe58",
+    "src/q1/tables.py": "e99e698dd433f19a2072017ac29524ed030081d6fddb9d64f25f6ec3a9343851",
+    "src/q2/__init__.py": "ad176de0fff8e3effa80499ca77671d147283b8321d5d0ff012b3fb57b357cef",
+    "src/q2/backtest.py": "9d43fa4ec91a2f691195967eb56d6a83dc785748353e660ebce4d294157e6810",
+    "src/q2/coordinator.py": "8484c1be89c0f51de5f84f2797705f7f469437b9644a913adcd53c2cb0f287ff",
+    "src/q2/dispatch.py": "f42947678335cacc68a737da03ccda168c4198855546f0aff0fbf85875fd4f36",
+    "src/q2/execution.py": "85503d8b0861b5c61da35d9140ffde8e22707e0d10277813a9396bc42aaba19c",
+    "src/q2/forecast.py": "e704dadd178db4472aa1e3731e8224793782ca6966b500fb643fcb7d935e99b9",
+    "src/q3/__init__.py": "91e2048844937b930df26a771176571afc9127d4f297d0d59bc5c6ff900b2674",
+    "src/q3/planning.py": "763cb0b4201312569fa8b3a8556d7d3d5172ef555ff1b71fdad0a414f14c851b",
+    "src/q3/pv.py": "0e9c5f534286473172f1fb3534b2e47ce18756104debd9d93ef42173ad4a18c7",
+    "src/q3/reporting.py": "b8d31e3477cd315a2960c299d7672b08005f1c62c0a804fbe81796e02b24b229",
+    "src/time_axis.py": "6fe1ce8b412fabcabd5f13dfe53732f4131abb565e8bfa480d2ecf23b7ec6a42"
+  }
+}

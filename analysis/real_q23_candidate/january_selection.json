@@ -1,0 +1,20 @@
+{
+  "training_start": "2025-01-08",
+  "training_end": "2025-01-31",
+  "selection_available_at": "2025-02-01T00:00:00+08:00",
+  "metric": "MAE kWh/slot; no February-December tuning",
+  "scores": {
+    "load": {
+      "yesterday": 109.10966455439814,
+      "last_week": 23.882641700424386
+    },
+    "pv": {
+      "yesterday": 18.800086419753086,
+      "last_week": 21.418554229359568
+    }
+  },
+  "chosen": {
+    "load": "last_week",
+    "pv": "yesterday"
+  }
+}

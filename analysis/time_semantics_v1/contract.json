@@ -1,0 +1,18 @@
+{
+  "decision": "interval-end-v1",
+  "statement": {
+    "input_sample": "A value labelled T in attachments 1, 2 and 4 is the instantaneous sample at T and is assigned to the slot ENDING at T, i.e. slot k covers [k*10min, (k+1)*10min).",
+    "model_day": "Every problem runs over 00:00-24:00 with 144 slots and 145 state boundaries.",
+    "energy_rule": "Right-endpoint hold: E_k = P(t_{k+1}) / 6. Declared as an approximation, not as a claim that the attachments provide interval-average power.",
+    "template_fill": "Positional. Slot k is written to the k-th purchase column. The printed purchase-axis label of that column reads one position later; the official template is left unmodified.",
+    "forecast_rule": "Attachment 3 hourly forecasts are piecewise-linear in time and integrated exactly onto the same slots, so plan and settlement share one slot grid."
+  },
+  "source_sha256": {
+    "CUMCM2026Problems/C题/附件/附件1.xlsx": "66b87134f5ecccd68184d3539bb1293ef039f9e0fdd955a589b9bfa7f227c377",
+    "CUMCM2026Problems/C题/附件/附件5/result1.xlsx": "28360e0974e7d6065394a8aba4e14a86773ae0036cc7d3ea1b211b515b03d688",
+    "CUMCM2026Problems/C题/附件/附件5/result2.xlsx": "1c26494cfc6d754e0bd9bff7e13e1126a73d2d2da6c5336eb251d89b9a1a1a47",
+    "CUMCM2026Problems/C题/附件/附件5/result3.xlsx": "c59da470cabd0be23f602c95c8aa9d11ec224a0cdac216b3e1f218e65d006bdc",
+    "CUMCM2026Problems/C题/附件/附件5/result4-2.xlsx": "1c26494cfc6d754e0bd9bff7e13e1126a73d2d2da6c5336eb251d89b9a1a1a47",
+    "CUMCM2026Problems/C题/附件/附件5/result4-3.xlsx": "c59da470cabd0be23f602c95c8aa9d11ec224a0cdac216b3e1f218e65d006bdc"
+  }
+}

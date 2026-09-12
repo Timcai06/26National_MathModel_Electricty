@@ -1,0 +1,121 @@
+{
+  "passed": true,
+  "strategies": {
+    "q4-2": {
+      "B0": {
+        "days_verified": 334,
+        "max_physical_residual_kwh": 4.547473508864641e-13,
+        "costs": {
+          "planned_yuan": 12804733.565468652,
+          "adjustment_yuan": 0.0,
+          "emergency_yuan": 4510680.104817353,
+          "total_yuan": 17315413.67028599
+        },
+        "zero_truth_actions_identical": true,
+        "passed": true
+      },
+      "B2": {
+        "days_verified": 334,
+        "max_physical_residual_kwh": 4.547473508864641e-13,
+        "costs": {
+          "planned_yuan": 14318165.751398405,
+          "adjustment_yuan": 0.0,
+          "emergency_yuan": 1510856.7708872734,
+          "total_yuan": 15829022.52228569
+        },
+        "zero_truth_actions_identical": true,
+        "passed": true
+      }
+    },
+    "q4-3": {
+      "base_zero": {
+        "days_verified": 334,
+        "max_physical_residual_kwh": 4.547473508864641e-13,
+        "costs": {
+          "planned_yuan": 12879892.270983147,
+          "adjustment_yuan": 0.0,
+          "emergency_yuan": 4271681.428399676,
+          "total_yuan": 17151573.699382804
+        },
+        "zero_truth_actions_identical": true,
+        "passed": true
+      },
+      "base_stale": {
+        "days_verified": 334,
+        "max_physical_residual_kwh": 4.547473508864641e-13,
+        "costs": {
+          "planned_yuan": 12879892.270983147,
+          "adjustment_yuan": 7.747472267986491e-06,
+          "emergency_yuan": 4271681.42838798,
+          "total_yuan": 17151573.699378856
+        },
+        "zero_truth_actions_identical": true,
+        "passed": true
+      },
+      "base_fresh": {
+        "days_verified": 334,
+        "max_physical_residual_kwh": 3.410605131648481e-13,
+        "costs": {
+          "planned_yuan": 12879892.270983147,
+          "adjustment_yuan": 428683.8347326489,
+          "emergency_yuan": 3928964.3585192794,
+          "total_yuan": 17237540.464235064
+        },
+        "zero_truth_actions_identical": true,
+        "passed": true
+      },
+      "margin_zero": {
+        "days_verified": 334,
+        "max_physical_residual_kwh": 4.547473508864641e-13,
+        "costs": {
+          "planned_yuan": 14408444.876512473,
+          "adjustment_yuan": 0.0,
+          "emergency_yuan": 1414455.5941602392,
+          "total_yuan": 15822900.470672704
+        },
+        "zero_truth_actions_identical": true,
+        "passed": true
+      },
+      "margin_stale": {
+        "days_verified": 334,
+        "max_physical_residual_kwh": 4.547473508864641e-13,
+        "costs": {
+          "planned_yuan": 14408444.876512473,
+          "adjustment_yuan": 8.199399015183608e-06,
+          "emergency_yuan": 1414455.5941559854,
+          "total_yuan": 15822900.470676644
+        },
+        "zero_truth_actions_identical": true,
+        "passed": true
+      },
+      "margin_fresh": {
+        "days_verified": 334,
+        "max_physical_residual_kwh": 4.547473508864641e-13,
+        "costs": {
+          "planned_yuan": 14408444.876512473,
+          "adjustment_yuan": 466571.8386552374,
+          "emergency_yuan": 1478673.2321805889,
+          "total_yuan": 16353689.947348297
+        },
+        "zero_truth_actions_identical": true,
+        "passed": true
+      }
+    }
+  },
+  "days_verified": 2672,
+  "slots_verified": 384768,
+  "q2_parameters_unchanged": true,
+  "margin_retuned_for_q4": false,
+  "price_source": "data/processed/team_delivery/dynamic_price.csv, per-day 144 vector",
+  "emergency_invariance": {
+    "claim": "with a fixed midnight commitment the B0 controller leaves the emergency and surplus trajectories unchanged when only the price vector changes",
+    "max_abs_slot_gap_U_kwh": 2.222407147201011e-08,
+    "max_abs_slot_gap_W_kwh": 2.2228050511330366e-08,
+    "max_abs_slot_gap_C_minus_G_minus_D_kwh": 2.2228050511330366e-08,
+    "max_abs_slot_gap_C_kwh": 833.3333333333343,
+    "days_compared": 334,
+    "holds": true
+  },
+  "result_sha256": "26d1cf49eba23b8b5214335fd25d772af8a61bc529626c50ef1835a9642a534f",
+  "verifier_sha256": "6ad12c32bc7f192b41ea4c679def943c4acd033ce2157026a026a62927080789"
+}

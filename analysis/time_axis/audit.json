@@ -1,0 +1,8094 @@
+{
+  "checked_at_utc": "2026-09-12T03:34:53.758423+00:00",
+  "status": "structural_checks_passed_semantics_candidate",
+  "scope": "four input axes and seven purchase/adjustment output axes; not full Gate 0",
+  "input_axes": {
+    "附件1.xlsx/Sheet1": [
+      {
+        "cell": "A2",
+        "value": "00:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A3",
+        "value": "00:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A4",
+        "value": "00:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A5",
+        "value": "00:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A6",
+        "value": "00:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A7",
+        "value": "01:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A8",
+        "value": "01:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A9",
+        "value": "01:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A10",
+        "value": "01:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A11",
+        "value": "01:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A12",
+        "value": "01:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A13",
+        "value": "02:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A14",
+        "value": "02:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A15",
+        "value": "02:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A16",
+        "value": "02:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A17",
+        "value": "02:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A18",
+        "value": "02:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A19",
+        "value": "03:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A20",
+        "value": "03:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A21",
+        "value": "03:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A22",
+        "value": "03:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A23",
+        "value": "03:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A24",
+        "value": "03:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A25",
+        "value": "04:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A26",
+        "value": "04:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A27",
+        "value": "04:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A28",
+        "value": "04:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A29",
+        "value": "04:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A30",
+        "value": "04:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A31",
+        "value": "05:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A32",
+        "value": "05:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A33",
+        "value": "05:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A34",
+        "value": "05:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A35",
+        "value": "05:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A36",
+        "value": "05:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A37",
+        "value": "06:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A38",
+        "value": "06:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A39",
+        "value": "06:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A40",
+        "value": "06:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A41",
+        "value": "06:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A42",
+        "value": "06:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A43",
+        "value": "07:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A44",
+        "value": "07:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A45",
+        "value": "07:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A46",
+        "value": "07:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A47",
+        "value": "07:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A48",
+        "value": "07:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A49",
+        "value": "08:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A50",
+        "value": "08:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A51",
+        "value": "08:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A52",
+        "value": "08:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A53",
+        "value": "08:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A54",
+        "value": "08:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A55",
+        "value": "09:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A56",
+        "value": "09:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A57",
+        "value": "09:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A58",
+        "value": "09:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A59",
+        "value": "09:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A60",
+        "value": "09:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A61",
+        "value": "10:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "A62",
+        "value": "10:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A63",
+        "value": "10:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A64",
+        "value": "10:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A65",
+        "value": "10:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A66",
+        "value": "10:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A67",
+        "value": "11:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A68",
+        "value": "11:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A69",
+        "value": "11:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A70",
+        "value": "11:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A71",
+        "value": "11:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A72",
+        "value": "11:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A73",
+        "value": "12:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A74",
+        "value": "12:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A75",
+        "value": "12:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A76",
+        "value": "12:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A77",
+        "value": "12:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A78",
+        "value": "12:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A79",
+        "value": "13:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A80",
+        "value": "13:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A81",
+        "value": "13:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A82",
+        "value": "13:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A83",
+        "value": "13:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A84",
+        "value": "13:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A85",
+        "value": "14:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A86",
+        "value": "14:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A87",
+        "value": "14:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A88",
+        "value": "14:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A89",
+        "value": "14:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A90",
+        "value": "14:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A91",
+        "value": "15:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A92",
+        "value": "15:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A93",
+        "value": "15:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A94",
+        "value": "15:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A95",
+        "value": "15:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A96",
+        "value": "15:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A97",
+        "value": "16:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A98",
+        "value": "16:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A99",
+        "value": "16:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A100",
+        "value": "16:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A101",
+        "value": "16:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A102",
+        "value": "16:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A103",
+        "value": "17:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A104",
+        "value": "17:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A105",
+        "value": "17:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A106",
+        "value": "17:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A107",
+        "value": "17:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A108",
+        "value": "17:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A109",
+        "value": "18:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A110",
+        "value": "18:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A111",
+        "value": "18:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A112",
+        "value": "18:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A113",
+        "value": "18:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A114",
+        "value": "18:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A115",
+        "value": "19:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A116",
+        "value": "19:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A117",
+        "value": "19:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A118",
+        "value": "19:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A119",
+        "value": "19:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A120",
+        "value": "19:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A121",
+        "value": "20:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A122",
+        "value": "20:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A123",
+        "value": "20:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A124",
+        "value": "20:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A125",
+        "value": "20:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A126",
+        "value": "20:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A127",
+        "value": "21:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A128",
+        "value": "21:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A129",
+        "value": "21:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A130",
+        "value": "21:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A131",
+        "value": "21:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A132",
+        "value": "21:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A133",
+        "value": "22:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A134",
+        "value": "22:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A135",
+        "value": "22:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A136",
+        "value": "22:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A137",
+        "value": "22:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A138",
+        "value": "22:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A139",
+        "value": "23:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A140",
+        "value": "23:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A141",
+        "value": "23:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A142",
+        "value": "23:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A143",
+        "value": "23:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A144",
+        "value": "23:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A145",
+        "value": "0:00+1",
+        "number_format": "General"
+      }
+    ],
+    "附件2.xlsx/小区负载": [
+      {
+        "cell": "B1",
+        "value": "00:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "C1",
+        "value": "00:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "D1",
+        "value": "00:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "E1",
+        "value": "00:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "F1",
+        "value": "00:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "G1",
+        "value": "01:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "H1",
+        "value": "01:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "I1",
+        "value": "01:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "J1",
+        "value": "01:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "K1",
+        "value": "01:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "L1",
+        "value": "01:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "M1",
+        "value": "02:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "N1",
+        "value": "02:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "O1",
+        "value": "02:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "P1",
+        "value": "02:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "Q1",
+        "value": "02:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "R1",
+        "value": "02:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "S1",
+        "value": "03:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "T1",
+        "value": "03:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "U1",
+        "value": "03:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "V1",
+        "value": "03:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "W1",
+        "value": "03:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "X1",
+        "value": "03:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "Y1",
+        "value": "04:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "Z1",
+        "value": "04:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AA1",
+        "value": "04:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AB1",
+        "value": "04:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AC1",
+        "value": "04:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AD1",
+        "value": "04:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AE1",
+        "value": "05:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AF1",
+        "value": "05:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AG1",
+        "value": "05:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AH1",
+        "value": "05:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AI1",
+        "value": "05:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AJ1",
+        "value": "05:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AK1",
+        "value": "06:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AL1",
+        "value": "06:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AM1",
+        "value": "06:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AN1",
+        "value": "06:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AO1",
+        "value": "06:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AP1",
+        "value": "06:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AQ1",
+        "value": "07:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AR1",
+        "value": "07:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AS1",
+        "value": "07:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AT1",
+        "value": "07:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AU1",
+        "value": "07:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AV1",
+        "value": "07:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AW1",
+        "value": "08:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AX1",
+        "value": "08:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AY1",
+        "value": "08:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AZ1",
+        "value": "08:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BA1",
+        "value": "08:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BB1",
+        "value": "08:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BC1",
+        "value": "09:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BD1",
+        "value": "09:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BE1",
+        "value": "09:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BF1",
+        "value": "09:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BG1",
+        "value": "09:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BH1",
+        "value": "09:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BI1",
+        "value": "10:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BJ1",
+        "value": "10:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BK1",
+        "value": "10:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BL1",
+        "value": "10:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BM1",
+        "value": "10:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BN1",
+        "value": "10:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BO1",
+        "value": "11:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BP1",
+        "value": "11:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BQ1",
+        "value": "11:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BR1",
+        "value": "11:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BS1",
+        "value": "11:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BT1",
+        "value": "11:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BU1",
+        "value": "12:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BV1",
+        "value": "12:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BW1",
+        "value": "12:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BX1",
+        "value": "12:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BY1",
+        "value": "12:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BZ1",
+        "value": "12:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CA1",
+        "value": "13:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CB1",
+        "value": "13:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CC1",
+        "value": "13:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CD1",
+        "value": "13:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CE1",
+        "value": "13:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CF1",
+        "value": "13:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CG1",
+        "value": "14:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CH1",
+        "value": "14:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CI1",
+        "value": "14:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CJ1",
+        "value": "14:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CK1",
+        "value": "14:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CL1",
+        "value": "14:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CM1",
+        "value": "15:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CN1",
+        "value": "15:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CO1",
+        "value": "15:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CP1",
+        "value": "15:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CQ1",
+        "value": "15:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CR1",
+        "value": "15:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CS1",
+        "value": "16:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CT1",
+        "value": "16:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CU1",
+        "value": "16:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CV1",
+        "value": "16:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CW1",
+        "value": "16:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CX1",
+        "value": "16:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CY1",
+        "value": "17:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CZ1",
+        "value": "17:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DA1",
+        "value": "17:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DB1",
+        "value": "17:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DC1",
+        "value": "17:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DD1",
+        "value": "17:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DE1",
+        "value": "18:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DF1",
+        "value": "18:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DG1",
+        "value": "18:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DH1",
+        "value": "18:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DI1",
+        "value": "18:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DJ1",
+        "value": "18:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DK1",
+        "value": "19:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DL1",
+        "value": "19:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DM1",
+        "value": "19:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DN1",
+        "value": "19:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DO1",
+        "value": "19:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DP1",
+        "value": "19:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DQ1",
+        "value": "20:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DR1",
+        "value": "20:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DS1",
+        "value": "20:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DT1",
+        "value": "20:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DU1",
+        "value": "20:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DV1",
+        "value": "20:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DW1",
+        "value": "21:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DX1",
+        "value": "21:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DY1",
+        "value": "21:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DZ1",
+        "value": "21:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EA1",
+        "value": "21:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EB1",
+        "value": "21:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EC1",
+        "value": "22:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "ED1",
+        "value": "22:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EE1",
+        "value": "22:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EF1",
+        "value": "22:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EG1",
+        "value": "22:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EH1",
+        "value": "22:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EI1",
+        "value": "23:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EJ1",
+        "value": "23:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EK1",
+        "value": "23:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EL1",
+        "value": "23:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EM1",
+        "value": "23:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EN1",
+        "value": "23:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EO1",
+        "value": "0:00+1",
+        "number_format": "h:mm"
+      }
+    ],
+    "附件2.xlsx/光伏发电实际功率": [
+      {
+        "cell": "B1",
+        "value": "00:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "C1",
+        "value": "00:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "D1",
+        "value": "00:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "E1",
+        "value": "00:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "F1",
+        "value": "00:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "G1",
+        "value": "01:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "H1",
+        "value": "01:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "I1",
+        "value": "01:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "J1",
+        "value": "01:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "K1",
+        "value": "01:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "L1",
+        "value": "01:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "M1",
+        "value": "02:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "N1",
+        "value": "02:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "O1",
+        "value": "02:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "P1",
+        "value": "02:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "Q1",
+        "value": "02:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "R1",
+        "value": "02:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "S1",
+        "value": "03:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "T1",
+        "value": "03:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "U1",
+        "value": "03:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "V1",
+        "value": "03:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "W1",
+        "value": "03:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "X1",
+        "value": "03:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "Y1",
+        "value": "04:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "Z1",
+        "value": "04:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AA1",
+        "value": "04:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AB1",
+        "value": "04:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AC1",
+        "value": "04:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AD1",
+        "value": "04:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AE1",
+        "value": "05:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AF1",
+        "value": "05:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AG1",
+        "value": "05:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AH1",
+        "value": "05:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AI1",
+        "value": "05:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AJ1",
+        "value": "05:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AK1",
+        "value": "06:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AL1",
+        "value": "06:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AM1",
+        "value": "06:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AN1",
+        "value": "06:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AO1",
+        "value": "06:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AP1",
+        "value": "06:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AQ1",
+        "value": "07:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AR1",
+        "value": "07:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AS1",
+        "value": "07:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AT1",
+        "value": "07:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AU1",
+        "value": "07:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AV1",
+        "value": "07:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AW1",
+        "value": "08:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AX1",
+        "value": "08:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AY1",
+        "value": "08:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AZ1",
+        "value": "08:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BA1",
+        "value": "08:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BB1",
+        "value": "08:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BC1",
+        "value": "09:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BD1",
+        "value": "09:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BE1",
+        "value": "09:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BF1",
+        "value": "09:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BG1",
+        "value": "09:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BH1",
+        "value": "09:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BI1",
+        "value": "10:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BJ1",
+        "value": "10:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BK1",
+        "value": "10:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BL1",
+        "value": "10:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BM1",
+        "value": "10:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BN1",
+        "value": "10:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BO1",
+        "value": "11:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BP1",
+        "value": "11:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BQ1",
+        "value": "11:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BR1",
+        "value": "11:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BS1",
+        "value": "11:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BT1",
+        "value": "11:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BU1",
+        "value": "12:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BV1",
+        "value": "12:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BW1",
+        "value": "12:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BX1",
+        "value": "12:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BY1",
+        "value": "12:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BZ1",
+        "value": "12:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CA1",
+        "value": "13:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CB1",
+        "value": "13:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CC1",
+        "value": "13:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CD1",
+        "value": "13:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CE1",
+        "value": "13:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CF1",
+        "value": "13:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CG1",
+        "value": "14:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CH1",
+        "value": "14:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CI1",
+        "value": "14:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CJ1",
+        "value": "14:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CK1",
+        "value": "14:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CL1",
+        "value": "14:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CM1",
+        "value": "15:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CN1",
+        "value": "15:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CO1",
+        "value": "15:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CP1",
+        "value": "15:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CQ1",
+        "value": "15:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CR1",
+        "value": "15:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CS1",
+        "value": "16:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CT1",
+        "value": "16:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CU1",
+        "value": "16:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CV1",
+        "value": "16:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CW1",
+        "value": "16:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CX1",
+        "value": "16:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CY1",
+        "value": "17:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CZ1",
+        "value": "17:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DA1",
+        "value": "17:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DB1",
+        "value": "17:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DC1",
+        "value": "17:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DD1",
+        "value": "17:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DE1",
+        "value": "18:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DF1",
+        "value": "18:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DG1",
+        "value": "18:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DH1",
+        "value": "18:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DI1",
+        "value": "18:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DJ1",
+        "value": "18:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DK1",
+        "value": "19:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DL1",
+        "value": "19:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DM1",
+        "value": "19:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DN1",
+        "value": "19:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DO1",
+        "value": "19:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DP1",
+        "value": "19:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DQ1",
+        "value": "20:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DR1",
+        "value": "20:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DS1",
+        "value": "20:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DT1",
+        "value": "20:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DU1",
+        "value": "20:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DV1",
+        "value": "20:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DW1",
+        "value": "21:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DX1",
+        "value": "21:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DY1",
+        "value": "21:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DZ1",
+        "value": "21:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EA1",
+        "value": "21:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EB1",
+        "value": "21:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EC1",
+        "value": "22:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "ED1",
+        "value": "22:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EE1",
+        "value": "22:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EF1",
+        "value": "22:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EG1",
+        "value": "22:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EH1",
+        "value": "22:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EI1",
+        "value": "23:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EJ1",
+        "value": "23:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EK1",
+        "value": "23:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EL1",
+        "value": "23:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EM1",
+        "value": "23:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EN1",
+        "value": "23:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EO1",
+        "value": "0:00+1",
+        "number_format": "h:mm"
+      }
+    ],
+    "附件4.xlsx/Sheet1": [
+      {
+        "cell": "B1",
+        "value": "00:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "C1",
+        "value": "00:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "D1",
+        "value": "00:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "E1",
+        "value": "00:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "F1",
+        "value": "00:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "G1",
+        "value": "01:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "H1",
+        "value": "01:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "I1",
+        "value": "01:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "J1",
+        "value": "01:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "K1",
+        "value": "01:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "L1",
+        "value": "01:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "M1",
+        "value": "02:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "N1",
+        "value": "02:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "O1",
+        "value": "02:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "P1",
+        "value": "02:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "Q1",
+        "value": "02:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "R1",
+        "value": "02:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "S1",
+        "value": "03:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "T1",
+        "value": "03:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "U1",
+        "value": "03:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "V1",
+        "value": "03:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "W1",
+        "value": "03:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "X1",
+        "value": "03:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "Y1",
+        "value": "04:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "Z1",
+        "value": "04:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AA1",
+        "value": "04:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AB1",
+        "value": "04:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AC1",
+        "value": "04:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AD1",
+        "value": "04:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AE1",
+        "value": "05:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AF1",
+        "value": "05:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AG1",
+        "value": "05:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AH1",
+        "value": "05:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AI1",
+        "value": "05:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AJ1",
+        "value": "05:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AK1",
+        "value": "06:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AL1",
+        "value": "06:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AM1",
+        "value": "06:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AN1",
+        "value": "06:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AO1",
+        "value": "06:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AP1",
+        "value": "06:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AQ1",
+        "value": "07:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AR1",
+        "value": "07:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AS1",
+        "value": "07:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AT1",
+        "value": "07:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AU1",
+        "value": "07:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AV1",
+        "value": "07:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AW1",
+        "value": "08:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AX1",
+        "value": "08:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AY1",
+        "value": "08:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "AZ1",
+        "value": "08:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BA1",
+        "value": "08:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BB1",
+        "value": "08:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BC1",
+        "value": "09:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BD1",
+        "value": "09:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BE1",
+        "value": "09:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BF1",
+        "value": "09:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BG1",
+        "value": "09:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BH1",
+        "value": "09:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BI1",
+        "value": "10:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BJ1",
+        "value": "10:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BK1",
+        "value": "10:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BL1",
+        "value": "10:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BM1",
+        "value": "10:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BN1",
+        "value": "10:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BO1",
+        "value": "11:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BP1",
+        "value": "11:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BQ1",
+        "value": "11:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BR1",
+        "value": "11:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BS1",
+        "value": "11:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BT1",
+        "value": "11:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BU1",
+        "value": "12:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BV1",
+        "value": "12:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BW1",
+        "value": "12:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BX1",
+        "value": "12:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BY1",
+        "value": "12:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "BZ1",
+        "value": "12:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CA1",
+        "value": "13:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CB1",
+        "value": "13:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CC1",
+        "value": "13:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CD1",
+        "value": "13:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CE1",
+        "value": "13:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CF1",
+        "value": "13:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CG1",
+        "value": "14:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CH1",
+        "value": "14:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CI1",
+        "value": "14:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CJ1",
+        "value": "14:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CK1",
+        "value": "14:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CL1",
+        "value": "14:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CM1",
+        "value": "15:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CN1",
+        "value": "15:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CO1",
+        "value": "15:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CP1",
+        "value": "15:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CQ1",
+        "value": "15:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CR1",
+        "value": "15:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CS1",
+        "value": "16:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CT1",
+        "value": "16:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CU1",
+        "value": "16:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CV1",
+        "value": "16:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CW1",
+        "value": "16:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CX1",
+        "value": "16:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CY1",
+        "value": "17:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "CZ1",
+        "value": "17:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DA1",
+        "value": "17:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DB1",
+        "value": "17:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DC1",
+        "value": "17:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DD1",
+        "value": "17:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DE1",
+        "value": "18:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DF1",
+        "value": "18:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DG1",
+        "value": "18:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DH1",
+        "value": "18:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DI1",
+        "value": "18:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DJ1",
+        "value": "18:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DK1",
+        "value": "19:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DL1",
+        "value": "19:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DM1",
+        "value": "19:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DN1",
+        "value": "19:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DO1",
+        "value": "19:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DP1",
+        "value": "19:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DQ1",
+        "value": "20:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DR1",
+        "value": "20:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DS1",
+        "value": "20:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DT1",
+        "value": "20:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DU1",
+        "value": "20:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DV1",
+        "value": "20:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DW1",
+        "value": "21:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DX1",
+        "value": "21:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DY1",
+        "value": "21:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "DZ1",
+        "value": "21:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EA1",
+        "value": "21:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EB1",
+        "value": "21:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EC1",
+        "value": "22:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "ED1",
+        "value": "22:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EE1",
+        "value": "22:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EF1",
+        "value": "22:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EG1",
+        "value": "22:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EH1",
+        "value": "22:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EI1",
+        "value": "23:00:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EJ1",
+        "value": "23:10:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EK1",
+        "value": "23:20:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EL1",
+        "value": "23:30:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EM1",
+        "value": "23:40:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EN1",
+        "value": "23:50:00",
+        "number_format": "h:mm"
+      },
+      {
+        "cell": "EO1",
+        "value": "0:00+1",
+        "number_format": "h:mm"
+      }
+    ]
+  },
+  "output_axes": {
+    "result1.xlsx/计划购电量": [
+      {
+        "cell": "A2",
+        "value": "0:10-0:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A3",
+        "value": "0:20-0:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A4",
+        "value": "0:30-0:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A5",
+        "value": "0:40-0:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A6",
+        "value": "0:50-1:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A7",
+        "value": "1:00-1:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A8",
+        "value": "1:10-1:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A9",
+        "value": "1:20-1:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A10",
+        "value": "1:30-1:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A11",
+        "value": "1:40-1:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A12",
+        "value": "1:50-2:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A13",
+        "value": "2:00-2:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A14",
+        "value": "2:10-2:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A15",
+        "value": "2:20-2:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A16",
+        "value": "2:30-2:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A17",
+        "value": "2:40-2:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A18",
+        "value": "2:50-3:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A19",
+        "value": "3:00-3:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A20",
+        "value": "3:10-3:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A21",
+        "value": "3:20-3:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A22",
+        "value": "3:30-3:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A23",
+        "value": "3:40-3:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A24",
+        "value": "3:50-4:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A25",
+        "value": "4:00-4:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A26",
+        "value": "4:10-4:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A27",
+        "value": "4:20-4:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A28",
+        "value": "4:30-4:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A29",
+        "value": "4:40-4:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A30",
+        "value": "4:50-5:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A31",
+        "value": "5:00-5:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A32",
+        "value": "5:10-5:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A33",
+        "value": "5:20-5:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A34",
+        "value": "5:30-5:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A35",
+        "value": "5:40-5:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A36",
+        "value": "5:50-6:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A37",
+        "value": "6:00-6:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A38",
+        "value": "6:10-6:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A39",
+        "value": "6:20-6:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A40",
+        "value": "6:30-6:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A41",
+        "value": "6:40-6:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A42",
+        "value": "6:50-7:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A43",
+        "value": "7:00-7:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A44",
+        "value": "7:10-7:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A45",
+        "value": "7:20-7:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A46",
+        "value": "7:30-7:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A47",
+        "value": "7:40-7:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A48",
+        "value": "7:50-8:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A49",
+        "value": "8:00-8:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A50",
+        "value": "8:10-8:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A51",
+        "value": "8:20-8:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A52",
+        "value": "8:30-8:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A53",
+        "value": "8:40-8:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A54",
+        "value": "8:50-9:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A55",
+        "value": "9:00-9:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A56",
+        "value": "9:10-9:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A57",
+        "value": "9:20-9:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A58",
+        "value": "9:30-9:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A59",
+        "value": "9:40-9:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A60",
+        "value": "9:50-10:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A61",
+        "value": "10:00-10:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A62",
+        "value": "10:10-10:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A63",
+        "value": "10:20-10:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A64",
+        "value": "10:30-10:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A65",
+        "value": "10:40-10:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A66",
+        "value": "10:50-11:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A67",
+        "value": "11:00-11:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A68",
+        "value": "11:10-11:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A69",
+        "value": "11:20-11:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A70",
+        "value": "11:30-11:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A71",
+        "value": "11:40-11:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A72",
+        "value": "11:50-12:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A73",
+        "value": "12:00-12:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A74",
+        "value": "12:10-12:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A75",
+        "value": "12:20-12:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A76",
+        "value": "12:30-12:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A77",
+        "value": "12:40-12:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A78",
+        "value": "12:50-13:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A79",
+        "value": "13:00-13:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A80",
+        "value": "13:10-13:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A81",
+        "value": "13:20-13:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A82",
+        "value": "13:30-13:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A83",
+        "value": "13:40-13:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A84",
+        "value": "13:50-14:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A85",
+        "value": "14:00-14:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A86",
+        "value": "14:10-14:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A87",
+        "value": "14:20-14:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A88",
+        "value": "14:30-14:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A89",
+        "value": "14:40-14:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A90",
+        "value": "14:50-15:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A91",
+        "value": "15:00-15:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A92",
+        "value": "15:10-15:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A93",
+        "value": "15:20-15:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A94",
+        "value": "15:30-15:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A95",
+        "value": "15:40-15:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A96",
+        "value": "15:50-16:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A97",
+        "value": "16:00-16:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A98",
+        "value": "16:10-16:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A99",
+        "value": "16:20-16:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A100",
+        "value": "16:30-16:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A101",
+        "value": "16:40-16:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A102",
+        "value": "16:50-17:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A103",
+        "value": "17:00-17:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A104",
+        "value": "17:10-17:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A105",
+        "value": "17:20-17:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A106",
+        "value": "17:30-17:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A107",
+        "value": "17:40-17:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A108",
+        "value": "17:50-18:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A109",
+        "value": "18:00-18:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A110",
+        "value": "18:10-18:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A111",
+        "value": "18:20-18:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A112",
+        "value": "18:30-18:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A113",
+        "value": "18:40-18:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A114",
+        "value": "18:50-19:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A115",
+        "value": "19:00-19:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A116",
+        "value": "19:10-19:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A117",
+        "value": "19:20-19:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A118",
+        "value": "19:30-19:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A119",
+        "value": "19:40-19:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A120",
+        "value": "19:50-20:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A121",
+        "value": "20:00-20:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A122",
+        "value": "20:10-20:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A123",
+        "value": "20:20-20:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A124",
+        "value": "20:30-20:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A125",
+        "value": "20:40-20:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A126",
+        "value": "20:50-21:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A127",
+        "value": "21:00-21:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A128",
+        "value": "21:10-21:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A129",
+        "value": "21:20-21:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A130",
+        "value": "21:30-21:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A131",
+        "value": "21:40-21:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A132",
+        "value": "21:50-22:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A133",
+        "value": "22:00-22:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A134",
+        "value": "22:10-22:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A135",
+        "value": "22:20-22:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A136",
+        "value": "22:30-22:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A137",
+        "value": "22:40-22:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A138",
+        "value": "22:50-23:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "A139",
+        "value": "23:00-23:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "A140",
+        "value": "23:10-23:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "A141",
+        "value": "23:20-23:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "A142",
+        "value": "23:30-23:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "A143",
+        "value": "23:40-23:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "A144",
+        "value": "23:50-0:00+1",
+        "number_format": "General"
+      },
+      {
+        "cell": "A145",
+        "value": "0:00+1-0:10+1",
+        "number_format": "General"
+      }
+    ],
+    "result2.xlsx/计划购电量": [
+      {
+        "cell": "B1",
+        "value": "0:10-0:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "C1",
+        "value": "0:20-0:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "D1",
+        "value": "0:30-0:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "E1",
+        "value": "0:40-0:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "F1",
+        "value": "0:50-1:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "G1",
+        "value": "1:00-1:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "H1",
+        "value": "1:10-1:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "I1",
+        "value": "1:20-1:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "J1",
+        "value": "1:30-1:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "K1",
+        "value": "1:40-1:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "L1",
+        "value": "1:50-2:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "M1",
+        "value": "2:00-2:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "N1",
+        "value": "2:10-2:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "O1",
+        "value": "2:20-2:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "P1",
+        "value": "2:30-2:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "Q1",
+        "value": "2:40-2:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "R1",
+        "value": "2:50-3:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "S1",
+        "value": "3:00-3:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "T1",
+        "value": "3:10-3:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "U1",
+        "value": "3:20-3:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "V1",
+        "value": "3:30-3:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "W1",
+        "value": "3:40-3:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "X1",
+        "value": "3:50-4:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "Y1",
+        "value": "4:00-4:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "Z1",
+        "value": "4:10-4:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "AA1",
+        "value": "4:20-4:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "AB1",
+        "value": "4:30-4:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "AC1",
+        "value": "4:40-4:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "AD1",
+        "value": "4:50-5:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "AE1",
+        "value": "5:00-5:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "AF1",
+        "value": "5:10-5:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "AG1",
+        "value": "5:20-5:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "AH1",
+        "value": "5:30-5:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "AI1",
+        "value": "5:40-5:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "AJ1",
+        "value": "5:50-6:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "AK1",
+        "value": "6:00-6:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "AL1",
+        "value": "6:10-6:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "AM1",
+        "value": "6:20-6:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "AN1",
+        "value": "6:30-6:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "AO1",
+        "value": "6:40-6:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "AP1",
+        "value": "6:50-7:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "AQ1",
+        "value": "7:0-7:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "AR1",
+        "value": "7:10-7:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "AS1",
+        "value": "7:20-7:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "AT1",
+        "value": "7:30-7:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "AU1",
+        "value": "7:40-7:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "AV1",
+        "value": "7:50-8:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "AW1",
+        "value": "8:00-8:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "AX1",
+        "value": "8:10-8:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "AY1",
+        "value": "8:20-8:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "AZ1",
+        "value": "8:30-8:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "BA1",
+        "value": "8:40-8:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "BB1",
+        "value": "8:50-9:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "BC1",
+        "value": "9:00-9:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "BD1",
+        "value": "9:10-9:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "BE1",
+        "value": "9:20-9:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "BF1",
+        "value": "9:30-9:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "BG1",
+        "value": "9:40-9:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "BH1",
+        "value": "9:50-10:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "BI1",
+        "value": "10:00-10:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "BJ1",
+        "value": "10:10-10:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "BK1",
+        "value": "10:20-10:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "BL1",
+        "value": "10:30-10:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "BM1",
+        "value": "10:40-10:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "BN1",
+        "value": "10:50-11:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "BO1",
+        "value": "11:00-11:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "BP1",
+        "value": "11:10-11:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "BQ1",
+        "value": "11:20-11:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "BR1",
+        "value": "11:30-11:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "BS1",
+        "value": "11:40-11:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "BT1",
+        "value": "11:50-12:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "BU1",
+        "value": "12:00-12:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "BV1",
+        "value": "12:10-12:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "BW1",
+        "value": "12:20-12:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "BX1",
+        "value": "12:30-12:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "BY1",
+        "value": "12:40-12:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "BZ1",
+        "value": "12:50-13:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "CA1",
+        "value": "13:00-13:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "CB1",
+        "value": "13:10-13:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "CC1",
+        "value": "13:20-13:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "CD1",
+        "value": "13:30-13:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "CE1",
+        "value": "13:40-13:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "CF1",
+        "value": "13:50-14:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "CG1",
+        "value": "14:00-14:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "CH1",
+        "value": "14:10-14:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "CI1",
+        "value": "14:20-14:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "CJ1",
+        "value": "14:30-14:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "CK1",
+        "value": "14:40-14:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "CL1",
+        "value": "14:50-15:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "CM1",
+        "value": "15:00-15:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "CN1",
+        "value": "15:10-15:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "CO1",
+        "value": "15:20-15:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "CP1",
+        "value": "15:30-15:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "CQ1",
+        "value": "15:40-15:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "CR1",
+        "value": "15:50-16:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "CS1",
+        "value": "16:00-16:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "CT1",
+        "value": "16:10-16:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "CU1",
+        "value": "16:20-16:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "CV1",
+        "value": "16:30-16:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "CW1",
+        "value": "16:40-16:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "CX1",
+        "value": "16:50-17:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "CY1",
+        "value": "17:00-17:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "CZ1",
+        "value": "17:10-17:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "DA1",
+        "value": "17:20-17:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "DB1",
+        "value": "17:30-17:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "DC1",
+        "value": "17:40-17:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "DD1",
+        "value": "17:50-18:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "DE1",
+        "value": "18:00-18:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "DF1",
+        "value": "18:10-18:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "DG1",
+        "value": "18:20-18:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "DH1",
+        "value": "18:30-18:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "DI1",
+        "value": "18:40-18:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "DJ1",
+        "value": "18:50-19:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "DK1",
+        "value": "19:00-19:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "DL1",
+        "value": "19:10-19:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "DM1",
+        "value": "19:20-19:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "DN1",
+        "value": "19:30-19:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "DO1",
+        "value": "19:40-19:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "DP1",
+        "value": "19:50-20:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "DQ1",
+        "value": "20:00-20:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "DR1",
+        "value": "20:10-20:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "DS1",
+        "value": "20:20-20:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "DT1",
+        "value": "20:30-20:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "DU1",
+        "value": "20:40-20:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "DV1",
+        "value": "20:50-21:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "DW1",
+        "value": "21:00-21:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "DX1",
+        "value": "21:10-21:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "DY1",
+        "value": "21:20-21:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "DZ1",
+        "value": "21:30-21:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "EA1",
+        "value": "21:40-21:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "EB1",
+        "value": "21:50-22:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "EC1",
+        "value": "22:00-22:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "ED1",
+        "value": "22:10-22:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "EE1",
+        "value": "22:20-22:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "EF1",
+        "value": "22:30-22:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "EG1",
+        "value": "22:40-22:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "EH1",
+        "value": "22:50-23:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "EI1",
+        "value": "23:00-23:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "EJ1",
+        "value": "23:10-23:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "EK1",
+        "value": "23:20-23:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "EL1",
+        "value": "23:30-23:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "EM1",
+        "value": "23:40-23:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "EN1",
+        "value": "23:50-0:00+1",
+        "number_format": "General"
+      },
+      {
+        "cell": "EO1",
+        "value": "0:00-0:10+1",
+        "number_format": "General"
+      }
+    ],
+    "result3.xlsx/计划购电量": [
+      {
+        "cell": "B1",
+        "value": "0:10-0:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "C1",
+        "value": "0:20-0:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "D1",
+        "value": "0:30-0:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "E1",
+        "value": "0:40-0:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "F1",
+        "value": "0:50-1:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "G1",
+        "value": "1:00-1:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "H1",
+        "value": "1:10-1:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "I1",
+        "value": "1:20-1:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "J1",
+        "value": "1:30-1:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "K1",
+        "value": "1:40-1:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "L1",
+        "value": "1:50-2:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "M1",
+        "value": "2:00-2:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "N1",
+        "value": "2:10-2:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "O1",
+        "value": "2:20-2:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "P1",
+        "value": "2:30-2:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "Q1",
+        "value": "2:40-2:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "R1",
+        "value": "2:50-3:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "S1",
+        "value": "3:00-3:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "T1",
+        "value": "3:10-3:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "U1",
+        "value": "3:20-3:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "V1",
+        "value": "3:30-3:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "W1",
+        "value": "3:40-3:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "X1",
+        "value": "3:50-4:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "Y1",
+        "value": "4:00-4:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "Z1",
+        "value": "4:10-4:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "AA1",
+        "value": "4:20-4:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "AB1",
+        "value": "4:30-4:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "AC1",
+        "value": "4:40-4:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "AD1",
+        "value": "4:50-5:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "AE1",
+        "value": "5:00-5:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "AF1",
+        "value": "5:10-5:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "AG1",
+        "value": "5:20-5:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "AH1",
+        "value": "5:30-5:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "AI1",
+        "value": "5:40-5:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "AJ1",
+        "value": "5:50-6:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "AK1",
+        "value": "6:00-6:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "AL1",
+        "value": "6:10-6:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "AM1",
+        "value": "6:20-6:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "AN1",
+        "value": "6:30-6:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "AO1",
+        "value": "6:40-6:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "AP1",
+        "value": "6:50-7:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "AQ1",
+        "value": "7:0-7:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "AR1",
+        "value": "7:10-7:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "AS1",
+        "value": "7:20-7:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "AT1",
+        "value": "7:30-7:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "AU1",
+        "value": "7:40-7:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "AV1",
+        "value": "7:50-8:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "AW1",
+        "value": "8:00-8:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "AX1",
+        "value": "8:10-8:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "AY1",
+        "value": "8:20-8:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "AZ1",
+        "value": "8:30-8:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "BA1",
+        "value": "8:40-8:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "BB1",
+        "value": "8:50-9:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "BC1",
+        "value": "9:00-9:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "BD1",
+        "value": "9:10-9:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "BE1",
+        "value": "9:20-9:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "BF1",
+        "value": "9:30-9:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "BG1",
+        "value": "9:40-9:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "BH1",
+        "value": "9:50-10:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "BI1",
+        "value": "10:00-10:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "BJ1",
+        "value": "10:10-10:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "BK1",
+        "value": "10:20-10:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "BL1",
+        "value": "10:30-10:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "BM1",
+        "value": "10:40-10:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "BN1",
+        "value": "10:50-11:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "BO1",
+        "value": "11:00-11:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "BP1",
+        "value": "11:10-11:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "BQ1",
+        "value": "11:20-11:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "BR1",
+        "value": "11:30-11:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "BS1",
+        "value": "11:40-11:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "BT1",
+        "value": "11:50-12:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "BU1",
+        "value": "12:00-12:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "BV1",
+        "value": "12:10-12:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "BW1",
+        "value": "12:20-12:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "BX1",
+        "value": "12:30-12:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "BY1",
+        "value": "12:40-12:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "BZ1",
+        "value": "12:50-13:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "CA1",
+        "value": "13:00-13:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "CB1",
+        "value": "13:10-13:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "CC1",
+        "value": "13:20-13:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "CD1",
+        "value": "13:30-13:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "CE1",
+        "value": "13:40-13:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "CF1",
+        "value": "13:50-14:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "CG1",
+        "value": "14:00-14:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "CH1",
+        "value": "14:10-14:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "CI1",
+        "value": "14:20-14:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "CJ1",
+        "value": "14:30-14:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "CK1",
+        "value": "14:40-14:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "CL1",
+        "value": "14:50-15:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "CM1",
+        "value": "15:00-15:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "CN1",
+        "value": "15:10-15:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "CO1",
+        "value": "15:20-15:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "CP1",
+        "value": "15:30-15:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "CQ1",
+        "value": "15:40-15:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "CR1",
+        "value": "15:50-16:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "CS1",
+        "value": "16:00-16:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "CT1",
+        "value": "16:10-16:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "CU1",
+        "value": "16:20-16:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "CV1",
+        "value": "16:30-16:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "CW1",
+        "value": "16:40-16:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "CX1",
+        "value": "16:50-17:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "CY1",
+        "value": "17:00-17:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "CZ1",
+        "value": "17:10-17:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "DA1",
+        "value": "17:20-17:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "DB1",
+        "value": "17:30-17:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "DC1",
+        "value": "17:40-17:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "DD1",
+        "value": "17:50-18:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "DE1",
+        "value": "18:00-18:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "DF1",
+        "value": "18:10-18:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "DG1",
+        "value": "18:20-18:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "DH1",
+        "value": "18:30-18:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "DI1",
+        "value": "18:40-18:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "DJ1",
+        "value": "18:50-19:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "DK1",
+        "value": "19:00-19:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "DL1",
+        "value": "19:10-19:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "DM1",
+        "value": "19:20-19:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "DN1",
+        "value": "19:30-19:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "DO1",
+        "value": "19:40-19:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "DP1",
+        "value": "19:50-20:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "DQ1",
+        "value": "20:00-20:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "DR1",
+        "value": "20:10-20:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "DS1",
+        "value": "20:20-20:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "DT1",
+        "value": "20:30-20:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "DU1",
+        "value": "20:40-20:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "DV1",
+        "value": "20:50-21:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "DW1",
+        "value": "21:00-21:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "DX1",
+        "value": "21:10-21:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "DY1",
+        "value": "21:20-21:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "DZ1",
+        "value": "21:30-21:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "EA1",
+        "value": "21:40-21:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "EB1",
+        "value": "21:50-22:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "EC1",
+        "value": "22:00-22:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "ED1",
+        "value": "22:10-22:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "EE1",
+        "value": "22:20-22:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "EF1",
+        "value": "22:30-22:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "EG1",
+        "value": "22:40-22:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "EH1",
+        "value": "22:50-23:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "EI1",
+        "value": "23:00-23:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "EJ1",
+        "value": "23:10-23:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "EK1",
+        "value": "23:20-23:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "EL1",
+        "value": "23:30-23:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "EM1",
+        "value": "23:40-23:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "EN1",
+        "value": "23:50-0:00+1",
+        "number_format": "General"
+      },
+      {
+        "cell": "EO1",
+        "value": "0:00-0:10+1",
+        "number_format": "General"
+      }
+    ],
+    "result3.xlsx/调整购电量": [
+      {
+        "cell": "B1",
+        "value": "0:10-0:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "C1",
+        "value": "0:20-0:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "D1",
+        "value": "0:30-0:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "E1",
+        "value": "0:40-0:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "F1",
+        "value": "0:50-1:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "G1",
+        "value": "1:00-1:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "H1",
+        "value": "1:10-1:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "I1",
+        "value": "1:20-1:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "J1",
+        "value": "1:30-1:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "K1",
+        "value": "1:40-1:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "L1",
+        "value": "1:50-2:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "M1",
+        "value": "2:00-2:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "N1",
+        "value": "2:10-2:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "O1",
+        "value": "2:20-2:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "P1",
+        "value": "2:30-2:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "Q1",
+        "value": "2:40-2:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "R1",
+        "value": "2:50-3:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "S1",
+        "value": "3:00-3:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "T1",
+        "value": "3:10-3:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "U1",
+        "value": "3:20-3:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "V1",
+        "value": "3:30-3:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "W1",
+        "value": "3:40-3:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "X1",
+        "value": "3:50-4:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "Y1",
+        "value": "4:00-4:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "Z1",
+        "value": "4:10-4:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "AA1",
+        "value": "4:20-4:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "AB1",
+        "value": "4:30-4:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "AC1",
+        "value": "4:40-4:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "AD1",
+        "value": "4:50-5:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "AE1",
+        "value": "5:00-5:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "AF1",
+        "value": "5:10-5:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "AG1",
+        "value": "5:20-5:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "AH1",
+        "value": "5:30-5:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "AI1",
+        "value": "5:40-5:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "AJ1",
+        "value": "5:50-6:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "AK1",
+        "value": "6:00-6:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "AL1",
+        "value": "6:10-6:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "AM1",
+        "value": "6:20-6:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "AN1",
+        "value": "6:30-6:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "AO1",
+        "value": "6:40-6:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "AP1",
+        "value": "6:50-7:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "AQ1",
+        "value": "7:0-7:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "AR1",
+        "value": "7:10-7:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "AS1",
+        "value": "7:20-7:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "AT1",
+        "value": "7:30-7:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "AU1",
+        "value": "7:40-7:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "AV1",
+        "value": "7:50-8:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "AW1",
+        "value": "8:00-8:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "AX1",
+        "value": "8:10-8:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "AY1",
+        "value": "8:20-8:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "AZ1",
+        "value": "8:30-8:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "BA1",
+        "value": "8:40-8:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "BB1",
+        "value": "8:50-9:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "BC1",
+        "value": "9:00-9:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "BD1",
+        "value": "9:10-9:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "BE1",
+        "value": "9:20-9:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "BF1",
+        "value": "9:30-9:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "BG1",
+        "value": "9:40-9:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "BH1",
+        "value": "9:50-10:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "BI1",
+        "value": "10:00-10:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "BJ1",
+        "value": "10:10-10:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "BK1",
+        "value": "10:20-10:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "BL1",
+        "value": "10:30-10:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "BM1",
+        "value": "10:40-10:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "BN1",
+        "value": "10:50-11:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "BO1",
+        "value": "11:00-11:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "BP1",
+        "value": "11:10-11:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "BQ1",
+        "value": "11:20-11:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "BR1",
+        "value": "11:30-11:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "BS1",
+        "value": "11:40-11:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "BT1",
+        "value": "11:50-12:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "BU1",
+        "value": "12:00-12:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "BV1",
+        "value": "12:10-12:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "BW1",
+        "value": "12:20-12:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "BX1",
+        "value": "12:30-12:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "BY1",
+        "value": "12:40-12:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "BZ1",
+        "value": "12:50-13:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "CA1",
+        "value": "13:00-13:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "CB1",
+        "value": "13:10-13:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "CC1",
+        "value": "13:20-13:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "CD1",
+        "value": "13:30-13:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "CE1",
+        "value": "13:40-13:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "CF1",
+        "value": "13:50-14:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "CG1",
+        "value": "14:00-14:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "CH1",
+        "value": "14:10-14:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "CI1",
+        "value": "14:20-14:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "CJ1",
+        "value": "14:30-14:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "CK1",
+        "value": "14:40-14:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "CL1",
+        "value": "14:50-15:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "CM1",
+        "value": "15:00-15:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "CN1",
+        "value": "15:10-15:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "CO1",
+        "value": "15:20-15:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "CP1",
+        "value": "15:30-15:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "CQ1",
+        "value": "15:40-15:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "CR1",
+        "value": "15:50-16:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "CS1",
+        "value": "16:00-16:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "CT1",
+        "value": "16:10-16:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "CU1",
+        "value": "16:20-16:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "CV1",
+        "value": "16:30-16:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "CW1",
+        "value": "16:40-16:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "CX1",
+        "value": "16:50-17:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "CY1",
+        "value": "17:00-17:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "CZ1",
+        "value": "17:10-17:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "DA1",
+        "value": "17:20-17:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "DB1",
+        "value": "17:30-17:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "DC1",
+        "value": "17:40-17:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "DD1",
+        "value": "17:50-18:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "DE1",
+        "value": "18:00-18:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "DF1",
+        "value": "18:10-18:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "DG1",
+        "value": "18:20-18:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "DH1",
+        "value": "18:30-18:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "DI1",
+        "value": "18:40-18:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "DJ1",
+        "value": "18:50-19:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "DK1",
+        "value": "19:00-19:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "DL1",
+        "value": "19:10-19:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "DM1",
+        "value": "19:20-19:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "DN1",
+        "value": "19:30-19:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "DO1",
+        "value": "19:40-19:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "DP1",
+        "value": "19:50-20:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "DQ1",
+        "value": "20:00-20:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "DR1",
+        "value": "20:10-20:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "DS1",
+        "value": "20:20-20:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "DT1",
+        "value": "20:30-20:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "DU1",
+        "value": "20:40-20:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "DV1",
+        "value": "20:50-21:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "DW1",
+        "value": "21:00-21:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "DX1",
+        "value": "21:10-21:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "DY1",
+        "value": "21:20-21:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "DZ1",
+        "value": "21:30-21:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "EA1",
+        "value": "21:40-21:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "EB1",
+        "value": "21:50-22:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "EC1",
+        "value": "22:00-22:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "ED1",
+        "value": "22:10-22:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "EE1",
+        "value": "22:20-22:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "EF1",
+        "value": "22:30-22:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "EG1",
+        "value": "22:40-22:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "EH1",
+        "value": "22:50-23:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "EI1",
+        "value": "23:00-23:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "EJ1",
+        "value": "23:10-23:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "EK1",
+        "value": "23:20-23:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "EL1",
+        "value": "23:30-23:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "EM1",
+        "value": "23:40-23:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "EN1",
+        "value": "23:50-0:00+1",
+        "number_format": "General"
+      },
+      {
+        "cell": "EO1",
+        "value": "0:00-0:10+1",
+        "number_format": "General"
+      }
+    ],
+    "result4-2.xlsx/计划购电量": [
+      {
+        "cell": "B1",
+        "value": "0:10-0:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "C1",
+        "value": "0:20-0:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "D1",
+        "value": "0:30-0:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "E1",
+        "value": "0:40-0:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "F1",
+        "value": "0:50-1:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "G1",
+        "value": "1:00-1:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "H1",
+        "value": "1:10-1:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "I1",
+        "value": "1:20-1:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "J1",
+        "value": "1:30-1:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "K1",
+        "value": "1:40-1:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "L1",
+        "value": "1:50-2:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "M1",
+        "value": "2:00-2:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "N1",
+        "value": "2:10-2:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "O1",
+        "value": "2:20-2:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "P1",
+        "value": "2:30-2:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "Q1",
+        "value": "2:40-2:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "R1",
+        "value": "2:50-3:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "S1",
+        "value": "3:00-3:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "T1",
+        "value": "3:10-3:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "U1",
+        "value": "3:20-3:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "V1",
+        "value": "3:30-3:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "W1",
+        "value": "3:40-3:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "X1",
+        "value": "3:50-4:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "Y1",
+        "value": "4:00-4:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "Z1",
+        "value": "4:10-4:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "AA1",
+        "value": "4:20-4:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "AB1",
+        "value": "4:30-4:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "AC1",
+        "value": "4:40-4:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "AD1",
+        "value": "4:50-5:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "AE1",
+        "value": "5:00-5:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "AF1",
+        "value": "5:10-5:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "AG1",
+        "value": "5:20-5:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "AH1",
+        "value": "5:30-5:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "AI1",
+        "value": "5:40-5:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "AJ1",
+        "value": "5:50-6:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "AK1",
+        "value": "6:00-6:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "AL1",
+        "value": "6:10-6:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "AM1",
+        "value": "6:20-6:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "AN1",
+        "value": "6:30-6:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "AO1",
+        "value": "6:40-6:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "AP1",
+        "value": "6:50-7:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "AQ1",
+        "value": "7:0-7:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "AR1",
+        "value": "7:10-7:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "AS1",
+        "value": "7:20-7:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "AT1",
+        "value": "7:30-7:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "AU1",
+        "value": "7:40-7:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "AV1",
+        "value": "7:50-8:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "AW1",
+        "value": "8:00-8:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "AX1",
+        "value": "8:10-8:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "AY1",
+        "value": "8:20-8:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "AZ1",
+        "value": "8:30-8:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "BA1",
+        "value": "8:40-8:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "BB1",
+        "value": "8:50-9:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "BC1",
+        "value": "9:00-9:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "BD1",
+        "value": "9:10-9:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "BE1",
+        "value": "9:20-9:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "BF1",
+        "value": "9:30-9:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "BG1",
+        "value": "9:40-9:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "BH1",
+        "value": "9:50-10:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "BI1",
+        "value": "10:00-10:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "BJ1",
+        "value": "10:10-10:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "BK1",
+        "value": "10:20-10:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "BL1",
+        "value": "10:30-10:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "BM1",
+        "value": "10:40-10:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "BN1",
+        "value": "10:50-11:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "BO1",
+        "value": "11:00-11:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "BP1",
+        "value": "11:10-11:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "BQ1",
+        "value": "11:20-11:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "BR1",
+        "value": "11:30-11:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "BS1",
+        "value": "11:40-11:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "BT1",
+        "value": "11:50-12:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "BU1",
+        "value": "12:00-12:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "BV1",
+        "value": "12:10-12:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "BW1",
+        "value": "12:20-12:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "BX1",
+        "value": "12:30-12:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "BY1",
+        "value": "12:40-12:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "BZ1",
+        "value": "12:50-13:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "CA1",
+        "value": "13:00-13:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "CB1",
+        "value": "13:10-13:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "CC1",
+        "value": "13:20-13:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "CD1",
+        "value": "13:30-13:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "CE1",
+        "value": "13:40-13:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "CF1",
+        "value": "13:50-14:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "CG1",
+        "value": "14:00-14:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "CH1",
+        "value": "14:10-14:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "CI1",
+        "value": "14:20-14:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "CJ1",
+        "value": "14:30-14:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "CK1",
+        "value": "14:40-14:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "CL1",
+        "value": "14:50-15:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "CM1",
+        "value": "15:00-15:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "CN1",
+        "value": "15:10-15:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "CO1",
+        "value": "15:20-15:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "CP1",
+        "value": "15:30-15:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "CQ1",
+        "value": "15:40-15:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "CR1",
+        "value": "15:50-16:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "CS1",
+        "value": "16:00-16:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "CT1",
+        "value": "16:10-16:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "CU1",
+        "value": "16:20-16:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "CV1",
+        "value": "16:30-16:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "CW1",
+        "value": "16:40-16:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "CX1",
+        "value": "16:50-17:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "CY1",
+        "value": "17:00-17:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "CZ1",
+        "value": "17:10-17:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "DA1",
+        "value": "17:20-17:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "DB1",
+        "value": "17:30-17:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "DC1",
+        "value": "17:40-17:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "DD1",
+        "value": "17:50-18:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "DE1",
+        "value": "18:00-18:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "DF1",
+        "value": "18:10-18:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "DG1",
+        "value": "18:20-18:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "DH1",
+        "value": "18:30-18:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "DI1",
+        "value": "18:40-18:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "DJ1",
+        "value": "18:50-19:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "DK1",
+        "value": "19:00-19:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "DL1",
+        "value": "19:10-19:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "DM1",
+        "value": "19:20-19:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "DN1",
+        "value": "19:30-19:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "DO1",
+        "value": "19:40-19:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "DP1",
+        "value": "19:50-20:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "DQ1",
+        "value": "20:00-20:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "DR1",
+        "value": "20:10-20:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "DS1",
+        "value": "20:20-20:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "DT1",
+        "value": "20:30-20:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "DU1",
+        "value": "20:40-20:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "DV1",
+        "value": "20:50-21:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "DW1",
+        "value": "21:00-21:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "DX1",
+        "value": "21:10-21:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "DY1",
+        "value": "21:20-21:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "DZ1",
+        "value": "21:30-21:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "EA1",
+        "value": "21:40-21:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "EB1",
+        "value": "21:50-22:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "EC1",
+        "value": "22:00-22:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "ED1",
+        "value": "22:10-22:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "EE1",
+        "value": "22:20-22:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "EF1",
+        "value": "22:30-22:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "EG1",
+        "value": "22:40-22:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "EH1",
+        "value": "22:50-23:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "EI1",
+        "value": "23:00-23:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "EJ1",
+        "value": "23:10-23:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "EK1",
+        "value": "23:20-23:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "EL1",
+        "value": "23:30-23:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "EM1",
+        "value": "23:40-23:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "EN1",
+        "value": "23:50-0:00+1",
+        "number_format": "General"
+      },
+      {
+        "cell": "EO1",
+        "value": "0:00-0:10+1",
+        "number_format": "General"
+      }
+    ],
+    "result4-3.xlsx/计划购电量": [
+      {
+        "cell": "B1",
+        "value": "0:10-0:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "C1",
+        "value": "0:20-0:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "D1",
+        "value": "0:30-0:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "E1",
+        "value": "0:40-0:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "F1",
+        "value": "0:50-1:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "G1",
+        "value": "1:00-1:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "H1",
+        "value": "1:10-1:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "I1",
+        "value": "1:20-1:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "J1",
+        "value": "1:30-1:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "K1",
+        "value": "1:40-1:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "L1",
+        "value": "1:50-2:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "M1",
+        "value": "2:00-2:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "N1",
+        "value": "2:10-2:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "O1",
+        "value": "2:20-2:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "P1",
+        "value": "2:30-2:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "Q1",
+        "value": "2:40-2:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "R1",
+        "value": "2:50-3:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "S1",
+        "value": "3:00-3:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "T1",
+        "value": "3:10-3:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "U1",
+        "value": "3:20-3:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "V1",
+        "value": "3:30-3:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "W1",
+        "value": "3:40-3:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "X1",
+        "value": "3:50-4:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "Y1",
+        "value": "4:00-4:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "Z1",
+        "value": "4:10-4:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "AA1",
+        "value": "4:20-4:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "AB1",
+        "value": "4:30-4:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "AC1",
+        "value": "4:40-4:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "AD1",
+        "value": "4:50-5:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "AE1",
+        "value": "5:00-5:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "AF1",
+        "value": "5:10-5:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "AG1",
+        "value": "5:20-5:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "AH1",
+        "value": "5:30-5:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "AI1",
+        "value": "5:40-5:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "AJ1",
+        "value": "5:50-6:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "AK1",
+        "value": "6:00-6:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "AL1",
+        "value": "6:10-6:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "AM1",
+        "value": "6:20-6:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "AN1",
+        "value": "6:30-6:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "AO1",
+        "value": "6:40-6:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "AP1",
+        "value": "6:50-7:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "AQ1",
+        "value": "7:0-7:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "AR1",
+        "value": "7:10-7:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "AS1",
+        "value": "7:20-7:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "AT1",
+        "value": "7:30-7:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "AU1",
+        "value": "7:40-7:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "AV1",
+        "value": "7:50-8:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "AW1",
+        "value": "8:00-8:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "AX1",
+        "value": "8:10-8:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "AY1",
+        "value": "8:20-8:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "AZ1",
+        "value": "8:30-8:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "BA1",
+        "value": "8:40-8:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "BB1",
+        "value": "8:50-9:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "BC1",
+        "value": "9:00-9:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "BD1",
+        "value": "9:10-9:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "BE1",
+        "value": "9:20-9:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "BF1",
+        "value": "9:30-9:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "BG1",
+        "value": "9:40-9:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "BH1",
+        "value": "9:50-10:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "BI1",
+        "value": "10:00-10:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "BJ1",
+        "value": "10:10-10:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "BK1",
+        "value": "10:20-10:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "BL1",
+        "value": "10:30-10:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "BM1",
+        "value": "10:40-10:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "BN1",
+        "value": "10:50-11:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "BO1",
+        "value": "11:00-11:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "BP1",
+        "value": "11:10-11:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "BQ1",
+        "value": "11:20-11:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "BR1",
+        "value": "11:30-11:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "BS1",
+        "value": "11:40-11:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "BT1",
+        "value": "11:50-12:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "BU1",
+        "value": "12:00-12:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "BV1",
+        "value": "12:10-12:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "BW1",
+        "value": "12:20-12:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "BX1",
+        "value": "12:30-12:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "BY1",
+        "value": "12:40-12:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "BZ1",
+        "value": "12:50-13:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "CA1",
+        "value": "13:00-13:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "CB1",
+        "value": "13:10-13:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "CC1",
+        "value": "13:20-13:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "CD1",
+        "value": "13:30-13:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "CE1",
+        "value": "13:40-13:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "CF1",
+        "value": "13:50-14:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "CG1",
+        "value": "14:00-14:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "CH1",
+        "value": "14:10-14:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "CI1",
+        "value": "14:20-14:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "CJ1",
+        "value": "14:30-14:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "CK1",
+        "value": "14:40-14:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "CL1",
+        "value": "14:50-15:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "CM1",
+        "value": "15:00-15:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "CN1",
+        "value": "15:10-15:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "CO1",
+        "value": "15:20-15:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "CP1",
+        "value": "15:30-15:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "CQ1",
+        "value": "15:40-15:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "CR1",
+        "value": "15:50-16:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "CS1",
+        "value": "16:00-16:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "CT1",
+        "value": "16:10-16:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "CU1",
+        "value": "16:20-16:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "CV1",
+        "value": "16:30-16:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "CW1",
+        "value": "16:40-16:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "CX1",
+        "value": "16:50-17:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "CY1",
+        "value": "17:00-17:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "CZ1",
+        "value": "17:10-17:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "DA1",
+        "value": "17:20-17:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "DB1",
+        "value": "17:30-17:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "DC1",
+        "value": "17:40-17:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "DD1",
+        "value": "17:50-18:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "DE1",
+        "value": "18:00-18:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "DF1",
+        "value": "18:10-18:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "DG1",
+        "value": "18:20-18:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "DH1",
+        "value": "18:30-18:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "DI1",
+        "value": "18:40-18:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "DJ1",
+        "value": "18:50-19:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "DK1",
+        "value": "19:00-19:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "DL1",
+        "value": "19:10-19:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "DM1",
+        "value": "19:20-19:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "DN1",
+        "value": "19:30-19:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "DO1",
+        "value": "19:40-19:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "DP1",
+        "value": "19:50-20:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "DQ1",
+        "value": "20:00-20:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "DR1",
+        "value": "20:10-20:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "DS1",
+        "value": "20:20-20:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "DT1",
+        "value": "20:30-20:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "DU1",
+        "value": "20:40-20:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "DV1",
+        "value": "20:50-21:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "DW1",
+        "value": "21:00-21:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "DX1",
+        "value": "21:10-21:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "DY1",
+        "value": "21:20-21:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "DZ1",
+        "value": "21:30-21:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "EA1",
+        "value": "21:40-21:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "EB1",
+        "value": "21:50-22:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "EC1",
+        "value": "22:00-22:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "ED1",
+        "value": "22:10-22:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "EE1",
+        "value": "22:20-22:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "EF1",
+        "value": "22:30-22:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "EG1",
+        "value": "22:40-22:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "EH1",
+        "value": "22:50-23:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "EI1",
+        "value": "23:00-23:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "EJ1",
+        "value": "23:10-23:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "EK1",
+        "value": "23:20-23:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "EL1",
+        "value": "23:30-23:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "EM1",
+        "value": "23:40-23:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "EN1",
+        "value": "23:50-0:00+1",
+        "number_format": "General"
+      },
+      {
+        "cell": "EO1",
+        "value": "0:00-0:10+1",
+        "number_format": "General"
+      }
+    ],
+    "result4-3.xlsx/调整购电量": [
+      {
+        "cell": "B1",
+        "value": "0:10-0:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "C1",
+        "value": "0:20-0:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "D1",
+        "value": "0:30-0:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "E1",
+        "value": "0:40-0:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "F1",
+        "value": "0:50-1:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "G1",
+        "value": "1:00-1:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "H1",
+        "value": "1:10-1:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "I1",
+        "value": "1:20-1:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "J1",
+        "value": "1:30-1:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "K1",
+        "value": "1:40-1:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "L1",
+        "value": "1:50-2:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "M1",
+        "value": "2:00-2:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "N1",
+        "value": "2:10-2:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "O1",
+        "value": "2:20-2:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "P1",
+        "value": "2:30-2:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "Q1",
+        "value": "2:40-2:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "R1",
+        "value": "2:50-3:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "S1",
+        "value": "3:00-3:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "T1",
+        "value": "3:10-3:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "U1",
+        "value": "3:20-3:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "V1",
+        "value": "3:30-3:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "W1",
+        "value": "3:40-3:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "X1",
+        "value": "3:50-4:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "Y1",
+        "value": "4:00-4:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "Z1",
+        "value": "4:10-4:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "AA1",
+        "value": "4:20-4:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "AB1",
+        "value": "4:30-4:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "AC1",
+        "value": "4:40-4:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "AD1",
+        "value": "4:50-5:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "AE1",
+        "value": "5:00-5:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "AF1",
+        "value": "5:10-5:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "AG1",
+        "value": "5:20-5:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "AH1",
+        "value": "5:30-5:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "AI1",
+        "value": "5:40-5:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "AJ1",
+        "value": "5:50-6:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "AK1",
+        "value": "6:00-6:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "AL1",
+        "value": "6:10-6:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "AM1",
+        "value": "6:20-6:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "AN1",
+        "value": "6:30-6:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "AO1",
+        "value": "6:40-6:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "AP1",
+        "value": "6:50-7:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "AQ1",
+        "value": "7:0-7:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "AR1",
+        "value": "7:10-7:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "AS1",
+        "value": "7:20-7:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "AT1",
+        "value": "7:30-7:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "AU1",
+        "value": "7:40-7:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "AV1",
+        "value": "7:50-8:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "AW1",
+        "value": "8:00-8:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "AX1",
+        "value": "8:10-8:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "AY1",
+        "value": "8:20-8:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "AZ1",
+        "value": "8:30-8:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "BA1",
+        "value": "8:40-8:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "BB1",
+        "value": "8:50-9:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "BC1",
+        "value": "9:00-9:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "BD1",
+        "value": "9:10-9:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "BE1",
+        "value": "9:20-9:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "BF1",
+        "value": "9:30-9:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "BG1",
+        "value": "9:40-9:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "BH1",
+        "value": "9:50-10:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "BI1",
+        "value": "10:00-10:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "BJ1",
+        "value": "10:10-10:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "BK1",
+        "value": "10:20-10:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "BL1",
+        "value": "10:30-10:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "BM1",
+        "value": "10:40-10:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "BN1",
+        "value": "10:50-11:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "BO1",
+        "value": "11:00-11:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "BP1",
+        "value": "11:10-11:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "BQ1",
+        "value": "11:20-11:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "BR1",
+        "value": "11:30-11:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "BS1",
+        "value": "11:40-11:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "BT1",
+        "value": "11:50-12:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "BU1",
+        "value": "12:00-12:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "BV1",
+        "value": "12:10-12:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "BW1",
+        "value": "12:20-12:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "BX1",
+        "value": "12:30-12:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "BY1",
+        "value": "12:40-12:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "BZ1",
+        "value": "12:50-13:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "CA1",
+        "value": "13:00-13:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "CB1",
+        "value": "13:10-13:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "CC1",
+        "value": "13:20-13:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "CD1",
+        "value": "13:30-13:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "CE1",
+        "value": "13:40-13:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "CF1",
+        "value": "13:50-14:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "CG1",
+        "value": "14:00-14:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "CH1",
+        "value": "14:10-14:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "CI1",
+        "value": "14:20-14:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "CJ1",
+        "value": "14:30-14:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "CK1",
+        "value": "14:40-14:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "CL1",
+        "value": "14:50-15:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "CM1",
+        "value": "15:00-15:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "CN1",
+        "value": "15:10-15:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "CO1",
+        "value": "15:20-15:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "CP1",
+        "value": "15:30-15:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "CQ1",
+        "value": "15:40-15:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "CR1",
+        "value": "15:50-16:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "CS1",
+        "value": "16:00-16:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "CT1",
+        "value": "16:10-16:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "CU1",
+        "value": "16:20-16:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "CV1",
+        "value": "16:30-16:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "CW1",
+        "value": "16:40-16:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "CX1",
+        "value": "16:50-17:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "CY1",
+        "value": "17:00-17:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "CZ1",
+        "value": "17:10-17:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "DA1",
+        "value": "17:20-17:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "DB1",
+        "value": "17:30-17:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "DC1",
+        "value": "17:40-17:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "DD1",
+        "value": "17:50-18:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "DE1",
+        "value": "18:00-18:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "DF1",
+        "value": "18:10-18:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "DG1",
+        "value": "18:20-18:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "DH1",
+        "value": "18:30-18:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "DI1",
+        "value": "18:40-18:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "DJ1",
+        "value": "18:50-19:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "DK1",
+        "value": "19:00-19:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "DL1",
+        "value": "19:10-19:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "DM1",
+        "value": "19:20-19:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "DN1",
+        "value": "19:30-19:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "DO1",
+        "value": "19:40-19:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "DP1",
+        "value": "19:50-20:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "DQ1",
+        "value": "20:00-20:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "DR1",
+        "value": "20:10-20:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "DS1",
+        "value": "20:20-20:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "DT1",
+        "value": "20:30-20:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "DU1",
+        "value": "20:40-20:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "DV1",
+        "value": "20:50-21:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "DW1",
+        "value": "21:00-21:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "DX1",
+        "value": "21:10-21:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "DY1",
+        "value": "21:20-21:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "DZ1",
+        "value": "21:30-21:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "EA1",
+        "value": "21:40-21:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "EB1",
+        "value": "21:50-22:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "EC1",
+        "value": "22:00-22:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "ED1",
+        "value": "22:10-22:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "EE1",
+        "value": "22:20-22:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "EF1",
+        "value": "22:30-22:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "EG1",
+        "value": "22:40-22:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "EH1",
+        "value": "22:50-23:00",
+        "number_format": "General"
+      },
+      {
+        "cell": "EI1",
+        "value": "23:00-23:10",
+        "number_format": "General"
+      },
+      {
+        "cell": "EJ1",
+        "value": "23:10-23:20",
+        "number_format": "General"
+      },
+      {
+        "cell": "EK1",
+        "value": "23:20-23:30",
+        "number_format": "General"
+      },
+      {
+        "cell": "EL1",
+        "value": "23:30-23:40",
+        "number_format": "General"
+      },
+      {
+        "cell": "EM1",
+        "value": "23:40-23:50",
+        "number_format": "General"
+      },
+      {
+        "cell": "EN1",
+        "value": "23:50-0:00+1",
+        "number_format": "General"
+      },
+      {
+        "cell": "EO1",
+        "value": "0:00-0:10+1",
+        "number_format": "General"
+      }
+    ]
+  },
+  "input_cells_checked": 576,
+  "output_cells_checked": 1008,
+  "output_label_ambiguities": [
+    {
+      "axis": "result2.xlsx/计划购电量",
+      "cell": "EO1",
+      "raw": "0:00-0:10+1",
+      "literal_offsets": [
+        0,
+        1450
+      ],
+      "sequence_based_candidate_offsets": [
+        1440,
+        1450
+      ]
+    },
+    {
+      "axis": "result3.xlsx/计划购电量",
+      "cell": "EO1",
+      "raw": "0:00-0:10+1",
+      "literal_offsets": [
+        0,
+        1450
+      ],
+      "sequence_based_candidate_offsets": [
+        1440,
+        1450
+      ]
+    },
+    {
+      "axis": "result3.xlsx/调整购电量",
+      "cell": "EO1",
+      "raw": "0:00-0:10+1",
+      "literal_offsets": [
+        0,
+        1450
+      ],
+      "sequence_based_candidate_offsets": [
+        1440,
+        1450
+      ]
+    },
+    {
+      "axis": "result4-2.xlsx/计划购电量",
+      "cell": "EO1",
+      "raw": "0:00-0:10+1",
+      "literal_offsets": [
+        0,
+        1450
+      ],
+      "sequence_based_candidate_offsets": [
+        1440,
+        1450
+      ]
+    },
+    {
+      "axis": "result4-3.xlsx/计划购电量",
+      "cell": "EO1",
+      "raw": "0:00-0:10+1",
+      "literal_offsets": [
+        0,
+        1450
+      ],
+      "sequence_based_candidate_offsets": [
+        1440,
+        1450
+      ]
+    },
+    {
+      "axis": "result4-3.xlsx/调整购电量",
+      "cell": "EO1",
+      "raw": "0:00-0:10+1",
+      "literal_offsets": [
+        0,
+        1450
+      ],
+      "sequence_based_candidate_offsets": [
+        1440,
+        1450
+      ]
+    }
+  ],
+  "output_formatting_variants": [
+    {
+      "axis": "result2.xlsx/计划购电量",
+      "cell": "AQ1",
+      "raw": "7:0-7:10"
+    },
+    {
+      "axis": "result3.xlsx/计划购电量",
+      "cell": "AQ1",
+      "raw": "7:0-7:10"
+    },
+    {
+      "axis": "result3.xlsx/调整购电量",
+      "cell": "AQ1",
+      "raw": "7:0-7:10"
+    },
+    {
+      "axis": "result4-2.xlsx/计划购电量",
+      "cell": "AQ1",
+      "raw": "7:0-7:10"
+    },
+    {
+      "axis": "result4-3.xlsx/计划购电量",
+      "cell": "AQ1",
+      "raw": "7:0-7:10"
+    },
+    {
+      "axis": "result4-3.xlsx/调整购电量",
+      "cell": "AQ1",
+      "raw": "7:0-7:10"
+    }
+  ],
+  "candidate_interpretation": "interval_end; output stays in original positional cell",
+  "unresolved": [
+    "physical interval versus official output label conflict",
+    "input point values treated as interval representative power",
+    "attachment 3 interpolation and full data validation",
+    "independent A/B crosscheck and final output semantic acceptance"
+  ],
+  "source_sha256_before": {
+    "CUMCM2026Problems/C题/附件/附件1.xlsx": "66b87134f5ecccd68184d3539bb1293ef039f9e0fdd955a589b9bfa7f227c377",
+    "CUMCM2026Problems/C题/附件/附件2.xlsx": "2e95fd446bfafa0d8c59577b5c2e2ea8b3f1def20dde54a3062556f4da9b4c72",
+    "CUMCM2026Problems/C题/附件/附件3.xlsx": "8a61b06c52bd0d639a1cc37c61a7d9f5b75edcbca718f64c1bd3498ec9f9d843",
+    "CUMCM2026Problems/C题/附件/附件4.xlsx": "20e9c93aeab5e8e21ae4dd15587f9e190f7408692504c1319598461cd654fe71",
+    "CUMCM2026Problems/C题/附件/附件5/result1.xlsx": "28360e0974e7d6065394a8aba4e14a86773ae0036cc7d3ea1b211b515b03d688",
+    "CUMCM2026Problems/C题/附件/附件5/result2.xlsx": "1c26494cfc6d754e0bd9bff7e13e1126a73d2d2da6c5336eb251d89b9a1a1a47",
+    "CUMCM2026Problems/C题/附件/附件5/result3.xlsx": "c59da470cabd0be23f602c95c8aa9d11ec224a0cdac216b3e1f218e65d006bdc",
+    "CUMCM2026Problems/C题/附件/附件5/result4-2.xlsx": "1c26494cfc6d754e0bd9bff7e13e1126a73d2d2da6c5336eb251d89b9a1a1a47",
+    "CUMCM2026Problems/C题/附件/附件5/result4-3.xlsx": "c59da470cabd0be23f602c95c8aa9d11ec224a0cdac216b3e1f218e65d006bdc"
+  },
+  "source_sha256_after": {
+    "CUMCM2026Problems/C题/附件/附件1.xlsx": "66b87134f5ecccd68184d3539bb1293ef039f9e0fdd955a589b9bfa7f227c377",
+    "CUMCM2026Problems/C题/附件/附件2.xlsx": "2e95fd446bfafa0d8c59577b5c2e2ea8b3f1def20dde54a3062556f4da9b4c72",
+    "CUMCM2026Problems/C题/附件/附件3.xlsx": "8a61b06c52bd0d639a1cc37c61a7d9f5b75edcbca718f64c1bd3498ec9f9d843",
+    "CUMCM2026Problems/C题/附件/附件4.xlsx": "20e9c93aeab5e8e21ae4dd15587f9e190f7408692504c1319598461cd654fe71",
+    "CUMCM2026Problems/C题/附件/附件5/result1.xlsx": "28360e0974e7d6065394a8aba4e14a86773ae0036cc7d3ea1b211b515b03d688",
+    "CUMCM2026Problems/C题/附件/附件5/result2.xlsx": "1c26494cfc6d754e0bd9bff7e13e1126a73d2d2da6c5336eb251d89b9a1a1a47",
+    "CUMCM2026Problems/C题/附件/附件5/result3.xlsx": "c59da470cabd0be23f602c95c8aa9d11ec224a0cdac216b3e1f218e65d006bdc",
+    "CUMCM2026Problems/C题/附件/附件5/result4-2.xlsx": "1c26494cfc6d754e0bd9bff7e13e1126a73d2d2da6c5336eb251d89b9a1a1a47",
+    "CUMCM2026Problems/C题/附件/附件5/result4-3.xlsx": "c59da470cabd0be23f602c95c8aa9d11ec224a0cdac216b3e1f218e65d006bdc"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "selection": {
+    "candidate_id": 6,
+    "config": {
+      "tau": 0.8,
+      "scale": 1.0,
+      "window_days": 28,
+      "bucket_slots": 24,
+      "min_days": 7
+    },
+    "january_total_yuan": 930672.1511948517
+  },
+  "scores": [
+    {
+      "candidate_id": 0,
+      "config": {
+        "tau": 0.8,
+        "scale": 0.0,
+        "window_days": 28,
+        "bucket_slots": 24,
+        "min_days": 7
+      },
+      "january_total_yuan": 971033.8984530234
+    },
+    {
+      "candidate_id": 1,
+      "config": {
+        "tau": 0.6,
+        "scale": 0.5,
+        "window_days": 28,
+        "bucket_slots": 24,
+        "min_days": 7
+      },
+      "january_total_yuan": 964739.9173802756
+    },
+    {
+      "candidate_id": 2,
+      "config": {
+        "tau": 0.6,
+        "scale": 1.0,
+        "window_days": 28,
+        "bucket_slots": 24,
+        "min_days": 7
+      },
+      "january_total_yuan": 959393.2315670558
+    },
+    {
+      "candidate_id": 3,
+      "config": {
+        "tau": 0.7,
+        "scale": 0.5,
+        "window_days": 28,
+        "bucket_slots": 24,
+        "min_days": 7
+      },
+      "january_total_yuan": 953447.5305946139
+    },
+    {
+      "candidate_id": 4,
+      "config": {
+        "tau": 0.7,
+        "scale": 1.0,
+        "window_days": 28,
+        "bucket_slots": 24,
+        "min_days": 7
+      },
+      "january_total_yuan": 941196.328244519
+    },
+    {
+      "candidate_id": 5,
+      "config": {
+        "tau": 0.8,
+        "scale": 0.5,
+        "window_days": 28,
+        "bucket_slots": 24,
+        "min_days": 7
+      },
+      "january_total_yuan": 941990.8464275071
+    },
+    {
+      "candidate_id": 6,
+      "config": {
+        "tau": 0.8,
+        "scale": 1.0,
+        "window_days": 28,
+        "bucket_slots": 24,
+        "min_days": 7
+      },
+      "january_total_yuan": 930672.1511948517
+    },
+    {
+      "candidate_id": 7,
+      "config": {
+        "tau": 0.9,
+        "scale": 0.5,
+        "window_days": 28,
+        "bucket_slots": 24,
+        "min_days": 7
+      },
+      "january_total_yuan": 932312.3841318184
+    },
+    {
+      "candidate_id": 8,
+      "config": {
+        "tau": 0.9,
+        "scale": 1.0,
+        "window_days": 28,
+        "bucket_slots": 24,
+        "min_days": 7
+      },
+      "january_total_yuan": 933633.9543825208
+    }
+  ],
+  "scoring_controller": "B0",
+  "parameter_available_at": "2025-02-01T00:00:00+08:00",
+  "calibration": "Jan8-14 first residuals; score Jan15-31 using expanding as-of bank capped at28days",
+  "evaluation": "one retrospective Feb-Dec replay after January freeze; not blind test",
+  "methods": {
+    "load": "last_week",
+    "pv": "yesterday"
+  },
+  "shared_configuration": "B2 and B3 share B0-selected parameters and daily G",
+  "warmup": "reuse validated B0/B1 January trajectories; enhancement deployed Feb1",
+  "development_sha256": "589ca02d9cadf4ed851400f3af6f3cee06da2e8462e27312cebe9c87535c10e6"
+}

@@ -1,0 +1,80 @@
+{
+  "candidates": [
+    {
+      "tau": 0.8,
+      "scale": 0.0,
+      "window_days": 28,
+      "bucket_slots": 24,
+      "min_days": 7
+    },
+    {
+      "tau": 0.6,
+      "scale": 0.5,
+      "window_days": 28,
+      "bucket_slots": 24,
+      "min_days": 7
+    },
+    {
+      "tau": 0.6,
+      "scale": 1.0,
+      "window_days": 28,
+      "bucket_slots": 24,
+      "min_days": 7
+    },
+    {
+      "tau": 0.7,
+      "scale": 0.5,
+      "window_days": 28,
+      "bucket_slots": 24,
+      "min_days": 7
+    },
+    {
+      "tau": 0.7,
+      "scale": 1.0,
+      "window_days": 28,
+      "bucket_slots": 24,
+      "min_days": 7
+    },
+    {
+      "tau": 0.8,
+      "scale": 0.5,
+      "window_days": 28,
+      "bucket_slots": 24,
+      "min_days": 7
+    },
+    {
+      "tau": 0.8,
+      "scale": 1.0,
+      "window_days": 28,
+      "bucket_slots": 24,
+      "min_days": 7
+    },
+    {
+      "tau": 0.9,
+      "scale": 0.5,
+      "window_days": 28,
+      "bucket_slots": 24,
+      "min_days": 7
+    },
+    {
+      "tau": 0.9,
+      "scale": 1.0,
+      "window_days": 28,
+      "bucket_slots": 24,
+      "min_days": 7
+    }
+  ],
+  "training_dates": [
+    "2025-01-15",
+    "2025-01-31"
+  ],
+  "residual_start": "2025-01-08",
+  "methods": {
+    "load": "last_week",
+    "pv": "yesterday"
+  },
+  "controller_for_selection": "B0",
+  "joint_B2_B3_parameters": true,
+  "minimum_complexity_reference_percent": 0.25,
+  "baseline_result_sha256": "36a84da37f48f7507ebfe3078c9e088d9800459047dd74a41e15b2c610bad405"
+}

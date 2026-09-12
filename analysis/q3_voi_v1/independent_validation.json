@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "january_traces_verified": 85,
+  "evaluation_days_verified": 334,
+  "gates_verified": 1257,
+  "max_physical_residual_kwh": 4.547473508864641e-13,
+  "costs": {
+    "planned_yuan": 13783454.275758862,
+    "adjustment_yuan": 220775.531307073,
+    "emergency_yuan": 1118091.0200848535,
+    "total_yuan": 15122320.82715078
+  },
+  "scenarios_and_adjustment_fees_recomputed": true,
+  "zero_actual_decisions_identical": true,
+  "posthoc_values_excluded_from_decisions": true,
+  "same_initial_G_as_margin_zero": true,
+  "result_sha256": "fa938d184c4e8ea446c40ad82f0b100d07afa8f7236ba7e6996bb314196fc1a2",
+  "verifier_sha256": "15862fdfa379c20ede66bcddd28acd344aec2b2bc4fd8cb7f1e98bb658c34759"
+}

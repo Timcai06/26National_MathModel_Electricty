@@ -1,0 +1,40 @@
+{
+  "status": "candidate_not_final",
+  "period": "2025-02-01 through 2025-12-31; Q1 representative day",
+  "time_policy": "right-end sampling; physical slots 00:00 to 24:00; Excel mapping unresolved",
+  "figures": [
+    {
+      "file": "q1_dispatch.pdf",
+      "sha256": "a5b46c454aaf6c1e12da2f0bb7b6de2f28b250fc9baccc21ff98a5ccecc70f7a"
+    },
+    {
+      "file": "q2_costs.pdf",
+      "sha256": "bebe4a31ecd6bb30b9ec9e961d154f30981f1e60b463d3c3cca2163856e44ea0"
+    },
+    {
+      "file": "q2_monthly_savings.pdf",
+      "sha256": "15e31203d42063d62e408bb6117405cf37f93164ee83aeca1be0eddf77458e39"
+    },
+    {
+      "file": "q2_selected_days.pdf",
+      "sha256": "b22513449b5a1500c357773f4b93455b56448b0e335f49496807eaf693deb878"
+    },
+    {
+      "file": "q3_costs.pdf",
+      "sha256": "a50ccede58f008500fe58315261dd8ce5611cdc19e1981c4403e750688bace4e"
+    },
+    {
+      "file": "q3_gate_monthly.pdf",
+      "sha256": "a411b752fc2807d37595f52691ca7ef7e431b6a56e6426eb7a5fd25654a96032"
+    }
+  ],
+  "sources": {
+    "analysis/real_q1_candidate/result.json": "4d54aa4bdf4442f7c2a93f0ee1b29bfdde66ac5a9404bca3c4919fa8fb1cedb1",
+    "analysis/strict_q2_round2_v1/result.json": "36a84da37f48f7507ebfe3078c9e088d9800459047dd74a41e15b2c610bad405",
+    "analysis/q2_margin_oracle_v1/result.json": "c24192158ee2226964f138c0a018584a8a755a72a3f6c1cc61762b53fe3b6de4",
+    "analysis/strict_q3_transfer_v1/result.json": "7d0ed2f90df4bd27875ce2b0ecc5574694e5233ec8d21d923efb5511fab71b9b",
+    "analysis/q3_voi_v1/result.json": "fa938d184c4e8ea446c40ad82f0b100d07afa8f7236ba7e6996bb314196fc1a2",
+    "analysis/q2_margin_oracle_v1/B2.jsonl": "591f01a3a19ec267a6e6c7c924342b69511ad150e073113f9d91d41931fc37db",
+    "analysis/strict_q3_transfer_v1/margin_zero.jsonl": "abf80e87b0c3e81e9e2084ee5f97fc770a1e7b6abc2c4823a0de2b1566020003"
+  }
+}

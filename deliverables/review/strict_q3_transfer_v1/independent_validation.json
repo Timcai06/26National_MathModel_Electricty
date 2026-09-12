@@ -1,0 +1,83 @@
+{
+  "passed": true,
+  "strategies": {
+    "base_zero": {
+      "days_verified": 334,
+      "max_physical_residual_kwh": 4.547473508864641e-13,
+      "costs": {
+        "planned_yuan": 12316402.203713294,
+        "adjustment_yuan": 0.0,
+        "emergency_yuan": 4086698.3642337047,
+        "total_yuan": 16403100.567946972
+      },
+      "zero_truth_actions_and_contracts_identical": true,
+      "passed": true
+    },
+    "base_stale": {
+      "days_verified": 334,
+      "max_physical_residual_kwh": 4.547473508864641e-13,
+      "costs": {
+        "planned_yuan": 12316402.203713294,
+        "adjustment_yuan": 7.532892663195861e-06,
+        "emergency_yuan": 4086698.3642233056,
+        "total_yuan": 16403100.567944117
+      },
+      "zero_truth_actions_and_contracts_identical": true,
+      "passed": true
+    },
+    "base_fresh": {
+      "days_verified": 334,
+      "max_physical_residual_kwh": 4.547473508864641e-13,
+      "costs": {
+        "planned_yuan": 12316402.203713294,
+        "adjustment_yuan": 401133.12327156484,
+        "emergency_yuan": 3829999.708596344,
+        "total_yuan": 16547535.03558121
+      },
+      "zero_truth_actions_and_contracts_identical": true,
+      "passed": true
+    },
+    "margin_zero": {
+      "days_verified": 334,
+      "max_physical_residual_kwh": 4.547473508864641e-13,
+      "costs": {
+        "planned_yuan": 13783454.275758862,
+        "adjustment_yuan": 0.0,
+        "emergency_yuan": 1346221.8834063155,
+        "total_yuan": 15129676.159165174
+      },
+      "zero_truth_actions_and_contracts_identical": true,
+      "passed": true
+    },
+    "margin_stale": {
+      "days_verified": 334,
+      "max_physical_residual_kwh": 4.547473508864641e-13,
+      "costs": {
+        "planned_yuan": 13783454.275758862,
+        "adjustment_yuan": 7.936806426088397e-06,
+        "emergency_yuan": 1346221.88340259,
+        "total_yuan": 15129676.159169383
+      },
+      "zero_truth_actions_and_contracts_identical": true,
+      "passed": true
+    },
+    "margin_fresh": {
+      "days_verified": 334,
+      "max_physical_residual_kwh": 4.547473508864641e-13,
+      "costs": {
+        "planned_yuan": 13783454.275758862,
+        "adjustment_yuan": 437750.1191962527,
+        "emergency_yuan": 1462227.630631517,
+        "total_yuan": 15683432.02558663
+      },
+      "zero_truth_actions_and_contracts_identical": true,
+      "passed": true
+    }
+  },
+  "days_verified": 2004,
+  "slots_verified": 288576,
+  "same_initial_contract_within_each_group": true,
+  "q2_parameters_unchanged": true,
+  "result_sha256": "7d0ed2f90df4bd27875ce2b0ecc5574694e5233ec8d21d923efb5511fab71b9b",
+  "verifier_sha256": "4220d714a347cd9fde579a11b3a35ab40a1b6a4c8e7af486c6c7e1dca3f0aa59"
+}

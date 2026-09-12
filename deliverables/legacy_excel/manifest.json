@@ -1,0 +1,32 @@
+[
+  {
+    "file": "legacy_excel/result1_candidate.xlsx",
+    "source": "outputs/q1_real_candidate_20260911/result1_candidate.xlsx",
+    "sha256": "f3cce213c22ddf2e232c39ef3863dac56e6598fe8db01bba8e9c46e15f9327aa",
+    "status": "legacy_candidate_not_aligned_with_draft_v1"
+  },
+  {
+    "file": "legacy_excel/result2_candidate.xlsx",
+    "source": "outputs/q23_candidate_20260911/result2_candidate.xlsx",
+    "sha256": "b2ec5376451ba0f42db119278d892a94a82012674815a6b5fe6e421157fd691b",
+    "status": "legacy_candidate_not_aligned_with_draft_v1"
+  },
+  {
+    "file": "legacy_excel/result3_candidate.xlsx",
+    "source": "outputs/q23_candidate_20260911/result3_candidate.xlsx",
+    "sha256": "ac3cdcbc0323bf96954c14c4971c1c6c8e68e134da28e9b15a207c471d790127",
+    "status": "legacy_candidate_not_aligned_with_draft_v1"
+  },
+  {
+    "file": "legacy_excel/result4-2_candidate.xlsx",
+    "source": "outputs/q4_candidate_20260911/result4-2_candidate.xlsx",
+    "sha256": "0aaf984ce469e5d8b834b56e7cc3c68ea486dba5b053d74f16d64c5b117cd30a",
+    "status": "legacy_candidate_not_aligned_with_draft_v1"
+  },
+  {
+    "file": "legacy_excel/result4-3_candidate.xlsx",
+    "source": "outputs/q4_candidate_20260911/result4-3_candidate.xlsx",
+    "sha256": "dc1f31568b2a9c331d7c7334896b101c62d95fb6b6678be7aa668eef2f6298e2",
+    "status": "legacy_candidate_not_aligned_with_draft_v1"
+  }
+]

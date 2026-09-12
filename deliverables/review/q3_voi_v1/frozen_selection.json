@@ -1,0 +1,61 @@
+{
+  "selected": {
+    "candidate_id": 3,
+    "config": {
+      "threshold_yuan": 500.0,
+      "enabled": true
+    },
+    "cost_yuan": 927163.1640625886,
+    "accepted_updates": 11
+  },
+  "scores": [
+    {
+      "candidate_id": 0,
+      "config": {
+        "threshold_yuan": 0.0,
+        "enabled": false
+      },
+      "cost_yuan": 948291.728180189,
+      "accepted_updates": 0
+    },
+    {
+      "candidate_id": 1,
+      "config": {
+        "threshold_yuan": 0.0,
+        "enabled": true
+      },
+      "cost_yuan": 927279.2084482772,
+      "accepted_updates": 25
+    },
+    {
+      "candidate_id": 2,
+      "config": {
+        "threshold_yuan": 100.0,
+        "enabled": true
+      },
+      "cost_yuan": 927343.8105354063,
+      "accepted_updates": 22
+    },
+    {
+      "candidate_id": 3,
+      "config": {
+        "threshold_yuan": 500.0,
+        "enabled": true
+      },
+      "cost_yuan": 927163.1640625886,
+      "accepted_updates": 11
+    },
+    {
+      "candidate_id": 4,
+      "config": {
+        "threshold_yuan": 1000.0,
+        "enabled": true
+      },
+      "cost_yuan": 928692.4443043909,
+      "accepted_updates": 9
+    }
+  ],
+  "selection_available_at": "2025-02-01T00:00:00+08:00",
+  "evaluation": "retrospective Feb-Dec, not blind",
+  "january_trace_sha256": "89c7cf0674c7f0479fc0c43afbfa24f026bc1af9d54bfad1a4544891b9a38578"
+}

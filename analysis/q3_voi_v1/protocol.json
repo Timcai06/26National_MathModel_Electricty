@@ -1,0 +1,43 @@
+{
+  "candidates": [
+    {
+      "threshold_yuan": 0.0,
+      "enabled": false
+    },
+    {
+      "threshold_yuan": 0.0,
+      "enabled": true
+    },
+    {
+      "threshold_yuan": 100.0,
+      "enabled": true
+    },
+    {
+      "threshold_yuan": 500.0,
+      "enabled": true
+    },
+    {
+      "threshold_yuan": 1000.0,
+      "enabled": true
+    }
+  ],
+  "margin_config": {
+    "tau": 0.8,
+    "scale": 1.0,
+    "window_days": 28,
+    "bucket_slots": 24,
+    "min_days": 7
+  },
+  "training": [
+    "2025-01-15",
+    "2025-01-31"
+  ],
+  "scenarios": "last20 eligible joint residual days within28days, minimum7; only completed days",
+  "residuals": "lag7 load and matching-hour published PV; current scenarios centered at unmargined load and current PV",
+  "continuation": "no future revisions in preview; greedy controls under candidate forecast; revisit next boundary",
+  "keep": "retain contract AND current battery-control forecast",
+  "fee": "existing contract sunk; update adjustment plus expected5p emergency, adjustment counted once",
+  "numerical_gain_tolerance_yuan": 1e-06,
+  "fixed_control_result_sha256": "7d0ed2f90df4bd27875ce2b0ecc5574694e5233ec8d21d923efb5511fab71b9b",
+  "parameter_source_sha256": "5e55aa833dc339c79313fa9bd6f94d311c9535fa0abbb519c286d599652ae673"
+}

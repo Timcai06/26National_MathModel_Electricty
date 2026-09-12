@@ -1,0 +1,13 @@
+{
+  "source": "analysis/q2_margin_oracle_v1/B2.jsonl",
+  "source_sha256": "591f01a3a19ec267a6e6c7c924342b69511ad150e073113f9d91d41931fc37db",
+  "status": "candidate descriptive monthly mean, not a trajectory or new optimized policy",
+  "shape": [
+    11,
+    145
+  ],
+  "averaging": "equal daily weights within month",
+  "physical_bounds_checked": true,
+  "endpoints_checked": true,
+  "mesh_interpolation": "adjacent month/hour nodes connected for visualization only"
+}

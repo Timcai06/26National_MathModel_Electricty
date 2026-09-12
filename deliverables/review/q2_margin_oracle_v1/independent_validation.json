@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "january_days_verified": 153,
+  "evaluation_day_traces_verified": 1336,
+  "strategies": {
+    "B2": {
+      "days_verified": 334,
+      "max_physical_residual_kwh": 4.547473508864641e-13,
+      "costs": {
+        "planned_yuan": 13706009.443937935,
+        "adjustment_yuan": 0.0,
+        "emergency_yuan": 1431977.6145343652,
+        "total_yuan": 15137987.058472289
+      },
+      "passed": true
+    },
+    "B3": {
+      "days_verified": 334,
+      "max_physical_residual_kwh": 9.094947017729282e-13,
+      "costs": {
+        "planned_yuan": 13706009.443937935,
+        "adjustment_yuan": 0.0,
+        "emergency_yuan": 1434937.8804655133,
+        "total_yuan": 15140947.324403437
+      },
+      "passed": true
+    },
+    "fixedG_oracle": {
+      "days_verified": 334,
+      "max_physical_residual_kwh": 1.0231815394945443e-12,
+      "costs": {
+        "planned_yuan": 12258250.765720032,
+        "adjustment_yuan": 0.0,
+        "emergency_yuan": 1958975.0223622876,
+        "total_yuan": 14217225.78808232
+      },
+      "passed": true
+    },
+    "full_oracle": {
+      "days_verified": 334,
+      "max_physical_residual_kwh": 1.0231815394945443e-12,
+      "costs": {
+        "planned_yuan": 12245046.915277638,
+        "adjustment_yuan": 0.0,
+        "emergency_yuan": 0.0,
+        "total_yuan": 12245046.915277638
+      },
+      "passed": true
+    }
+  },
+  "paired_B2_B3_G_equal": true,
+  "all_daily_oracle_bounds_passed": true,
+  "all_causal_actions_replayed_with_zero_actuals": true,
+  "january_selection_recomputed": true,
+  "result_sha256": "c24192158ee2226964f138c0a018584a8a755a72a3f6c1cc61762b53fe3b6de4",
+  "verifier_sha256": "61043b34780dc2b490fd7ab19356ec60bbf3f423697380914eab7fde97ac8e82"
+}

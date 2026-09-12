@@ -1,0 +1,51 @@
+{
+  "policy": "slot_start_command_slot_end_grid_settlement_v1",
+  "variants": {
+    "base_zero": [
+      false,
+      "zero"
+    ],
+    "base_stale": [
+      false,
+      "stale"
+    ],
+    "base_fresh": [
+      false,
+      "fresh"
+    ],
+    "margin_zero": [
+      true,
+      "zero"
+    ],
+    "margin_stale": [
+      true,
+      "stale"
+    ],
+    "margin_fresh": [
+      true,
+      "fresh"
+    ]
+  },
+  "margin_config": {
+    "tau": 0.8,
+    "scale": 1.0,
+    "window_days": 28,
+    "bucket_slots": 24,
+    "min_days": 7
+  },
+  "margin_source": "Q2 historical lag7-load/lag1-PV residual bank; fixed midnight margin held all day",
+  "scope": "transfer test; no Q3-specific residual fitting or February-December retuning",
+  "q2_frozen_selection_sha256": "5e55aa833dc339c79313fa9bd6f94d311c9535fa0abbb519c286d599652ae673",
+  "refund": "refund original cancelled cost plus50% penalty; relative to current commitment",
+  "updates": [
+    6,
+    12,
+    18
+  ],
+  "conversion": "linear",
+  "terminal": "daily6000",
+  "efficiency": ".9 each",
+  "power_side": "bus",
+  "warmup_B0_sha256": "75713ee60f2568837adc83dcf07aa530cb21a3712d4262d3eeb612d206567e6e",
+  "warmup": "reuse strict Q2 Jan1-31; common actual end state; Q3 experiment deployed Feb1"
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "number": 2,
+    "numeric_cells_verified": 54314,
+    "all_values_verified": true,
+    "template_styles_preserved": true,
+    "semantic_acceptance": false,
+    "sha256": "b2ec5376451ba0f42db119278d892a94a82012674815a6b5fe6e421157fd691b"
+  },
+  {
+    "number": 3,
+    "numeric_cells_verified": 102919,
+    "all_values_verified": true,
+    "template_styles_preserved": true,
+    "semantic_acceptance": false,
+    "sha256": "ac3cdcbc0323bf96954c14c4971c1c6c8e68e134da28e9b15a207c471d790127"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "scope": "Q4 known daily prices candidate; semantic acceptance pending",
+  "tests": {
+    "count": 111,
+    "exit_code": 0,
+    "command": "rtk proxy .venv/bin/python -m unittest discover -s tests -q"
+  },
+  "visual_review": "all sheets viewed after saved-file import, adjusted sheet AJ1:AO8 viewed in isolation; cost and repricing figures viewed",
+  "hashes": {
+    "analysis/real_q4_candidate/result.json": "9bad62c603936fca84f08b7e11ee9a1a0031aba8a3341a1decf747275d3c5573",
+    "analysis/real_q4_candidate/independent_validation.json": "cdf29d36f541fdfe40da024ad076113d43a8c8735c686c7d0b1edb285989e28c",
+    "outputs/q4_candidate_20260911/result4-2_candidate.xlsx": "0aaf984ce469e5d8b834b56e7cc3c68ea486dba5b053d74f16d64c5b117cd30a",
+    "outputs/q4_candidate_20260911/result4-3_candidate.xlsx": "dc1f31568b2a9c331d7c7334896b101c62d95fb6b6678be7aa668eef2f6298e2",
+    "outputs/q4_candidate_20260911/readback.json": "3aa70adf122d29432c84d27b8217c9ab6f2c490127b33a6d369270aaeab13e7a",
+    "scripts/run_real_q4.py": "bd72c32458e9d533af203d3a87958f97d9ba105bf9203dee382c19dea7568e84",
+    "scripts/verify_real_q4.py": "b6e6c081345547af80f6ddd1ba05d5069439f95b20981a1b4083e06ead685608",
+    "scripts/deliver_real_q23.py": "faa659eaf350dcf8d1b5f7045a51012a07ead82d972548ed7fbad7e9908c4a57",
+    "scripts/plot_real_q4.py": "1dd51278f0bb793c92f9aad1f546f6d5067cc2ac028a9281313d9147f0fceb91",
+    "outputs/q23_candidate_20260911/build.mjs": "477cf14e6a4b289b50053c80290e1bd8471f43390fa6d039e609c0184600db70"
+  }
+}

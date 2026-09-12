@@ -1,0 +1,36 @@
+{
+  "scope": "synthetic-only; no competition conclusions or Gate 2 acceptance",
+  "source": "analysis/q1_tables/tables.json",
+  "source_sha256": "a6bbdd07b6d7082ca08caaed586495c96b95c4b6a57ed6b9a6eac49eb9c1e855",
+  "matplotlib": "3.11.1",
+  "numpy": "2.5.3",
+  "python": "3.12.13 (main, Apr  7 2026, 21:09:58) [Clang 22.1.1 ]",
+  "cases_validated": [
+    "hand_arbitrage",
+    "flat_no_pv",
+    "seeded_variable_day"
+  ],
+  "code_sha256": {
+    "scripts/run_q1_figures.py": "5a5b452ee7f8337b9983858b075473384741d70e1d8d1872798459437eeaf232",
+    "src/core/__init__.py": "43ac8c13bc3e7a9cc176f1165b5c268a651a9839a2679c37cf6d35f6ea81767e",
+    "src/core/model.py": "dc56221133028d3b16dede9dae5a7bf5f1492967a79c87932d666cae72c3cebc",
+    "src/core/solver.py": "99345b85d1854516b191898bd3a590ac7c7c15df10f72ce36ad8b363e740c69b",
+    "src/core/validation.py": "989f15f2c958ae488e57dac8ece4c41eb31240ce5a2a7ca7691a15cfdd9d7e39",
+    "src/q1/__init__.py": "50258b1516e1ca1568a6e4922c26ec8de8e74ea8c9b4b820db56c84b61de4a0e",
+    "src/q1/baselines.py": "98e92954d3bb93361362717d5dd84d0f7fb516a59aa778b56c24ecb91ea9b1b0",
+    "src/q1/compare.py": "0a68a83e96513a97c06c3a44d8e4fd0cb5925ed289cf82e9e066f6442493b7ee",
+    "src/q1/solve.py": "d89cea1dc6634997222d7cd2e10d3873456536a3aa8bc451a9f007a4b746fe58",
+    "src/q1/tables.py": "974bd74fa431c53c4a10809bb62c2c9225150d6c8c6b579e943bcc42739f6826",
+    "src/time_axis.py": "6fe1ce8b412fabcabd5f13dfe53732f4131abb565e8bfa480d2ecf23b7ec6a42"
+  },
+  "outputs": {
+    "hand_arbitrage.png": "5d1d7e6f765ae0fca344293992eaf3028a9f38c0e3b5bf25fc326a5d24f06286",
+    "hand_arbitrage.svg": "10c0e74c5a1c24bf47338e99a158187ccfaf0caab04d3ea65987f1a638a86d28",
+    "flat_no_pv.png": "c019e05b5d7a51b03dbed9a04e644725a5c08db8561155393968430ba1386f93",
+    "flat_no_pv.svg": "c409a009bad00ad94f6489bed4ac71b8252dd5ccd3bc86c270123289e632f229",
+    "seeded_variable_day.png": "e839f16469eea5288906c002e7312693c78f14d084b879635398abc05a8fb6ed",
+    "seeded_variable_day.svg": "1ba741249f583ab2b0b061409e9cb99ddb5358cd16fca4a0d6a748d9106bb5cf",
+    "strategy_costs.png": "1dbf5186e43b93cc6f8612500e7aa795b074d34ff9bf6014898bf7c76090ed4a",
+    "strategy_costs.svg": "5634a4ba76235180769fbf7c117ea9025085228a81cbf5b7517404aec37026b6"
+  }
+}

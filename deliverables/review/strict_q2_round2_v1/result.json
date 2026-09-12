@@ -1,0 +1,138 @@
+{
+  "policy": "slot_start_command_slot_end_grid_settlement_v1",
+  "status": "awaiting_independent_validation",
+  "input_sha256": {
+    "data/processed/team_delivery/annual_actual.csv": "ea043aca838c5a31b3e86674aa1b8ed077a428599d0ff663c57f12e93824250d",
+    "data/processed/team_delivery/day_base.csv": "1d941da536a1a3eeab07a5d2b75ef2f7279a13e2229cef33ed0f8547074c37cc"
+  },
+  "january_selection": {
+    "training_start": "2025-01-08",
+    "training_end": "2025-01-31",
+    "selection_available_at": "2025-02-01T00:00:00+08:00",
+    "metric": "MAE kWh/slot; no February-December tuning",
+    "scores": {
+      "load": {
+        "yesterday": 109.10966455439814,
+        "last_week": 23.882641700424386
+      },
+      "pv": {
+        "yesterday": 18.800086419753086,
+        "last_week": 21.418554229359568
+      }
+    },
+    "chosen": {
+      "load": "last_week",
+      "pv": "yesterday"
+    }
+  },
+  "strategies": {
+    "B0": {
+      "costs": {
+        "planned_yuan": 12258250.765720032,
+        "adjustment_yuan": 0.0,
+        "emergency_yuan": 4323292.765316313,
+        "total_yuan": 16581543.53103634
+      },
+      "warmup_cost_yuan": 2838194.223215947,
+      "runtime_seconds": 0.8488531209877692,
+      "monthly_total_yuan": {
+        "2025-02": 1342862.4971176307,
+        "2025-03": 1353322.7541229492,
+        "2025-04": 1199631.8869538375,
+        "2025-05": 1319423.7501313034,
+        "2025-06": 1750201.451583257,
+        "2025-07": 1955572.4433252383,
+        "2025-08": 1559868.2874553627,
+        "2025-09": 1391754.3539775528,
+        "2025-10": 1331432.1961554028,
+        "2025-11": 1454026.3531319308,
+        "2025-12": 1923447.5570818828
+      },
+      "emergency_kwh": 1110890.787462497,
+      "surplus_kwh": 2120505.325733384,
+      "charge_kwh": 6781330.156389663,
+      "discharge_kwh": 5492877.426675622,
+      "min_soc_kwh": 1200.00000001,
+      "max_soc_kwh": 10799.99999999,
+      "last_slots_emergency_kwh": {
+        "6": 31007.380948551025,
+        "12": 63451.878181884305,
+        "24": 127899.465151575
+      },
+      "daily_file_sha256": "75713ee60f2568837adc83dcf07aa530cb21a3712d4262d3eeb612d206567e6e",
+      "evaluation_days": 334
+    },
+    "B1": {
+      "costs": {
+        "planned_yuan": 12258250.765720032,
+        "adjustment_yuan": 0.0,
+        "emergency_yuan": 4292554.50553064,
+        "total_yuan": 16550805.271250663
+      },
+      "warmup_cost_yuan": 2838194.223215938,
+      "runtime_seconds": 15.266196078737266,
+      "monthly_total_yuan": {
+        "2025-02": 1342892.9308765011,
+        "2025-03": 1337321.2136740892,
+        "2025-04": 1218690.9438216328,
+        "2025-05": 1335817.091995949,
+        "2025-06": 1743052.7634632336,
+        "2025-07": 1948627.1243941607,
+        "2025-08": 1564678.4872028902,
+        "2025-09": 1366537.9532500566,
+        "2025-10": 1319161.9581235012,
+        "2025-11": 1450577.2473666975,
+        "2025-12": 1923447.5570819592
+      },
+      "emergency_kwh": 1112088.1754662516,
+      "surplus_kwh": 2114919.420969475,
+      "charge_kwh": 6817031.697272097,
+      "discharge_kwh": 5521795.6747904075,
+      "min_soc_kwh": 1200.00000001,
+      "max_soc_kwh": 10799.99999999,
+      "last_slots_emergency_kwh": {
+        "6": 31007.380950000013,
+        "12": 63451.87818154444,
+        "24": 127899.4651499481
+      },
+      "daily_file_sha256": "33565f8792e42c5607010de08e15a7af252f9ba4e61483d4aef3e83ca74b0d59",
+      "evaluation_days": 334
+    }
+  },
+  "total_runtime_seconds": 19.0247364580282,
+  "assumptions": {
+    "terminal": "daily6000",
+    "efficiency": ".9 each",
+    "power_side": "bus",
+    "forecast": "frozen midnight; no intraday residual correction",
+    "grid": "unlimited slot-end residual settlement at 5p",
+    "comparison": "identical daily G; only battery policy differs; no promise of MPC improvement"
+  },
+  "code_sha256": {
+    "scripts/run_strict_q2.py": "d821d3fcf9c9abb58a12135f5591e0b6a489505770b5b60e5ed2276ed4bafa72",
+    "scripts/run_real_q23.py": "57e70e65b99a1650c962836fcadcb4edc6d4a939c752b7b24ddd8b56c3fd0e0f",
+    "scripts/run_real_q2_forecast.py": "7b1663d1a042b8202386479c148aaf7b356a8f64b8b436e79473bba03a3c1ada",
+    "src/core/__init__.py": "43ac8c13bc3e7a9cc176f1165b5c268a651a9839a2679c37cf6d35f6ea81767e",
+    "src/core/model.py": "dc56221133028d3b16dede9dae5a7bf5f1492967a79c87932d666cae72c3cebc",
+    "src/core/solver.py": "99345b85d1854516b191898bd3a590ac7c7c15df10f72ce36ad8b363e740c69b",
+    "src/core/validation.py": "989f15f2c958ae488e57dac8ece4c41eb31240ce5a2a7ca7691a15cfdd9d7e39",
+    "src/q1/__init__.py": "50258b1516e1ca1568a6e4922c26ec8de8e74ea8c9b4b820db56c84b61de4a0e",
+    "src/q1/baselines.py": "98e92954d3bb93361362717d5dd84d0f7fb516a59aa778b56c24ecb91ea9b1b0",
+    "src/q1/compare.py": "0a68a83e96513a97c06c3a44d8e4fd0cb5925ed289cf82e9e066f6442493b7ee",
+    "src/q1/excel.py": "9f78d9cb5a250beac85f2d16dba1b28591423cc1e882941132c2c61c18f23185",
+    "src/q1/solve.py": "d89cea1dc6634997222d7cd2e10d3873456536a3aa8bc451a9f007a4b746fe58",
+    "src/q1/tables.py": "e99e698dd433f19a2072017ac29524ed030081d6fddb9d64f25f6ec3a9343851",
+    "src/q2/__init__.py": "ad176de0fff8e3effa80499ca77671d147283b8321d5d0ff012b3fb57b357cef",
+    "src/q2/backtest.py": "9d43fa4ec91a2f691195967eb56d6a83dc785748353e660ebce4d294157e6810",
+    "src/q2/coordinator.py": "8484c1be89c0f51de5f84f2797705f7f469437b9644a913adcd53c2cb0f287ff",
+    "src/q2/dispatch.py": "f42947678335cacc68a737da03ccda168c4198855546f0aff0fbf85875fd4f36",
+    "src/q2/execution.py": "85503d8b0861b5c61da35d9140ffde8e22707e0d10277813a9396bc42aaba19c",
+    "src/q2/forecast.py": "e704dadd178db4472aa1e3731e8224793782ca6966b500fb643fcb7d935e99b9",
+    "src/q2/strict_execution.py": "38bfbf04fc06d9cde374561c411e2b46a42c93d1a44ff61da4aa6642db2cf446",
+    "src/q3/__init__.py": "91e2048844937b930df26a771176571afc9127d4f297d0d59bc5c6ff900b2674",
+    "src/q3/planning.py": "763cb0b4201312569fa8b3a8556d7d3d5172ef555ff1b71fdad0a414f14c851b",
+    "src/q3/pv.py": "0e9c5f534286473172f1fb3534b2e47ce18756104debd9d93ef42173ad4a18c7",
+    "src/q3/reporting.py": "b8d31e3477cd315a2960c299d7672b08005f1c62c0a804fbe81796e02b24b229",
+    "src/time_axis.py": "6fe1ce8b412fabcabd5f13dfe53732f4131abb565e8bfa480d2ecf23b7ec6a42"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "day_replays_verified": 1377,
+  "max_physical_residual_kwh": 3.410605131648481e-13,
+  "old_grid_intersection_checks": 8,
+  "max_old_grid_cost_difference_yuan": 0.0,
+  "original_parameter_unchanged": true,
+  "result_sha256": "03a9a9fdc819a39e9b1c7471a8d563550039c371038982037928baf3116f9156"
+}

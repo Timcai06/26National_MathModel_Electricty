@@ -1,0 +1,1612 @@
+{
+  "scope": "synthetic-candidate-only",
+  "output_policy": "interval-end-v1",
+  "semantic_acceptance": false,
+  "time_semantics": {
+    "version": "interval-end-v1",
+    "accepted": true,
+    "accepted_by": "tim",
+    "accepted_on": "2026-09-12",
+    "record": "docs/data/TIME_SEMANTICS.md",
+    "evidence": "analysis/time_semantics_v1/",
+    "still_open": [
+      "observation_policy",
+      "q3_refund_interpretation",
+      "q4_price_knowability"
+    ]
+  },
+  "template_sha256": "28360e0974e7d6065394a8aba4e14a86773ae0036cc7d3ea1b211b515b03d688",
+  "cells": {
+    "计划购电量": {
+      "B2": 0.0,
+      "B3": 0.0,
+      "B4": 0.0,
+      "B5": 0.0,
+      "B6": 0.0,
+      "B7": 0.0,
+      "B8": 0.0,
+      "B9": 0.0,
+      "B10": 0.0,
+      "B11": 0.0,
+      "B12": 0.0,
+      "B13": 0.0,
+      "B14": 0.0,
+      "B15": 0.0,
+      "B16": 0.0,
+      "B17": 0.0,
+      "B18": 0.0,
+      "B19": 0.0,
+      "B20": 0.0,
+      "B21": 0.0,
+      "B22": 0.0,
+      "B23": 0.0,
+      "B24": 0.0,
+      "B25": 0.0,
+      "B26": 0.0,
+      "B27": 0.0,
+      "B28": 0.0,
+      "B29": 0.0,
+      "B30": 0.0,
+      "B31": 0.0,
+      "B32": 0.0,
+      "B33": 0.0,
+      "B34": 0.0,
+      "B35": 0.0,
+      "B36": 0.0,
+      "B37": 0.0,
+      "B38": 0.0,
+      "B39": 0.0,
+      "B40": 0.0,
+      "B41": 0.0,
+      "B42": 0.0,
+      "B43": 0.0,
+      "B44": 0.0,
+      "B45": 0.0,
+      "B46": 0.0,
+      "B47": 0.0,
+      "B48": 0.0,
+      "B49": 0.0,
+      "B50": 0.0,
+      "B51": 0.0,
+      "B52": 0.0,
+      "B53": 0.0,
+      "B54": 0.0,
+      "B55": 0.0,
+      "B56": 149.49188648938946,
+      "B57": 0.0,
+      "B58": 0.0,
+      "B59": 0.0,
+      "B60": 0.0,
+      "B61": 0.0,
+      "B62": 0.0,
+      "B63": 0.0,
+      "B64": 0.0,
+      "B65": 0.0,
+      "B66": 0.0,
+      "B67": 0.0,
+      "B68": 0.0,
+      "B69": 0.0,
+      "B70": 0.0,
+      "B71": 0.0,
+      "B72": 0.0,
+      "B73": 0.0,
+      "B74": 0.0,
+      "B75": 0.0,
+      "B76": 0.0,
+      "B77": 0.0,
+      "B78": 0.0,
+      "B79": 0.0,
+      "B80": 0.0,
+      "B81": 0.0,
+      "B82": 0.0,
+      "B83": 0.0,
+      "B84": 0.0,
+      "B85": 0.0,
+      "B86": 0.0,
+      "B87": 0.0,
+      "B88": 0.0,
+      "B89": 0.0,
+      "B90": 0.0,
+      "B91": 0.0,
+      "B92": 0.0,
+      "B93": 0.0,
+      "B94": 0.0,
+      "B95": 0.0,
+      "B96": 0.0,
+      "B97": 0.0,
+      "B98": 0.0,
+      "B99": 0.0,
+      "B100": 0.0,
+      "B101": 0.0,
+      "B102": 0.0,
+      "B103": 0.0,
+      "B104": 0.0,
+      "B105": 0.0,
+      "B106": 0.0,
+      "B107": 0.0,
+      "B108": 0.0,
+      "B109": 0.0,
+      "B110": 0.0,
+      "B111": 0.0,
+      "B112": 0.0,
+      "B113": 0.0,
+      "B114": 0.0,
+      "B115": 0.0,
+      "B116": 0.0,
+      "B117": 0.0,
+      "B118": 0.0,
+      "B119": 0.0,
+      "B120": 0.0,
+      "B121": 0.0,
+      "B122": 0.0,
+      "B123": 0.0,
+      "B124": 0.0,
+      "B125": 0.0,
+      "B126": 0.0,
+      "B127": 0.0,
+      "B128": 0.0,
+      "B129": 0.0,
+      "B130": 0.0,
+      "B131": 0.0,
+      "B132": 0.0,
+      "B133": 0.0,
+      "B134": 0.0,
+      "B135": 0.0,
+      "B136": 0.0,
+      "B137": 0.0,
+      "B138": 0.0,
+      "B139": 0.0,
+      "B140": 0.0,
+      "B141": 0.0,
+      "B142": 0.0,
+      "B143": 0.0,
+      "B144": 0.0,
+      "B145": 0.0
+    },
+    "充放电量": {
+      "B2": 3044.9445354078175,
+      "C2": 2488.9016718932817,
+      "B3": 1909.4110017557014,
+      "C3": 2969.4070164620807,
+      "B4": 2776.3924813439303,
+      "C4": 3244.88081590493,
+      "B5": 5411.622821669106,
+      "C5": 2605.4250047170517,
+      "B6": 4221.590280073654,
+      "C6": 3095.424903375477,
+      "B7": 4156.439783269785,
+      "C7": 3027.4853194983716,
+      "E2": 6000.0,
+      "E3": 6000.0
+    }
+  },
+  "mapping": [
+    {
+      "slot_id": 0,
+      "cell": "B2",
+      "template_label": "0:10-0:20",
+      "physical_start": "2025-12-31T00:00:00+08:00",
+      "physical_end": "2025-12-31T00:10:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 1,
+      "cell": "B3",
+      "template_label": "0:20-0:30",
+      "physical_start": "2025-12-31T00:10:00+08:00",
+      "physical_end": "2025-12-31T00:20:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 2,
+      "cell": "B4",
+      "template_label": "0:30-0:40",
+      "physical_start": "2025-12-31T00:20:00+08:00",
+      "physical_end": "2025-12-31T00:30:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 3,
+      "cell": "B5",
+      "template_label": "0:40-0:50",
+      "physical_start": "2025-12-31T00:30:00+08:00",
+      "physical_end": "2025-12-31T00:40:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 4,
+      "cell": "B6",
+      "template_label": "0:50-1:00",
+      "physical_start": "2025-12-31T00:40:00+08:00",
+      "physical_end": "2025-12-31T00:50:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 5,
+      "cell": "B7",
+      "template_label": "1:00-1:10",
+      "physical_start": "2025-12-31T00:50:00+08:00",
+      "physical_end": "2025-12-31T01:00:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 6,
+      "cell": "B8",
+      "template_label": "1:10-1:20",
+      "physical_start": "2025-12-31T01:00:00+08:00",
+      "physical_end": "2025-12-31T01:10:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 7,
+      "cell": "B9",
+      "template_label": "1:20-1:30",
+      "physical_start": "2025-12-31T01:10:00+08:00",
+      "physical_end": "2025-12-31T01:20:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 8,
+      "cell": "B10",
+      "template_label": "1:30-1:40",
+      "physical_start": "2025-12-31T01:20:00+08:00",
+      "physical_end": "2025-12-31T01:30:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 9,
+      "cell": "B11",
+      "template_label": "1:40-1:50",
+      "physical_start": "2025-12-31T01:30:00+08:00",
+      "physical_end": "2025-12-31T01:40:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 10,
+      "cell": "B12",
+      "template_label": "1:50-2:00",
+      "physical_start": "2025-12-31T01:40:00+08:00",
+      "physical_end": "2025-12-31T01:50:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 11,
+      "cell": "B13",
+      "template_label": "2:00-2:10",
+      "physical_start": "2025-12-31T01:50:00+08:00",
+      "physical_end": "2025-12-31T02:00:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 12,
+      "cell": "B14",
+      "template_label": "2:10-2:20",
+      "physical_start": "2025-12-31T02:00:00+08:00",
+      "physical_end": "2025-12-31T02:10:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 13,
+      "cell": "B15",
+      "template_label": "2:20-2:30",
+      "physical_start": "2025-12-31T02:10:00+08:00",
+      "physical_end": "2025-12-31T02:20:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 14,
+      "cell": "B16",
+      "template_label": "2:30-2:40",
+      "physical_start": "2025-12-31T02:20:00+08:00",
+      "physical_end": "2025-12-31T02:30:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 15,
+      "cell": "B17",
+      "template_label": "2:40-2:50",
+      "physical_start": "2025-12-31T02:30:00+08:00",
+      "physical_end": "2025-12-31T02:40:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 16,
+      "cell": "B18",
+      "template_label": "2:50-3:00",
+      "physical_start": "2025-12-31T02:40:00+08:00",
+      "physical_end": "2025-12-31T02:50:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 17,
+      "cell": "B19",
+      "template_label": "3:00-3:10",
+      "physical_start": "2025-12-31T02:50:00+08:00",
+      "physical_end": "2025-12-31T03:00:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 18,
+      "cell": "B20",
+      "template_label": "3:10-3:20",
+      "physical_start": "2025-12-31T03:00:00+08:00",
+      "physical_end": "2025-12-31T03:10:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 19,
+      "cell": "B21",
+      "template_label": "3:20-3:30",
+      "physical_start": "2025-12-31T03:10:00+08:00",
+      "physical_end": "2025-12-31T03:20:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 20,
+      "cell": "B22",
+      "template_label": "3:30-3:40",
+      "physical_start": "2025-12-31T03:20:00+08:00",
+      "physical_end": "2025-12-31T03:30:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 21,
+      "cell": "B23",
+      "template_label": "3:40-3:50",
+      "physical_start": "2025-12-31T03:30:00+08:00",
+      "physical_end": "2025-12-31T03:40:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 22,
+      "cell": "B24",
+      "template_label": "3:50-4:00",
+      "physical_start": "2025-12-31T03:40:00+08:00",
+      "physical_end": "2025-12-31T03:50:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 23,
+      "cell": "B25",
+      "template_label": "4:00-4:10",
+      "physical_start": "2025-12-31T03:50:00+08:00",
+      "physical_end": "2025-12-31T04:00:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 24,
+      "cell": "B26",
+      "template_label": "4:10-4:20",
+      "physical_start": "2025-12-31T04:00:00+08:00",
+      "physical_end": "2025-12-31T04:10:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 25,
+      "cell": "B27",
+      "template_label": "4:20-4:30",
+      "physical_start": "2025-12-31T04:10:00+08:00",
+      "physical_end": "2025-12-31T04:20:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 26,
+      "cell": "B28",
+      "template_label": "4:30-4:40",
+      "physical_start": "2025-12-31T04:20:00+08:00",
+      "physical_end": "2025-12-31T04:30:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 27,
+      "cell": "B29",
+      "template_label": "4:40-4:50",
+      "physical_start": "2025-12-31T04:30:00+08:00",
+      "physical_end": "2025-12-31T04:40:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 28,
+      "cell": "B30",
+      "template_label": "4:50-5:00",
+      "physical_start": "2025-12-31T04:40:00+08:00",
+      "physical_end": "2025-12-31T04:50:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 29,
+      "cell": "B31",
+      "template_label": "5:00-5:10",
+      "physical_start": "2025-12-31T04:50:00+08:00",
+      "physical_end": "2025-12-31T05:00:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 30,
+      "cell": "B32",
+      "template_label": "5:10-5:20",
+      "physical_start": "2025-12-31T05:00:00+08:00",
+      "physical_end": "2025-12-31T05:10:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 31,
+      "cell": "B33",
+      "template_label": "5:20-5:30",
+      "physical_start": "2025-12-31T05:10:00+08:00",
+      "physical_end": "2025-12-31T05:20:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 32,
+      "cell": "B34",
+      "template_label": "5:30-5:40",
+      "physical_start": "2025-12-31T05:20:00+08:00",
+      "physical_end": "2025-12-31T05:30:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 33,
+      "cell": "B35",
+      "template_label": "5:40-5:50",
+      "physical_start": "2025-12-31T05:30:00+08:00",
+      "physical_end": "2025-12-31T05:40:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 34,
+      "cell": "B36",
+      "template_label": "5:50-6:00",
+      "physical_start": "2025-12-31T05:40:00+08:00",
+      "physical_end": "2025-12-31T05:50:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 35,
+      "cell": "B37",
+      "template_label": "6:00-6:10",
+      "physical_start": "2025-12-31T05:50:00+08:00",
+      "physical_end": "2025-12-31T06:00:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 36,
+      "cell": "B38",
+      "template_label": "6:10-6:20",
+      "physical_start": "2025-12-31T06:00:00+08:00",
+      "physical_end": "2025-12-31T06:10:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 37,
+      "cell": "B39",
+      "template_label": "6:20-6:30",
+      "physical_start": "2025-12-31T06:10:00+08:00",
+      "physical_end": "2025-12-31T06:20:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 38,
+      "cell": "B40",
+      "template_label": "6:30-6:40",
+      "physical_start": "2025-12-31T06:20:00+08:00",
+      "physical_end": "2025-12-31T06:30:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 39,
+      "cell": "B41",
+      "template_label": "6:40-6:50",
+      "physical_start": "2025-12-31T06:30:00+08:00",
+      "physical_end": "2025-12-31T06:40:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 40,
+      "cell": "B42",
+      "template_label": "6:50-7:00",
+      "physical_start": "2025-12-31T06:40:00+08:00",
+      "physical_end": "2025-12-31T06:50:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 41,
+      "cell": "B43",
+      "template_label": "7:00-7:10",
+      "physical_start": "2025-12-31T06:50:00+08:00",
+      "physical_end": "2025-12-31T07:00:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 42,
+      "cell": "B44",
+      "template_label": "7:10-7:20",
+      "physical_start": "2025-12-31T07:00:00+08:00",
+      "physical_end": "2025-12-31T07:10:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 43,
+      "cell": "B45",
+      "template_label": "7:20-7:30",
+      "physical_start": "2025-12-31T07:10:00+08:00",
+      "physical_end": "2025-12-31T07:20:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 44,
+      "cell": "B46",
+      "template_label": "7:30-7:40",
+      "physical_start": "2025-12-31T07:20:00+08:00",
+      "physical_end": "2025-12-31T07:30:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 45,
+      "cell": "B47",
+      "template_label": "7:40-7:50",
+      "physical_start": "2025-12-31T07:30:00+08:00",
+      "physical_end": "2025-12-31T07:40:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 46,
+      "cell": "B48",
+      "template_label": "7:50-8:00",
+      "physical_start": "2025-12-31T07:40:00+08:00",
+      "physical_end": "2025-12-31T07:50:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 47,
+      "cell": "B49",
+      "template_label": "8:00-8:10",
+      "physical_start": "2025-12-31T07:50:00+08:00",
+      "physical_end": "2025-12-31T08:00:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 48,
+      "cell": "B50",
+      "template_label": "8:10-8:20",
+      "physical_start": "2025-12-31T08:00:00+08:00",
+      "physical_end": "2025-12-31T08:10:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 49,
+      "cell": "B51",
+      "template_label": "8:20-8:30",
+      "physical_start": "2025-12-31T08:10:00+08:00",
+      "physical_end": "2025-12-31T08:20:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 50,
+      "cell": "B52",
+      "template_label": "8:30-8:40",
+      "physical_start": "2025-12-31T08:20:00+08:00",
+      "physical_end": "2025-12-31T08:30:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 51,
+      "cell": "B53",
+      "template_label": "8:40-8:50",
+      "physical_start": "2025-12-31T08:30:00+08:00",
+      "physical_end": "2025-12-31T08:40:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 52,
+      "cell": "B54",
+      "template_label": "8:50-9:00",
+      "physical_start": "2025-12-31T08:40:00+08:00",
+      "physical_end": "2025-12-31T08:50:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 53,
+      "cell": "B55",
+      "template_label": "9:00-9:10",
+      "physical_start": "2025-12-31T08:50:00+08:00",
+      "physical_end": "2025-12-31T09:00:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 54,
+      "cell": "B56",
+      "template_label": "9:10-9:20",
+      "physical_start": "2025-12-31T09:00:00+08:00",
+      "physical_end": "2025-12-31T09:10:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 55,
+      "cell": "B57",
+      "template_label": "9:20-9:30",
+      "physical_start": "2025-12-31T09:10:00+08:00",
+      "physical_end": "2025-12-31T09:20:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 56,
+      "cell": "B58",
+      "template_label": "9:30-9:40",
+      "physical_start": "2025-12-31T09:20:00+08:00",
+      "physical_end": "2025-12-31T09:30:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 57,
+      "cell": "B59",
+      "template_label": "9:40-9:50",
+      "physical_start": "2025-12-31T09:30:00+08:00",
+      "physical_end": "2025-12-31T09:40:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 58,
+      "cell": "B60",
+      "template_label": "9:50-10:00",
+      "physical_start": "2025-12-31T09:40:00+08:00",
+      "physical_end": "2025-12-31T09:50:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 59,
+      "cell": "B61",
+      "template_label": "10:00-10:10",
+      "physical_start": "2025-12-31T09:50:00+08:00",
+      "physical_end": "2025-12-31T10:00:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 60,
+      "cell": "B62",
+      "template_label": "10:10-10:20",
+      "physical_start": "2025-12-31T10:00:00+08:00",
+      "physical_end": "2025-12-31T10:10:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 61,
+      "cell": "B63",
+      "template_label": "10:20-10:30",
+      "physical_start": "2025-12-31T10:10:00+08:00",
+      "physical_end": "2025-12-31T10:20:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 62,
+      "cell": "B64",
+      "template_label": "10:30-10:40",
+      "physical_start": "2025-12-31T10:20:00+08:00",
+      "physical_end": "2025-12-31T10:30:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 63,
+      "cell": "B65",
+      "template_label": "10:40-10:50",
+      "physical_start": "2025-12-31T10:30:00+08:00",
+      "physical_end": "2025-12-31T10:40:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 64,
+      "cell": "B66",
+      "template_label": "10:50-11:00",
+      "physical_start": "2025-12-31T10:40:00+08:00",
+      "physical_end": "2025-12-31T10:50:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 65,
+      "cell": "B67",
+      "template_label": "11:00-11:10",
+      "physical_start": "2025-12-31T10:50:00+08:00",
+      "physical_end": "2025-12-31T11:00:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 66,
+      "cell": "B68",
+      "template_label": "11:10-11:20",
+      "physical_start": "2025-12-31T11:00:00+08:00",
+      "physical_end": "2025-12-31T11:10:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 67,
+      "cell": "B69",
+      "template_label": "11:20-11:30",
+      "physical_start": "2025-12-31T11:10:00+08:00",
+      "physical_end": "2025-12-31T11:20:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 68,
+      "cell": "B70",
+      "template_label": "11:30-11:40",
+      "physical_start": "2025-12-31T11:20:00+08:00",
+      "physical_end": "2025-12-31T11:30:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 69,
+      "cell": "B71",
+      "template_label": "11:40-11:50",
+      "physical_start": "2025-12-31T11:30:00+08:00",
+      "physical_end": "2025-12-31T11:40:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 70,
+      "cell": "B72",
+      "template_label": "11:50-12:00",
+      "physical_start": "2025-12-31T11:40:00+08:00",
+      "physical_end": "2025-12-31T11:50:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 71,
+      "cell": "B73",
+      "template_label": "12:00-12:10",
+      "physical_start": "2025-12-31T11:50:00+08:00",
+      "physical_end": "2025-12-31T12:00:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 72,
+      "cell": "B74",
+      "template_label": "12:10-12:20",
+      "physical_start": "2025-12-31T12:00:00+08:00",
+      "physical_end": "2025-12-31T12:10:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 73,
+      "cell": "B75",
+      "template_label": "12:20-12:30",
+      "physical_start": "2025-12-31T12:10:00+08:00",
+      "physical_end": "2025-12-31T12:20:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 74,
+      "cell": "B76",
+      "template_label": "12:30-12:40",
+      "physical_start": "2025-12-31T12:20:00+08:00",
+      "physical_end": "2025-12-31T12:30:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 75,
+      "cell": "B77",
+      "template_label": "12:40-12:50",
+      "physical_start": "2025-12-31T12:30:00+08:00",
+      "physical_end": "2025-12-31T12:40:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 76,
+      "cell": "B78",
+      "template_label": "12:50-13:00",
+      "physical_start": "2025-12-31T12:40:00+08:00",
+      "physical_end": "2025-12-31T12:50:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 77,
+      "cell": "B79",
+      "template_label": "13:00-13:10",
+      "physical_start": "2025-12-31T12:50:00+08:00",
+      "physical_end": "2025-12-31T13:00:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 78,
+      "cell": "B80",
+      "template_label": "13:10-13:20",
+      "physical_start": "2025-12-31T13:00:00+08:00",
+      "physical_end": "2025-12-31T13:10:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 79,
+      "cell": "B81",
+      "template_label": "13:20-13:30",
+      "physical_start": "2025-12-31T13:10:00+08:00",
+      "physical_end": "2025-12-31T13:20:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 80,
+      "cell": "B82",
+      "template_label": "13:30-13:40",
+      "physical_start": "2025-12-31T13:20:00+08:00",
+      "physical_end": "2025-12-31T13:30:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 81,
+      "cell": "B83",
+      "template_label": "13:40-13:50",
+      "physical_start": "2025-12-31T13:30:00+08:00",
+      "physical_end": "2025-12-31T13:40:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 82,
+      "cell": "B84",
+      "template_label": "13:50-14:00",
+      "physical_start": "2025-12-31T13:40:00+08:00",
+      "physical_end": "2025-12-31T13:50:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 83,
+      "cell": "B85",
+      "template_label": "14:00-14:10",
+      "physical_start": "2025-12-31T13:50:00+08:00",
+      "physical_end": "2025-12-31T14:00:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 84,
+      "cell": "B86",
+      "template_label": "14:10-14:20",
+      "physical_start": "2025-12-31T14:00:00+08:00",
+      "physical_end": "2025-12-31T14:10:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 85,
+      "cell": "B87",
+      "template_label": "14:20-14:30",
+      "physical_start": "2025-12-31T14:10:00+08:00",
+      "physical_end": "2025-12-31T14:20:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 86,
+      "cell": "B88",
+      "template_label": "14:30-14:40",
+      "physical_start": "2025-12-31T14:20:00+08:00",
+      "physical_end": "2025-12-31T14:30:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 87,
+      "cell": "B89",
+      "template_label": "14:40-14:50",
+      "physical_start": "2025-12-31T14:30:00+08:00",
+      "physical_end": "2025-12-31T14:40:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 88,
+      "cell": "B90",
+      "template_label": "14:50-15:00",
+      "physical_start": "2025-12-31T14:40:00+08:00",
+      "physical_end": "2025-12-31T14:50:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 89,
+      "cell": "B91",
+      "template_label": "15:00-15:10",
+      "physical_start": "2025-12-31T14:50:00+08:00",
+      "physical_end": "2025-12-31T15:00:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 90,
+      "cell": "B92",
+      "template_label": "15:10-15:20",
+      "physical_start": "2025-12-31T15:00:00+08:00",
+      "physical_end": "2025-12-31T15:10:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 91,
+      "cell": "B93",
+      "template_label": "15:20-15:30",
+      "physical_start": "2025-12-31T15:10:00+08:00",
+      "physical_end": "2025-12-31T15:20:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 92,
+      "cell": "B94",
+      "template_label": "15:30-15:40",
+      "physical_start": "2025-12-31T15:20:00+08:00",
+      "physical_end": "2025-12-31T15:30:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 93,
+      "cell": "B95",
+      "template_label": "15:40-15:50",
+      "physical_start": "2025-12-31T15:30:00+08:00",
+      "physical_end": "2025-12-31T15:40:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 94,
+      "cell": "B96",
+      "template_label": "15:50-16:00",
+      "physical_start": "2025-12-31T15:40:00+08:00",
+      "physical_end": "2025-12-31T15:50:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 95,
+      "cell": "B97",
+      "template_label": "16:00-16:10",
+      "physical_start": "2025-12-31T15:50:00+08:00",
+      "physical_end": "2025-12-31T16:00:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 96,
+      "cell": "B98",
+      "template_label": "16:10-16:20",
+      "physical_start": "2025-12-31T16:00:00+08:00",
+      "physical_end": "2025-12-31T16:10:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 97,
+      "cell": "B99",
+      "template_label": "16:20-16:30",
+      "physical_start": "2025-12-31T16:10:00+08:00",
+      "physical_end": "2025-12-31T16:20:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 98,
+      "cell": "B100",
+      "template_label": "16:30-16:40",
+      "physical_start": "2025-12-31T16:20:00+08:00",
+      "physical_end": "2025-12-31T16:30:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 99,
+      "cell": "B101",
+      "template_label": "16:40-16:50",
+      "physical_start": "2025-12-31T16:30:00+08:00",
+      "physical_end": "2025-12-31T16:40:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 100,
+      "cell": "B102",
+      "template_label": "16:50-17:00",
+      "physical_start": "2025-12-31T16:40:00+08:00",
+      "physical_end": "2025-12-31T16:50:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 101,
+      "cell": "B103",
+      "template_label": "17:00-17:10",
+      "physical_start": "2025-12-31T16:50:00+08:00",
+      "physical_end": "2025-12-31T17:00:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 102,
+      "cell": "B104",
+      "template_label": "17:10-17:20",
+      "physical_start": "2025-12-31T17:00:00+08:00",
+      "physical_end": "2025-12-31T17:10:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 103,
+      "cell": "B105",
+      "template_label": "17:20-17:30",
+      "physical_start": "2025-12-31T17:10:00+08:00",
+      "physical_end": "2025-12-31T17:20:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 104,
+      "cell": "B106",
+      "template_label": "17:30-17:40",
+      "physical_start": "2025-12-31T17:20:00+08:00",
+      "physical_end": "2025-12-31T17:30:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 105,
+      "cell": "B107",
+      "template_label": "17:40-17:50",
+      "physical_start": "2025-12-31T17:30:00+08:00",
+      "physical_end": "2025-12-31T17:40:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 106,
+      "cell": "B108",
+      "template_label": "17:50-18:00",
+      "physical_start": "2025-12-31T17:40:00+08:00",
+      "physical_end": "2025-12-31T17:50:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 107,
+      "cell": "B109",
+      "template_label": "18:00-18:10",
+      "physical_start": "2025-12-31T17:50:00+08:00",
+      "physical_end": "2025-12-31T18:00:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 108,
+      "cell": "B110",
+      "template_label": "18:10-18:20",
+      "physical_start": "2025-12-31T18:00:00+08:00",
+      "physical_end": "2025-12-31T18:10:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 109,
+      "cell": "B111",
+      "template_label": "18:20-18:30",
+      "physical_start": "2025-12-31T18:10:00+08:00",
+      "physical_end": "2025-12-31T18:20:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 110,
+      "cell": "B112",
+      "template_label": "18:30-18:40",
+      "physical_start": "2025-12-31T18:20:00+08:00",
+      "physical_end": "2025-12-31T18:30:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 111,
+      "cell": "B113",
+      "template_label": "18:40-18:50",
+      "physical_start": "2025-12-31T18:30:00+08:00",
+      "physical_end": "2025-12-31T18:40:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 112,
+      "cell": "B114",
+      "template_label": "18:50-19:00",
+      "physical_start": "2025-12-31T18:40:00+08:00",
+      "physical_end": "2025-12-31T18:50:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 113,
+      "cell": "B115",
+      "template_label": "19:00-19:10",
+      "physical_start": "2025-12-31T18:50:00+08:00",
+      "physical_end": "2025-12-31T19:00:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 114,
+      "cell": "B116",
+      "template_label": "19:10-19:20",
+      "physical_start": "2025-12-31T19:00:00+08:00",
+      "physical_end": "2025-12-31T19:10:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 115,
+      "cell": "B117",
+      "template_label": "19:20-19:30",
+      "physical_start": "2025-12-31T19:10:00+08:00",
+      "physical_end": "2025-12-31T19:20:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 116,
+      "cell": "B118",
+      "template_label": "19:30-19:40",
+      "physical_start": "2025-12-31T19:20:00+08:00",
+      "physical_end": "2025-12-31T19:30:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 117,
+      "cell": "B119",
+      "template_label": "19:40-19:50",
+      "physical_start": "2025-12-31T19:30:00+08:00",
+      "physical_end": "2025-12-31T19:40:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 118,
+      "cell": "B120",
+      "template_label": "19:50-20:00",
+      "physical_start": "2025-12-31T19:40:00+08:00",
+      "physical_end": "2025-12-31T19:50:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 119,
+      "cell": "B121",
+      "template_label": "20:00-20:10",
+      "physical_start": "2025-12-31T19:50:00+08:00",
+      "physical_end": "2025-12-31T20:00:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 120,
+      "cell": "B122",
+      "template_label": "20:10-20:20",
+      "physical_start": "2025-12-31T20:00:00+08:00",
+      "physical_end": "2025-12-31T20:10:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 121,
+      "cell": "B123",
+      "template_label": "20:20-20:30",
+      "physical_start": "2025-12-31T20:10:00+08:00",
+      "physical_end": "2025-12-31T20:20:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 122,
+      "cell": "B124",
+      "template_label": "20:30-20:40",
+      "physical_start": "2025-12-31T20:20:00+08:00",
+      "physical_end": "2025-12-31T20:30:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 123,
+      "cell": "B125",
+      "template_label": "20:40-20:50",
+      "physical_start": "2025-12-31T20:30:00+08:00",
+      "physical_end": "2025-12-31T20:40:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 124,
+      "cell": "B126",
+      "template_label": "20:50-21:00",
+      "physical_start": "2025-12-31T20:40:00+08:00",
+      "physical_end": "2025-12-31T20:50:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 125,
+      "cell": "B127",
+      "template_label": "21:00-21:10",
+      "physical_start": "2025-12-31T20:50:00+08:00",
+      "physical_end": "2025-12-31T21:00:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 126,
+      "cell": "B128",
+      "template_label": "21:10-21:20",
+      "physical_start": "2025-12-31T21:00:00+08:00",
+      "physical_end": "2025-12-31T21:10:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 127,
+      "cell": "B129",
+      "template_label": "21:20-21:30",
+      "physical_start": "2025-12-31T21:10:00+08:00",
+      "physical_end": "2025-12-31T21:20:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 128,
+      "cell": "B130",
+      "template_label": "21:30-21:40",
+      "physical_start": "2025-12-31T21:20:00+08:00",
+      "physical_end": "2025-12-31T21:30:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 129,
+      "cell": "B131",
+      "template_label": "21:40-21:50",
+      "physical_start": "2025-12-31T21:30:00+08:00",
+      "physical_end": "2025-12-31T21:40:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 130,
+      "cell": "B132",
+      "template_label": "21:50-22:00",
+      "physical_start": "2025-12-31T21:40:00+08:00",
+      "physical_end": "2025-12-31T21:50:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 131,
+      "cell": "B133",
+      "template_label": "22:00-22:10",
+      "physical_start": "2025-12-31T21:50:00+08:00",
+      "physical_end": "2025-12-31T22:00:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 132,
+      "cell": "B134",
+      "template_label": "22:10-22:20",
+      "physical_start": "2025-12-31T22:00:00+08:00",
+      "physical_end": "2025-12-31T22:10:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 133,
+      "cell": "B135",
+      "template_label": "22:20-22:30",
+      "physical_start": "2025-12-31T22:10:00+08:00",
+      "physical_end": "2025-12-31T22:20:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 134,
+      "cell": "B136",
+      "template_label": "22:30-22:40",
+      "physical_start": "2025-12-31T22:20:00+08:00",
+      "physical_end": "2025-12-31T22:30:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 135,
+      "cell": "B137",
+      "template_label": "22:40-22:50",
+      "physical_start": "2025-12-31T22:30:00+08:00",
+      "physical_end": "2025-12-31T22:40:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 136,
+      "cell": "B138",
+      "template_label": "22:50-23:00",
+      "physical_start": "2025-12-31T22:40:00+08:00",
+      "physical_end": "2025-12-31T22:50:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 137,
+      "cell": "B139",
+      "template_label": "23:00-23:10",
+      "physical_start": "2025-12-31T22:50:00+08:00",
+      "physical_end": "2025-12-31T23:00:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 138,
+      "cell": "B140",
+      "template_label": "23:10-23:20",
+      "physical_start": "2025-12-31T23:00:00+08:00",
+      "physical_end": "2025-12-31T23:10:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 139,
+      "cell": "B141",
+      "template_label": "23:20-23:30",
+      "physical_start": "2025-12-31T23:10:00+08:00",
+      "physical_end": "2025-12-31T23:20:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 140,
+      "cell": "B142",
+      "template_label": "23:30-23:40",
+      "physical_start": "2025-12-31T23:20:00+08:00",
+      "physical_end": "2025-12-31T23:30:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 141,
+      "cell": "B143",
+      "template_label": "23:40-23:50",
+      "physical_start": "2025-12-31T23:30:00+08:00",
+      "physical_end": "2025-12-31T23:40:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 142,
+      "cell": "B144",
+      "template_label": "23:50-0:00+1",
+      "physical_start": "2025-12-31T23:40:00+08:00",
+      "physical_end": "2025-12-31T23:50:00+08:00",
+      "label_offset_minutes": 10
+    },
+    {
+      "slot_id": 143,
+      "cell": "B145",
+      "template_label": "0:00+1-0:10+1",
+      "physical_start": "2025-12-31T23:50:00+08:00",
+      "physical_end": "2026-01-01T00:00:00+08:00",
+      "label_offset_minutes": 10
+    }
+  ],
+  "table": {
+    "strategy": "optimized",
+    "metadata": {
+      "input_kind": "synthetic",
+      "data_version": "seeded_variable_day-v1",
+      "mapping_version": "synthetic-144-v1",
+      "assumptions_version": "0.9-bus-neutral-v1"
+    },
+    "day": "2025-12-31",
+    "time_contract_status": "synthetic",
+    "physical_boundaries": [
+      "2025-12-31T00:00:00+08:00",
+      "2025-12-31T00:10:00+08:00",
+      "2025-12-31T00:20:00+08:00",
+      "2025-12-31T00:30:00+08:00",
+      "2025-12-31T00:40:00+08:00",
+      "2025-12-31T00:50:00+08:00",
+      "2025-12-31T01:00:00+08:00",
+      "2025-12-31T01:10:00+08:00",
+      "2025-12-31T01:20:00+08:00",
+      "2025-12-31T01:30:00+08:00",
+      "2025-12-31T01:40:00+08:00",
+      "2025-12-31T01:50:00+08:00",
+      "2025-12-31T02:00:00+08:00",
+      "2025-12-31T02:10:00+08:00",
+      "2025-12-31T02:20:00+08:00",
+      "2025-12-31T02:30:00+08:00",
+      "2025-12-31T02:40:00+08:00",
+      "2025-12-31T02:50:00+08:00",
+      "2025-12-31T03:00:00+08:00",
+      "2025-12-31T03:10:00+08:00",
+      "2025-12-31T03:20:00+08:00",
+      "2025-12-31T03:30:00+08:00",
+      "2025-12-31T03:40:00+08:00",
+      "2025-12-31T03:50:00+08:00",
+      "2025-12-31T04:00:00+08:00",
+      "2025-12-31T04:10:00+08:00",
+      "2025-12-31T04:20:00+08:00",
+      "2025-12-31T04:30:00+08:00",
+      "2025-12-31T04:40:00+08:00",
+      "2025-12-31T04:50:00+08:00",
+      "2025-12-31T05:00:00+08:00",
+      "2025-12-31T05:10:00+08:00",
+      "2025-12-31T05:20:00+08:00",
+      "2025-12-31T05:30:00+08:00",
+      "2025-12-31T05:40:00+08:00",
+      "2025-12-31T05:50:00+08:00",
+      "2025-12-31T06:00:00+08:00",
+      "2025-12-31T06:10:00+08:00",
+      "2025-12-31T06:20:00+08:00",
+      "2025-12-31T06:30:00+08:00",
+      "2025-12-31T06:40:00+08:00",
+      "2025-12-31T06:50:00+08:00",
+      "2025-12-31T07:00:00+08:00",
+      "2025-12-31T07:10:00+08:00",
+      "2025-12-31T07:20:00+08:00",
+      "2025-12-31T07:30:00+08:00",
+      "2025-12-31T07:40:00+08:00",
+      "2025-12-31T07:50:00+08:00",
+      "2025-12-31T08:00:00+08:00",
+      "2025-12-31T08:10:00+08:00",
+      "2025-12-31T08:20:00+08:00",
+      "2025-12-31T08:30:00+08:00",
+      "2025-12-31T08:40:00+08:00",
+      "2025-12-31T08:50:00+08:00",
+      "2025-12-31T09:00:00+08:00",
+      "2025-12-31T09:10:00+08:00",
+      "2025-12-31T09:20:00+08:00",
+      "2025-12-31T09:30:00+08:00",
+      "2025-12-31T09:40:00+08:00",
+      "2025-12-31T09:50:00+08:00",
+      "2025-12-31T10:00:00+08:00",
+      "2025-12-31T10:10:00+08:00",
+      "2025-12-31T10:20:00+08:00",
+      "2025-12-31T10:30:00+08:00",
+      "2025-12-31T10:40:00+08:00",
+      "2025-12-31T10:50:00+08:00",
+      "2025-12-31T11:00:00+08:00",
+      "2025-12-31T11:10:00+08:00",
+      "2025-12-31T11:20:00+08:00",
+      "2025-12-31T11:30:00+08:00",
+      "2025-12-31T11:40:00+08:00",
+      "2025-12-31T11:50:00+08:00",
+      "2025-12-31T12:00:00+08:00",
+      "2025-12-31T12:10:00+08:00",
+      "2025-12-31T12:20:00+08:00",
+      "2025-12-31T12:30:00+08:00",
+      "2025-12-31T12:40:00+08:00",
+      "2025-12-31T12:50:00+08:00",
+      "2025-12-31T13:00:00+08:00",
+      "2025-12-31T13:10:00+08:00",
+      "2025-12-31T13:20:00+08:00",
+      "2025-12-31T13:30:00+08:00",
+      "2025-12-31T13:40:00+08:00",
+      "2025-12-31T13:50:00+08:00",
+      "2025-12-31T14:00:00+08:00",
+      "2025-12-31T14:10:00+08:00",
+      "2025-12-31T14:20:00+08:00",
+      "2025-12-31T14:30:00+08:00",
+      "2025-12-31T14:40:00+08:00",
+      "2025-12-31T14:50:00+08:00",
+      "2025-12-31T15:00:00+08:00",
+      "2025-12-31T15:10:00+08:00",
+      "2025-12-31T15:20:00+08:00",
+      "2025-12-31T15:30:00+08:00",
+      "2025-12-31T15:40:00+08:00",
+      "2025-12-31T15:50:00+08:00",
+      "2025-12-31T16:00:00+08:00",
+      "2025-12-31T16:10:00+08:00",
+      "2025-12-31T16:20:00+08:00",
+      "2025-12-31T16:30:00+08:00",
+      "2025-12-31T16:40:00+08:00",
+      "2025-12-31T16:50:00+08:00",
+      "2025-12-31T17:00:00+08:00",
+      "2025-12-31T17:10:00+08:00",
+      "2025-12-31T17:20:00+08:00",
+      "2025-12-31T17:30:00+08:00",
+      "2025-12-31T17:40:00+08:00",
+      "2025-12-31T17:50:00+08:00",
+      "2025-12-31T18:00:00+08:00",
+      "2025-12-31T18:10:00+08:00",
+      "2025-12-31T18:20:00+08:00",
+      "2025-12-31T18:30:00+08:00",
+      "2025-12-31T18:40:00+08:00",
+      "2025-12-31T18:50:00+08:00",
+      "2025-12-31T19:00:00+08:00",
+      "2025-12-31T19:10:00+08:00",
+      "2025-12-31T19:20:00+08:00",
+      "2025-12-31T19:30:00+08:00",
+      "2025-12-31T19:40:00+08:00",
+      "2025-12-31T19:50:00+08:00",
+      "2025-12-31T20:00:00+08:00",
+      "2025-12-31T20:10:00+08:00",
+      "2025-12-31T20:20:00+08:00",
+      "2025-12-31T20:30:00+08:00",
+      "2025-12-31T20:40:00+08:00",
+      "2025-12-31T20:50:00+08:00",
+      "2025-12-31T21:00:00+08:00",
+      "2025-12-31T21:10:00+08:00",
+      "2025-12-31T21:20:00+08:00",
+      "2025-12-31T21:30:00+08:00",
+      "2025-12-31T21:40:00+08:00",
+      "2025-12-31T21:50:00+08:00",
+      "2025-12-31T22:00:00+08:00",
+      "2025-12-31T22:10:00+08:00",
+      "2025-12-31T22:20:00+08:00",
+      "2025-12-31T22:30:00+08:00",
+      "2025-12-31T22:40:00+08:00",
+      "2025-12-31T22:50:00+08:00",
+      "2025-12-31T23:00:00+08:00",
+      "2025-12-31T23:10:00+08:00",
+      "2025-12-31T23:20:00+08:00",
+      "2025-12-31T23:30:00+08:00",
+      "2025-12-31T23:40:00+08:00",
+      "2025-12-31T23:50:00+08:00",
+      "2026-01-01T00:00:00+08:00"
+    ],
+    "table1": [
+      {
+        "start": "2025-12-31T10:00:00+08:00",
+        "end": "2025-12-31T10:10:00+08:00",
+        "slot_start": 60,
+        "slot_stop": 61,
+        "purchase_kwh": 0.0
+      },
+      {
+        "start": "2025-12-31T12:00:00+08:00",
+        "end": "2025-12-31T12:10:00+08:00",
+        "slot_start": 72,
+        "slot_stop": 73,
+        "purchase_kwh": 0.0
+      },
+      {
+        "start": "2025-12-31T14:00:00+08:00",
+        "end": "2025-12-31T14:10:00+08:00",
+        "slot_start": 84,
+        "slot_stop": 85,
+        "purchase_kwh": 0.0
+      },
+      {
+        "start": "2025-12-31T16:00:00+08:00",
+        "end": "2025-12-31T16:10:00+08:00",
+        "slot_start": 96,
+        "slot_stop": 97,
+        "purchase_kwh": 0.0
+      },
+      {
+        "start": "2025-12-31T18:00:00+08:00",
+        "end": "2025-12-31T18:10:00+08:00",
+        "slot_start": 108,
+        "slot_stop": 109,
+        "purchase_kwh": 0.0
+      },
+      {
+        "start": "2025-12-31T20:00:00+08:00",
+        "end": "2025-12-31T20:10:00+08:00",
+        "slot_start": 120,
+        "slot_stop": 121,
+        "purchase_kwh": 0.0
+      }
+    ],
+    "table2": [
+      {
+        "start": "2025-12-31T00:00:00+08:00",
+        "end": "2025-12-31T04:00:00+08:00",
+        "slot_start": 0,
+        "slot_stop": 24,
+        "charge_bus_kwh": 3044.9445354078175,
+        "discharge_bus_kwh": 2488.9016718932817
+      },
+      {
+        "start": "2025-12-31T04:00:00+08:00",
+        "end": "2025-12-31T08:00:00+08:00",
+        "slot_start": 24,
+        "slot_stop": 48,
+        "charge_bus_kwh": 1909.4110017557014,
+        "discharge_bus_kwh": 2969.4070164620807
+      },
+      {
+        "start": "2025-12-31T08:00:00+08:00",
+        "end": "2025-12-31T12:00:00+08:00",
+        "slot_start": 48,
+        "slot_stop": 72,
+        "charge_bus_kwh": 2776.3924813439303,
+        "discharge_bus_kwh": 3244.88081590493
+      },
+      {
+        "start": "2025-12-31T12:00:00+08:00",
+        "end": "2025-12-31T16:00:00+08:00",
+        "slot_start": 72,
+        "slot_stop": 96,
+        "charge_bus_kwh": 5411.622821669106,
+        "discharge_bus_kwh": 2605.4250047170517
+      },
+      {
+        "start": "2025-12-31T16:00:00+08:00",
+        "end": "2025-12-31T20:00:00+08:00",
+        "slot_start": 96,
+        "slot_stop": 120,
+        "charge_bus_kwh": 4221.590280073654,
+        "discharge_bus_kwh": 3095.424903375477
+      },
+      {
+        "start": "2025-12-31T20:00:00+08:00",
+        "end": "2026-01-01T00:00:00+08:00",
+        "slot_start": 120,
+        "slot_stop": 144,
+        "charge_bus_kwh": 4156.439783269785,
+        "discharge_bus_kwh": 3027.4853194983716
+      }
+    ],
+    "daily_totals": {
+      "purchase_kwh": 149.49188648938946,
+      "cost_yuan": 31.547432530222935,
+      "charge_bus_kwh": 21520.400903519992,
+      "discharge_bus_kwh": 17431.52473185119,
+      "initial_energy_kwh": 6000.0,
+      "terminal_energy_kwh": 6000.0
+    },
+    "validation": {
+      "balance_residual_kwh": 1.1368683772161603e-13,
+      "state_residual_kwh": 4.547473508864641e-13,
+      "bound_violation_kwh": 0.0,
+      "initial_residual_kwh": 0.0,
+      "terminal_residual_kwh": 0.0,
+      "commitment_residual_kwh": 0.0,
+      "disabled_emergency_kwh": 0.0,
+      "cumulative_state_residual_kwh": 3.637978807091713e-12,
+      "simultaneous_slots": [],
+      "physical_passed": true,
+      "passed": true
+    }
+  },
+  "source_sha256": "a6bbdd07b6d7082ca08caaed586495c96b95c4b6a57ed6b9a6eac49eb9c1e855",
+  "case": "seeded_variable_day"
+}

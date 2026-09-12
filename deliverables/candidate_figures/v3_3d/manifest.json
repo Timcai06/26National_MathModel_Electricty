@@ -1,0 +1,26 @@
+{
+  "status": "candidate_development_sensitivity_not_new_main_model",
+  "source_result_sha256": "03a9a9fdc819a39e9b1c7471a8d563550039c371038982037928baf3116f9156",
+  "validation_sha256": "e98d0c3d2b63174154d1cb4e5847f1aef0870e3efa4b6c6c32f4595c4a645222",
+  "original_point": {
+    "tau": 0.8,
+    "scale": 1.0,
+    "january_total_yuan": 930672.1511948517
+  },
+  "grid_minimum": {
+    "tau": 0.9,
+    "scale": 0.75,
+    "january_total_yuan": 929199.2110005622
+  },
+  "plot_method": "matplotlib plot_surface and contourf; orthographic view; actual 9x9 grid; no Blender",
+  "files": {
+    "q2_soc_monthly_3d.pdf": "66c83a0fe308dd2433912788d960454ac1324189df6603dddfb47c8721f5bcdd",
+    "q2_soc_monthly_3d.png": "af84c3da56bc2f349c18bae7fcb24a75e704903ffa0f840510a25d48e209d1c3",
+    "q2_cost_response_3d.pdf": "104db50fcb3f8fbc7ad6b8e749b608d7f2f88d739e7e7bed0ef7a77bc3e374b4",
+    "q2_cost_response_3d.png": "1427e1224c82a5dcb15bc3fcc1f0f4276ee035b449678fa333efcd00d8e0b3b0",
+    "response_grid.csv": "41c111ba50f7468ed3ad8ccc80f24dad081d27849b98bf08d7da38468188bbd6",
+    "soc_monthly_grid.csv": "30d76bff5468d5c56f9bf36b22ea2d94333bcb061e37bd404925f71f0a90021e",
+    "3D_candidate_atlas.pdf": "dd7ead7be36e5bcfc9cde7ac10708b6ac38595d1dda73d2d179197af77d76e3c"
+  },
+  "visual_review": "Both final atlas pages rendered with Poppler and inspected; no clipping or font warnings observed; human acceptance pending."
+}

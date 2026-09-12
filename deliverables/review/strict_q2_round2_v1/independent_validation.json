@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "strategies": {
+    "B0": {
+      "days_verified": 365,
+      "slots_verified": 52560,
+      "evaluation_days": 334,
+      "max_physical_residual_kwh": 4.547473508864641e-13,
+      "costs": {
+        "planned_yuan": 12258250.765720032,
+        "adjustment_yuan": 0.0,
+        "emergency_yuan": 4323292.765316313,
+        "total_yuan": 16581543.53103634
+      },
+      "frozen_forecast_emergency_kwh": 8.714187733698729e-06,
+      "frozen_forecast_emergency_slots_above_tolerance": 0,
+      "chronology_checked": true,
+      "passed": true
+    },
+    "B1": {
+      "days_verified": 365,
+      "slots_verified": 52560,
+      "evaluation_days": 334,
+      "max_physical_residual_kwh": 9.094947017729282e-13,
+      "costs": {
+        "planned_yuan": 12258250.765720032,
+        "adjustment_yuan": 0.0,
+        "emergency_yuan": 4292554.50553064,
+        "total_yuan": 16550805.271250663
+      },
+      "frozen_forecast_emergency_kwh": 1.0583159055043621e-05,
+      "frozen_forecast_emergency_slots_above_tolerance": 0,
+      "chronology_checked": true,
+      "passed": true
+    }
+  },
+  "paired_commitments_identical": true,
+  "information_boundary_evidence": "timestamp audit plus tests/test_strict_execution.py perturbation tests; metadata alone does not prove causality",
+  "result_sha256": "36a84da37f48f7507ebfe3078c9e088d9800459047dd74a41e15b2c610bad405",
+  "verifier_sha256": "f276b96942c5fddc0761e07862ff0807f5a096546397afe43a794ff9463eb06f"
+}

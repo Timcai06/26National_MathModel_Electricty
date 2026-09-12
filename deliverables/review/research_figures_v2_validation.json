@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "checks": [
+    "All source and figure SHA256 bindings match",
+    "Annual matrices, January residual samples, 8 exact parameter trials and fee waterfall recomputed",
+    "334 paired daily costs, 291 improvement days and annual savings matched frozen totals",
+    "1002 VOI decisions, 500-yuan boundary, 83/97/3 acceptance counts and actual monthly ledger matched",
+    "Selected day storage trajectory remains inside analytic terminal-reachability envelope"
+  ],
+  "no_optimizer_changes": true,
+  "source_manifest_sha256": "9a207e772fa509a74b3c99afb1a0fb984301969be4aef1096706fde1b70add1c",
+  "pdf_sha256": "184a9a07d1e9ba87e1521f7a7a0ee78c766954cce623bc99d343b23e27beb7af",
+  "scope": "Chart data, frozen source bindings and TeX log; not final semantics or human visual acceptance."
+}

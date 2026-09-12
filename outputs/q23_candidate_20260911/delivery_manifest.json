@@ -1,0 +1,20 @@
+{
+  "scope": "real Q2/Q3 candidate; semantic acceptance pending",
+  "hashes": {
+    "scripts/deliver_real_q23.py": "6fa67659548df432cac15680520c63bbc21d57146663221141fa0478cc543018",
+    "scripts/verify_real_q23.py": "b5c5abec855f3dd0f0c95fbaca31b677b24b7ad42d5e2d88641a9abde3d82fcf",
+    "scripts/plot_real_q23.py": "5ffcb1bc1c310cae5840b2426b7da85e47f71535c203975b9c2f99a14b9107ad",
+    "outputs/q23_candidate_20260911/build.mjs": "d358d69f470ecb54b87abf6a705fbb22814cbb886769b93303d92beef98880fb",
+    "outputs/q23_candidate_20260911/result2_candidate.xlsx": "b2ec5376451ba0f42db119278d892a94a82012674815a6b5fe6e421157fd691b",
+    "outputs/q23_candidate_20260911/result3_candidate.xlsx": "ac3cdcbc0323bf96954c14c4971c1c6c8e68e134da28e9b15a207c471d790127",
+    "outputs/q23_candidate_20260911/readback.json": "5c009e00c9ca444285081fca0eaec166e909f94eed5ec343473755bceaa3eeab",
+    "analysis/real_q23_candidate/result.json": "8f8ecbbf00be102d30658197af958d9687025754adbc1d6ac8cf37408f1d9853",
+    "analysis/real_q23_candidate/independent_validation.json": "5625c8f1b66cc937fe315ecd25553bc445dd9656bf318fc0181436d0483e4743"
+  },
+  "visual_review": "All workbook sheets inspected after saving; adjusted sheet verified at AJ1:AO8 using isolated render; cost and storage figures inspected",
+  "tests": {
+    "command": "rtk proxy .venv/bin/python -m unittest discover -s tests -q",
+    "count": 105,
+    "exit_code": 0
+  }
+}

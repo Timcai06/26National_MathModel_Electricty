@@ -1,0 +1,92 @@
+{
+  "scope": "real forecast candidate only; availability assumed, not Gate 3 or realized cost acceptance",
+  "source": "data/processed/team_delivery/annual_actual.csv",
+  "source_sha256": "ea043aca838c5a31b3e86674aa1b8ed077a428599d0ff663c57f12e93824250d",
+  "source_unchanged": true,
+  "evaluation_start": "2025-01-08",
+  "evaluation_end": "2025-12-31",
+  "evaluation_days": 358,
+  "historical_days": 7,
+  "physical_warmup_performed": false,
+  "semantic_acceptance": false,
+  "scenarios": {
+    "0": {
+      "status": "complete",
+      "metadata": {
+        "input_kind": "standardized",
+        "data_version": "sha256:ea043aca838c5a31b3e86674aa1b8ed077a428599d0ff663c57f12e93824250d",
+        "mapping_version": "endpoint-144-candidate-v1",
+        "assumptions_version": "whole-day-available-after-0min-candidate-v1"
+      },
+      "summary": {
+        "yesterday": {
+          "requested_days": 358,
+          "scored_days": 358,
+          "unavailable_days": 0,
+          "load": {
+            "mae_kwh_per_slot": 108.38849825225016,
+            "rmse_kwh_per_slot": 188.19012862905373
+          },
+          "pv": {
+            "mae_kwh_per_slot": 30.08051239040193,
+            "rmse_kwh_per_slot": 61.34953029012793
+          }
+        },
+        "last_week": {
+          "requested_days": 358,
+          "scored_days": 358,
+          "unavailable_days": 0,
+          "load": {
+            "mae_kwh_per_slot": 29.09165329440824,
+            "rmse_kwh_per_slot": 40.0764608108011
+          },
+          "pv": {
+            "mae_kwh_per_slot": 34.81850143835351,
+            "rmse_kwh_per_slot": 68.5756890533778
+          }
+        }
+      },
+      "independent_metrics_passed": true,
+      "fair_accuracy_comparison": true
+    },
+    "10": {
+      "status": "partial",
+      "metadata": {
+        "input_kind": "standardized",
+        "data_version": "sha256:ea043aca838c5a31b3e86674aa1b8ed077a428599d0ff663c57f12e93824250d",
+        "mapping_version": "endpoint-144-candidate-v1",
+        "assumptions_version": "whole-day-available-after-10min-candidate-v1"
+      },
+      "summary": {
+        "yesterday": {
+          "requested_days": 358,
+          "scored_days": 0,
+          "unavailable_days": 358,
+          "load": null,
+          "pv": null
+        },
+        "last_week": {
+          "requested_days": 358,
+          "scored_days": 358,
+          "unavailable_days": 0,
+          "load": {
+            "mae_kwh_per_slot": 29.09165329440824,
+            "rmse_kwh_per_slot": 40.0764608108011
+          },
+          "pv": {
+            "mae_kwh_per_slot": 34.81850143835351,
+            "rmse_kwh_per_slot": 68.5756890533778
+          }
+        }
+      },
+      "independent_metrics_passed": true,
+      "fair_accuracy_comparison": false
+    }
+  },
+  "code_sha256": {
+    "scripts/run_real_q2_forecast.py": "7b1663d1a042b8202386479c148aaf7b356a8f64b8b436e79473bba03a3c1ada",
+    "src/q2/forecast.py": "e704dadd178db4472aa1e3731e8224793782ca6966b500fb643fcb7d935e99b9",
+    "src/q2/backtest.py": "9d43fa4ec91a2f691195967eb56d6a83dc785748353e660ebce4d294157e6810",
+    "src/core/model.py": "dc56221133028d3b16dede9dae5a7bf5f1492967a79c87932d666cae72c3cebc"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "source_sha256": "9bad62c603936fca84f08b7e11ee9a1a0031aba8a3341a1decf747275d3c5573",
+  "files": {
+    "cost_comparison.png": "2031bd05a7fd9beda4cbd5dd1514b070c5210c839bdef306b8b0732d1206a6a2",
+    "cost_comparison.svg": "09a3705d208dd97d04b25c6d8675fbf40b69d48f1c3a7cadca955e1640c41f59",
+    "repricing_control.png": "e1e9ff8f663781130d812d2440f17e48e10e7ccdb42d1e221812acb45db194e3",
+    "repricing_control.svg": "e4fdfa89276121d5a9279bcde30b08cf28d6e7a8726af4804806052c0871c563"
+  }
+}

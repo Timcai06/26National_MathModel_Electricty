@@ -1,0 +1,38 @@
+{
+  "yesterday": {
+    "evaluation_days": 14,
+    "warmup_days": 24,
+    "evaluation_costs": {
+      "normal_purchase_yuan": 139673.02142853246,
+      "emergency_purchase_yuan": 24301.973987075267,
+      "total_yuan": 163974.99541560773
+    },
+    "warmup_costs": {
+      "normal_purchase_yuan": 232873.06530605565,
+      "emergency_purchase_yuan": 42528.454477381754,
+      "total_yuan": 275401.5197834374
+    },
+    "evaluation_initial_energy_kwh": 6000.0,
+    "final_energy_kwh": 6000.0,
+    "emergency_kwh": 9720.789594830107,
+    "max_cross_day_residual_kwh": 0.0
+  },
+  "last_week": {
+    "evaluation_days": 14,
+    "warmup_days": 24,
+    "evaluation_costs": {
+      "normal_purchase_yuan": 138463.42142853246,
+      "emergency_purchase_yuan": 8699.617283951178,
+      "total_yuan": 147163.03871248366
+    },
+    "warmup_costs": {
+      "normal_purchase_yuan": 231741.9772525322,
+      "emergency_purchase_yuan": 14913.629629630592,
+      "total_yuan": 246655.6068821628
+    },
+    "evaluation_initial_energy_kwh": 6000.0,
+    "final_energy_kwh": 6000.0,
+    "emergency_kwh": 3479.8469135804717,
+    "max_cross_day_residual_kwh": 0.0
+  }
+}

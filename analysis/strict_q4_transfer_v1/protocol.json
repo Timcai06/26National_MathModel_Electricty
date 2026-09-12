@@ -1,0 +1,50 @@
+{
+  "policy": "slot_start_command_slot_end_grid_settlement_v1",
+  "price_policy": "target-day dynamic price curve known at midnight; no price forecasting",
+  "scope": "Q4 strict transfer: dynamic prices only; controller, margin and ledger unchanged",
+  "margin_config": {
+    "tau": 0.8,
+    "scale": 1.0,
+    "window_days": 28,
+    "bucket_slots": 24,
+    "min_days": 7
+  },
+  "margin_retuned_for_q4": false,
+  "q2_frozen_selection_sha256": "5e55aa833dc339c79313fa9bd6f94d311c9535fa0abbb519c286d599652ae673",
+  "warmup": "January 1-31 replayed under dynamic prices with the B0 controller",
+  "q4-2_variants": [
+    "B0",
+    "B2"
+  ],
+  "q4-3_variants": [
+    "base_zero",
+    "base_stale",
+    "base_fresh",
+    "margin_zero",
+    "margin_stale",
+    "margin_fresh"
+  ],
+  "updates": [
+    6,
+    12,
+    18
+  ],
+  "refund": "refund cancelled cost plus 50% penalty, relative to current commitment",
+  "terminal": "daily6000",
+  "efficiency": ".9 each",
+  "power_side": "bus",
+  "conversion": "linear",
+  "time_semantics": {
+    "version": "interval-end-v1",
+    "accepted": true,
+    "accepted_by": "tim",
+    "accepted_on": "2026-09-12",
+    "record": "docs/data/TIME_SEMANTICS.md",
+    "evidence": "analysis/time_semantics_v1/",
+    "still_open": [
+      "observation_policy",
+      "q3_refund_interpretation",
+      "q4_price_knowability"
+    ]
+  }
+}

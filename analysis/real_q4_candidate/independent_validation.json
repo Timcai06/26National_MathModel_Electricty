@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "strategies": {
+    "january_warmup": {
+      "passed": true,
+      "days_verified": 31,
+      "slots_verified": 4464,
+      "max_physical_residual_kwh": 4.547473508864641e-13,
+      "costs": {
+        "planned_yuan": 1636338.743380197,
+        "adjustment_yuan": 0.0,
+        "emergency_yuan": 1717721.162351941,
+        "total_yuan": 3354059.9057321385
+      }
+    },
+    "q4_2_main": {
+      "passed": true,
+      "days_verified": 334,
+      "slots_verified": 48096,
+      "max_physical_residual_kwh": 4.547473508864641e-13,
+      "costs": {
+        "planned_yuan": 12804733.565468652,
+        "adjustment_yuan": 0.0,
+        "emergency_yuan": 3429026.4442527327,
+        "total_yuan": 16233760.00972139
+      }
+    },
+    "q4_3_zero_only": {
+      "passed": true,
+      "days_verified": 334,
+      "slots_verified": 48096,
+      "max_physical_residual_kwh": 4.547473508864641e-13,
+      "costs": {
+        "planned_yuan": 12879892.270983147,
+        "adjustment_yuan": 0.0,
+        "emergency_yuan": 3719621.943013601,
+        "total_yuan": 16599514.213996759
+      }
+    },
+    "q4_3_stale_updates": {
+      "passed": true,
+      "days_verified": 334,
+      "slots_verified": 48096,
+      "max_physical_residual_kwh": 4.547473508864641e-13,
+      "costs": {
+        "planned_yuan": 12879892.270983147,
+        "adjustment_yuan": 792964.923070899,
+        "emergency_yuan": 969233.6945250911,
+        "total_yuan": 14642090.888579123
+      }
+    },
+    "q4_3_main": {
+      "passed": true,
+      "days_verified": 334,
+      "slots_verified": 48096,
+      "max_physical_residual_kwh": 4.547473508864641e-13,
+      "costs": {
+        "planned_yuan": 12879892.270983147,
+        "adjustment_yuan": 935969.6373771036,
+        "emergency_yuan": 781251.4241303779,
+        "total_yuan": 14597113.332490604
+      }
+    }
+  },
+  "repricing_residuals_yuan": {
+    "2": 0.0,
+    "3": 1.30385160446167e-08
+  },
+  "result_sha256": "9bad62c603936fca84f08b7e11ee9a1a0031aba8a3341a1decf747275d3c5573",
+  "validator_sha256": "b6e6c081345547af80f6ddd1ba05d5069439f95b20981a1b4083e06ead685608"
+}

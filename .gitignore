@@ -1,0 +1,17 @@
+# 运行环境与缓存
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+node_modules/
+
+# 编译中间产物，由 scripts/paper/build_pdf.py 重新生成
+tmp/
+
+# 逐日轨迹与单元格转储：体积 600MB 量级，由运行脚本可完整重建，
+# 其 SHA-256 已记录在同目录的 result.json / readback.json 中。
+analysis/**/*.jsonl
+outputs/**/*.ndjson
+
+# 论文分页复核截图，由 PDF 可重新渲染
+deliverables/review/page_renders/

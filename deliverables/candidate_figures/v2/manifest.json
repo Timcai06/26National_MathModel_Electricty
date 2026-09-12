@@ -1,0 +1,58 @@
+{
+  "status": "candidate_v2_not_final",
+  "time_semantics": "physical slots 00:00-24:00; right-end sample candidate; official template offset unresolved",
+  "no_new_optimization": true,
+  "sources": {
+    "data/processed/team_delivery/annual_actual.csv": "ea043aca838c5a31b3e86674aa1b8ed077a428599d0ff663c57f12e93824250d",
+    "analysis/strict_q2_round2_v1/B0.jsonl": "75713ee60f2568837adc83dcf07aa530cb21a3712d4262d3eeb612d206567e6e",
+    "analysis/q2_margin_oracle_v1/B2.jsonl": "591f01a3a19ec267a6e6c7c924342b69511ad150e073113f9d91d41931fc37db",
+    "analysis/q3_voi_v1/adaptive.jsonl": "463507fdc429964f1aa76970925009b0050f820c284041ac8381b3eea68d2cd1",
+    "analysis/strict_q2_round2_v1/result.json": "36a84da37f48f7507ebfe3078c9e088d9800459047dd74a41e15b2c610bad405",
+    "analysis/q2_margin_oracle_v1/result.json": "c24192158ee2226964f138c0a018584a8a755a72a3f6c1cc61762b53fe3b6de4",
+    "analysis/strict_q3_transfer_v1/result.json": "7d0ed2f90df4bd27875ce2b0ecc5574694e5233ec8d21d923efb5511fab71b9b",
+    "analysis/q3_voi_v1/result.json": "fa938d184c4e8ea446c40ad82f0b100d07afa8f7236ba7e6996bb314196fc1a2",
+    "analysis/q2_margin_oracle_v1/frozen_selection.json": "5e55aa833dc339c79313fa9bd6f94d311c9535fa0abbb519c286d599652ae673",
+    "analysis/strict_q2_round2_v1/independent_validation.json": "7b78e7e087c9661350bfd055b12fbc79a9dd8cf19698631313052cdf967f1a81",
+    "analysis/q2_margin_oracle_v1/independent_validation.json": "a34240f2358f957349052c90944b772d813b8ce39f079ce5e176735c7800b0f7",
+    "analysis/strict_q3_transfer_v1/independent_validation.json": "06c396598f1b684778149ed76a885499ba2c9630084f5286ec602ce669ace9ec",
+    "analysis/q3_voi_v1/independent_validation.json": "6b2cf2de79df9b869c271f280c165cfd5f4c0ec219be962ab7d356a8dcd77a09",
+    "data/processed/team_delivery/day_base.csv": "1d941da536a1a3eeab07a5d2b75ef2f7279a13e2229cef33ed0f8547074c37cc"
+  },
+  "figures": [
+    {
+      "id": "annual_patterns",
+      "title": "全年负荷、光伏及净负荷结构",
+      "notes": "2025全年实际值；阴影为季节内逐槽10%至90%经验分位范围，不是置信区间。",
+      "file": "annual_patterns.pdf",
+      "sha256": "ffe28583aa09435a7fbe9761d1a4887107f93abaa9561aaf79d6adfe8c586027"
+    },
+    {
+      "id": "margin_mechanism",
+      "title": "安全裕量的分布、选型与费用机制",
+      "notes": "a为一月8—31日事后描述，核密度逐组归一化峰高；不作为实时控制输入。b为8个实测组合，无插值；c为当时已可用历史形成的真实裕量。",
+      "file": "margin_mechanism.pdf",
+      "sha256": "f3591c37e4aefa0d45a55c47e9d3f7c6e43154c11ce2a68dc38515077f1301e7"
+    },
+    {
+      "id": "dispatch_mechanism",
+      "title": "严格因果控制、终端约束与应急集中性",
+      "notes": "示例日为题面指定的6月21日，非事后筛选的最优日；右下图每格是当月同一槽的日均应急电量，含零应急日。",
+      "file": "dispatch_mechanism.pdf",
+      "sha256": "54eaa0469992901f7b910f2f20e76833d3fa8fdb604a39370e04a0c88ec23b23"
+    },
+    {
+      "id": "strategy_stability",
+      "title": "第二问收益分布与应急尾部",
+      "notes": "334天成对回放；小提琴图为核密度形状，横线为中位数；不作独立样本显著性推断。",
+      "file": "strategy_stability.pdf",
+      "sha256": "db8c1c6490d87f26b56c615422d47098ca30b623089f10117f1c967587bf8be2"
+    },
+    {
+      "id": "gate_decisions",
+      "title": "第三问更新边界、估值误差与实测净收益",
+      "notes": "b为每次决策至日末固定合同的反事实预演，时域重叠，不可累加成策略全年收益；d才是完整实际策略的月度账本差。",
+      "file": "gate_decisions.pdf",
+      "sha256": "c89c8cdf4ec73e51b7f497b6dcdaf0c0e0cf3c9faef41c846e6684f3544569fc"
+    }
+  ]
+}

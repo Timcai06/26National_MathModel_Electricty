@@ -1,0 +1,43 @@
+{
+  "scope": "annual arithmetic check only; no solver, no policy, no result overwritten",
+  "day_count": 365,
+  "slot_count": 144,
+  "cross_day_rule": "today 00:00 = previous day 24:00 sample; 2025-01-01 falls back to its own 00:10",
+  "source_sha256": {
+    "annual_actual.csv": "ea043aca838c5a31b3e86674aa1b8ed077a428599d0ff663c57f12e93824250d",
+    "dynamic_price.csv": "73c791194a74371d2f4fd846ea6eaff38389de96e381fe383abcc5741aedfc60"
+  },
+  "variants": [
+    {
+      "variant": "right_end",
+      "annual_load_energy_kwh": 40524054.9503,
+      "annual_pv_energy_kwh": 20251242.811683334,
+      "annual_no_storage_cost_yuan": 19155180.4334599,
+      "load_energy_delta_percent": 0.0,
+      "pv_energy_delta_percent": 0.0,
+      "no_storage_cost_delta_yuan": 0.0,
+      "no_storage_cost_delta_percent": 0.0
+    },
+    {
+      "variant": "left_end",
+      "annual_load_energy_kwh": 40523983.575233325,
+      "annual_pv_energy_kwh": 20251242.811683334,
+      "annual_no_storage_cost_yuan": 19135203.577925354,
+      "load_energy_delta_percent": -0.00017613012015402316,
+      "pv_energy_delta_percent": 0.0,
+      "no_storage_cost_delta_yuan": -19976.855534546077,
+      "no_storage_cost_delta_percent": -0.10428957118906011
+    },
+    {
+      "variant": "trapezoid",
+      "annual_load_energy_kwh": 40524019.26276666,
+      "annual_pv_energy_kwh": 20251242.811683334,
+      "annual_no_storage_cost_yuan": 19140131.107080318,
+      "load_energy_delta_percent": -8.806506008620437e-05,
+      "pv_energy_delta_percent": 0.0,
+      "no_storage_cost_delta_yuan": -15049.326379582286,
+      "no_storage_cost_delta_percent": -0.07856530734262578
+    }
+  ],
+  "code_sha256": "cbb17d49ced57763bb7755999ecfb696f18478fce1d6d76447c57ee68cc4f7cd"
+}

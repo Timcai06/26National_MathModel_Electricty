@@ -1,0 +1,2 @@
+-r requirements-core.txt
+matplotlib==3.11.1

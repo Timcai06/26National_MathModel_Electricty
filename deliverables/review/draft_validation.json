@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checks": [
+    "strict_q2_round2_v1: independent validation bound to current result",
+    "q2_margin_oracle_v1: independent validation bound to current result",
+    "strict_q3_transfer_v1: independent validation bound to current result",
+    "q3_voi_v1: independent validation bound to current result",
+    "8 prescribed-day purchase tables and merged emergency totals matched trajectories",
+    "XeLaTeX log: no overfull boxes, missing characters or undefined citations/references"
+  ],
+  "pdf_sha256": "18330834f642d3a1f8dfb673e91d7eeaf0e8ac3953938ba86df23e6010fb20b3",
+  "pdf_info": "Title:           微网储能与购电调控策略：第一版研究稿\nCreator:         LaTeX with hyperref\nProducer:        xdvipdfmx (20260317)\nCreationDate:    Fri Sep 11 22:07:22 2026 CST\nCustom Metadata: no\nMetadata Stream: no\nTagged:          no\nUserProperties:  no\nSuspects:        no\nForm:            none\nJavaScript:      no\nPages:           18\nEncrypted:       no\nPage size:       595.28 x 841.89 pts (A4)\nPage rot:        0\nFile size:       482548 bytes\nOptimized:       no\nPDF version:     1.7\n",
+  "visual_review": "All 18 pages reviewed as contact sheets; page 4 inspected enlarged; no clipping or collisions observed at reviewed resolutions. Final human acceptance pending.",
+  "not_validated": "Official time mapping; Q4 strict migration; new Excel exports; competition format final compliance; full external literature review."
+}

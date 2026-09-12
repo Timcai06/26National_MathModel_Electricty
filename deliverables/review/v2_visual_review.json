@@ -1,0 +1,16 @@
+{
+  "version": "v2",
+  "paper_pages": 19,
+  "new_research_plates": 5,
+  "new_panels": 20,
+  "visual_review": "All 19 final PDF pages inspected in contact sheet; page 9 inspected enlarged; all 5 plates inspected standalone during revision; final gate plate checked after font and legend repair. No clipping, missing glyphs or collisions observed at reviewed resolutions. Human visual acceptance pending.",
+  "render_exit_code": 0,
+  "render_font_warnings": 0,
+  "pdf_sha256": "184a9a07d1e9ba87e1521f7a7a0ee78c766954cce623bc99d343b23e27beb7af",
+  "not_completed": [
+    "official time mapping",
+    "Q4 strict migration",
+    "new version Excel exports",
+    "final bibliography and competition format acceptance"
+  ]
+}
