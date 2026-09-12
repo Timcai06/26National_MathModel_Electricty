@@ -101,6 +101,22 @@ Q4 的新预报重规划相对裕量方案仍增加 530,789.48 元（3.3546%）�
 
 当前科研图册与三维候选图均保留数据来源和哈希清单：
 
+### 三维候选图
+
+<p align="center">
+  <a href="deliverables/candidate_figures/v3_3d/q2_cost_response_3d.png">
+    <img src="deliverables/candidate_figures/v3_3d/q2_cost_response_3d.png" alt="参数—费用响应面与等高线" width="96%">
+  </a><br>
+  <sub><strong>参数—费用响应面</strong>：分位数水平 τ 与裕量系数 κ 对一月费用的敏感性。81 个网格节点实际计算；原参数仍是全年主候选，网格最低点仅作描述性敏感性。</sub>
+</p>
+
+<p align="center">
+  <a href="deliverables/candidate_figures/v3_3d/q2_soc_monthly_3d.png">
+    <img src="deliverables/candidate_figures/v3_3d/q2_soc_monthly_3d.png" alt="日内—月份储电量曲面与等高线" width="96%">
+  </a><br>
+  <sub><strong>日内—月份储电量曲面</strong>：2025 年 2—12 月 B2 实际控制轨迹的日均储电量，展示日内调度形状与月份差异；曲面连接仅用于观察，不代表某一天的可执行策略。</sub>
+</p>
+
 - [V2 科研图册（5 组、20 个子图）](deliverables/candidate_figures/v2/research_figures_v2.pdf)
 - [两页 3D 候选图册](deliverables/candidate_figures/v3_3d/3D_candidate_atlas.pdf)
 - [V2 图表说明与来源](deliverables/candidate_figures/v2/README.md)
