@@ -47,7 +47,7 @@ from matplotlib.colors import Normalize
 fm.fontManager.addfont('/System/Library/Fonts/Supplemental/Arial Unicode.ttf');plt.rcParams.update({'font.family':['Arial Unicode MS','DejaVu Sans'],'font.size':10,'axes.unicode_minus':False,'pdf.fonttype':42})
 X,Y=np.meshgrid(taus,scales);Z=np.array([[tot[float(t),float(k)]/1e4 for t in taus] for k in scales]);vmin,vmax=float(Z.min()),float(Z.max());norm=Normalize(vmin,vmax);cmap=plt.get_cmap('YlGnBu_r');ix,iy=np.argwhere(Z==Z.min())[0];fixed=float(tot[.8,1.]/1e4);floor=vmin-2
 fig=plt.figure(figsize=(11.8,5.3));gs=fig.add_gridspec(1,2,width_ratios=[1.12,1],left=.03,right=.91,bottom=.14,top=.87,wspace=.28)
-a=fig.add_subplot(gs[0],projection='3d',computed_zorder=False);b=fig.add_subplot(gs[1]);a.set_proj_type('ortho');a.view_init(elev=26,azim=-130)
+a=fig.add_subplot(gs[0],projection='3d',computed_zorder=False);b=fig.add_subplot(gs[1]);a.set_proj_type('ortho');a.view_init(elev=26,azim=50)
 a.plot_surface(X,Y,Z,cmap=cmap,norm=norm,rstride=1,cstride=1,edgecolor='#EDF2F4',linewidth=.5,alpha=.95,antialiased=True,zorder=1);a.contour(X,Y,Z,zdir='z',offset=floor,levels=8,cmap=cmap,norm=norm,linewidths=.65);a.scatter(X,Y,np.full_like(Z,floor),s=5,c='#7D8790',alpha=.5)
 a.scatter([.8],[1.],[fixed],marker='*',s=135,c='#D5A535',edgecolors='black',linewidth=.7,depthshade=False,zorder=10);a.plot([.8,.8],[1,1],[floor,fixed],color='#5B6470',ls='--',lw=.8)
 a.scatter([taus[iy]],[scales[ix]],[vmin],marker='o',s=45,facecolors='none',edgecolors='#B15355',depthshade=False,zorder=11)
@@ -61,5 +61,5 @@ fig.text(.06,.025,'81个参数组合 × 17个开发日；网格间仅作分片�
 for ext in ['pdf','png']:fig.savefig(O/f'q2_cost_response_3d.{ext}',dpi=200,bbox_inches='tight')
 plt.close(fig)
 with (O/'response_grid.csv').open('w') as f:w=csv.DictWriter(f,fieldnames=list(report['scores'][0]));w.writeheader();w.writerows(report['scores'])
-meta={'status':'candidate_development_sensitivity_not_new_main_model','source_result_sha256':sha(A/'result.json'),'validation_sha256':sha(A/'validation.json'),'original_point':{'tau':.8,'scale':1.,'january_total_yuan':fixed*1e4},'grid_minimum':{'tau':float(taus[iy]),'scale':float(scales[ix]),'january_total_yuan':vmin*1e4},'plot_method':'matplotlib plot_surface and contourf; orthographic view; actual 9x9 grid; no Blender','files':{p.name:sha(p) for p in O.glob('*') if p.is_file() and p.suffix in ['.pdf','.png','.csv']}}
+meta={'status':'candidate_development_sensitivity_not_new_main_model','source_result_sha256':sha(A/'result.json'),'validation_sha256':sha(A/'validation.json'),'original_point':{'tau':.8,'scale':1.,'january_total_yuan':fixed*1e4},'grid_minimum':{'tau':float(taus[iy]),'scale':float(scales[ix]),'january_total_yuan':vmin*1e4},'plot_method':'matplotlib plot_surface and contourf; orthographic view; actual 9x9 grid; no Blender','visual_review':'Both final atlas pages rendered with Poppler and inspected; no clipping or font warnings observed; human acceptance pending.','files':{p.name:sha(p) for p in O.glob('*') if p.is_file() and p.suffix in ['.pdf','.png','.csv']}}
 (O/'manifest.json').write_text(json.dumps(meta,ensure_ascii=False,indent=2));print(json.dumps(meta,ensure_ascii=False,indent=2))

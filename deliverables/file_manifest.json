@@ -168,28 +168,28 @@
     },
     {
       "path": "candidate_figures/v3_3d/3D_candidate_atlas.pdf",
-      "bytes": 223078,
-      "sha256": "dd7ead7be36e5bcfc9cde7ac10708b6ac38595d1dda73d2d179197af77d76e3c"
+      "bytes": 223051,
+      "sha256": "b04b5199d7268aa15dc90976f5e717ff5944472e2d17a7798df7f59debfc11f4"
     },
     {
       "path": "candidate_figures/v3_3d/README.md",
-      "bytes": 2278,
-      "sha256": "a4612a3eab005b6aaee3baafc16bfe042d59767401b8af2cc9b0e295d56565ee"
+      "bytes": 2440,
+      "sha256": "7f9c4e81fa8dfe2978b429624818dce73411add8623f0cfbfc595179446a8828"
     },
     {
       "path": "candidate_figures/v3_3d/manifest.json",
-      "bytes": 1412,
-      "sha256": "18bd81a82b15f284eb852f9e31b90e9f9ca269df102d6dc6750585acb0f3e0f7"
+      "bytes": 1413,
+      "sha256": "74e904817bee44475021c2fb2904fef9dbab53d88b578b098883c035d862d203"
     },
     {
       "path": "candidate_figures/v3_3d/q2_cost_response_3d.pdf",
-      "bytes": 88653,
-      "sha256": "104db50fcb3f8fbc7ad6b8e749b608d7f2f88d739e7e7bed0ef7a77bc3e374b4"
+      "bytes": 88626,
+      "sha256": "c1390a07b94c17e5f58c3ecf94c4de43e05e5453090de98cc6c81061f3120a20"
     },
     {
       "path": "candidate_figures/v3_3d/q2_cost_response_3d.png",
-      "bytes": 421493,
-      "sha256": "1427e1224c82a5dcb15bc3fcc1f0f4276ee035b449678fa333efcd00d8e0b3b0"
+      "bytes": 450182,
+      "sha256": "7fb1114222a27bd8aed005ee95a1d02e9168ba34ce4742d2483f7a8895c8cfab"
     },
     {
       "path": "candidate_figures/v3_3d/q2_soc_monthly_3d.pdf",

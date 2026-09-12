@@ -20,7 +20,7 @@
 
 ## 制作方法
 
-Matplotlib的`plot_surface`生成曲面；`plot_wireframe`/网格边线表达采样结构；`contour`投影等高线；`contourf`生成配套二维图；`set_proj_type('ortho')`与`view_init`控制视角。使用同一颜色范围对应曲面和投影。不需要Blender，不能从参考截图断言原作者实际使用的软件。
+Matplotlib的`plot_surface`生成曲面；`plot_wireframe`/网格边线表达采样结构；`contour`投影等高线；`contourf`生成配套二维图；`set_proj_type('ortho')`与`view_init`控制视角。A面当前使用`view_init(elev=26, azim=50)`，让响应面的凹侧朝向观看者；这只改变观察方向，不改变参数网格、结果或颜色编码。使用同一颜色范围对应曲面和投影。不需要Blender，不能从参考截图断言原作者实际使用的软件。
 
 脚本：`scripts/paper/build_3d_surface.py`、`scripts/paper/build_soc_3d.py`。第一个脚本已有结果时仅验证并重画，不覆盖实验结果。
 
